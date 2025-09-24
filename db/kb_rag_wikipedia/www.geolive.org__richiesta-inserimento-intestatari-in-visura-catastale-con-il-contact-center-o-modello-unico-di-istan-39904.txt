@@ -1,0 +1,244 @@
+---
+title: GeoLIVE
+author: Antonino S Cutri' - info com
+description: La piu' grande comunita' italiana in campo topografico/catastale
+sitename: Copyright (c) 2003-2012 by Ezio Milazzo e Antonino S. Cutri'
+date: 2006-12-03
+tags: ['topografia, catasto, pregeo, docfa, normative, geometri, ingegneri, architetti']
+---
+Forum
+Pagine: 2 - Vai a pagina successiva
+Gia153
+Iscritto il:
+14 Novembre 2016 alle ore 10:15
+Messaggi:
+157
+Buongiorno a tutti,
+avrei bisogno di un consiglio.
+Per conto dei miei clienti, ho fatto ieri pomeriggio una richiesta tramite il contact center per l'inserimento nella visura catastale di un subalterno (un'area di manovra condominiale a fianco a dei posti auto) della loro quota di possesso e di fargli risultare tra gli intestatari, in quanto al momento non risultano nella visura e neanche la loro quota ovviamente, ma ci sono gli altri condomini, tra gli intestatari. Gli serve ora per vendere questo quota a chi gli sta comprando casa. Mi ha detto il notaio di farlo.
+La loro quota di possesso dell'area di manovra condomoniale risulta dall'atto notarile quando hanno comprato casa e anche dalla nota di trascrizione fatta dal notaio, all'epoca.
+Prima di fare la richiesta con il contact center, avevo mandato un'email all'agenzia del territorio per avere delucidazione in merito a questo caso e ieri sera, dopo l'invio della mia richiesta al contact center, mi ha risposto all'email un funzionario dicendomi che è OPPORTUNO inviare per pec al catasto il modello unico di istanza https://www.agenziaentrate.gov.it/port...
+Questo "opportuno" mi fa pensare che non è obbligatorio fare la richiesta per pec.
+Secondo voi basta l'invio al contact center per sistemare questa situazione? O c'è bisogno anche di inviare per pec il modello unico di istanza? Nel caso quanto è l'importo della marca da bollo? Perchè per mandare per pec quel documento devo rincontrare il committente e farmi firmare un incarico per inviare il modello unico di istanza, e siccome è un pò lontano da dove sto, farei volentieri a meno di dovermi rincontrare con lui ora.
+Grazie mille in anticipo a chi mi vorrà dare una mano !
+avrei bisogno di un consiglio.
+Per conto dei miei clienti, ho fatto ieri pomeriggio una richiesta tramite il contact center per l'inserimento nella visura catastale di un subalterno (un'area di manovra condominiale a fianco a dei posti auto) della loro quota di possesso e di fargli risultare tra gli intestatari, in quanto al momento non risultano nella visura e neanche la loro quota ovviamente, ma ci sono gli altri condomini, tra gli intestatari. Gli serve ora per vendere questo quota a chi gli sta comprando casa. Mi ha detto il notaio di farlo.
+La loro quota di possesso dell'area di manovra condomoniale risulta dall'atto notarile quando hanno comprato casa e anche dalla nota di trascrizione fatta dal notaio, all'epoca.
+Prima di fare la richiesta con il contact center, avevo mandato un'email all'agenzia del territorio per avere delucidazione in merito a questo caso e ieri sera, dopo l'invio della mia richiesta al contact center, mi ha risposto all'email un funzionario dicendomi che è OPPORTUNO inviare per pec al catasto il modello unico di istanza https://www.agenziaentrate.gov.it/port...
+Questo "opportuno" mi fa pensare che non è obbligatorio fare la richiesta per pec.
+Secondo voi basta l'invio al contact center per sistemare questa situazione? O c'è bisogno anche di inviare per pec il modello unico di istanza? Nel caso quanto è l'importo della marca da bollo? Perchè per mandare per pec quel documento devo rincontrare il committente e farmi firmare un incarico per inviare il modello unico di istanza, e siccome è un pò lontano da dove sto, farei volentieri a meno di dovermi rincontrare con lui ora.
+Grazie mille in anticipo a chi mi vorrà dare una mano !
+Devi essere un utente registrato per rispondere a questo messaggio
+Gia153
+Iscritto il:
+14 Novembre 2016 alle ore 10:15
+Messaggi:
+157
+Qualcuno mi può rispondere, per favore?
+E' abbastanza urgente, grazie.
+E' abbastanza urgente, grazie.
+Devi essere un utente registrato per rispondere a questo messaggio
+bioffa69
+Iscritto il:
+23 Settembre 2009
+Messaggi:
+6648
+BRESCIA
+A mio avviso , visto che dici che nell'atto è citata la quota del subalterno bcnc, corte, devi verificare se è stata fatta la voltura, o farla, un'istanza a mio avviso non modifica la ditta, a meno che l'Agenzia verifichi, se riesce la voltura relativa all'atto.
+Comunque mi sembra corretto procedere con istanza e non con il contact center.
+Il bollo è dovuto solo se errore di parte, sempre che poi non ti rispondano che devi procedere alla voltura, se non è mai stata presentata per il bene in oggetto.
+Saluti
+Comunque mi sembra corretto procedere con istanza e non con il contact center.
+Il bollo è dovuto solo se errore di parte, sempre che poi non ti rispondano che devi procedere alla voltura, se non è mai stata presentata per il bene in oggetto.
+Saluti
+Devi essere un utente registrato per rispondere a questo messaggio
+EALFIN
+Iscritto il:
+03 Dicembre 2006
+Messaggi:
+4043
+Le istanze in bollo vanno presentate quando si tratta di errori di parte. Quando si tratta di errori d'Ufficio e/o mancati aggiornamenti di volture e/o di qualsiasi pratica catastale il bollo non serve.
+Per esperienza solo istanze di natura semplice quali rettifiche dati angrafici, volture non inserite, ecc. conviene presentare al Contact Center.
+Se ho ben capito nel tuo caso si tratta di costituire un subalterno che ora manca agli atti catastali, oltre a far intestare detto subalterno a determinati soggetti.
+Ebbene nel tuo caso è consigliabile presentare istanza direttamente all'Ufficio Provinciale il quale potrà consultare tutti i documenti del caso.
+La rettifica la potrai fare anche tu quale tecnico incaricato (nel senso che dichiari che sei stato incaricato) ed è opportuno inviarla via PEC.
+Fino ad adesso ho inviato istanze su un modello in uso nel mio Ufficio Provinciale dove la richiesta va firmata o dal tecnico o dal possessore (e basta).
+Quello unico scaricabile al sito Agenzia delle Entrate non l'ho mai utilizzato quindi non l'ho nemmeno analizzato.
+Pertanto non sono a conoscenza se occorre anche qualche firma delle parti, lettere di incarico, deleghe, ecc. oltre a quello del tecnico che firma e timbra la domanda di rettifica.
+Per volture, variazioni colturali ed altre operazioni diverse dalle rettifiche allego sempre alla PEC una delega firmata dalla parte e contro firmata da me.
+Per esperienza solo istanze di natura semplice quali rettifiche dati angrafici, volture non inserite, ecc. conviene presentare al Contact Center.
+Se ho ben capito nel tuo caso si tratta di costituire un subalterno che ora manca agli atti catastali, oltre a far intestare detto subalterno a determinati soggetti.
+Ebbene nel tuo caso è consigliabile presentare istanza direttamente all'Ufficio Provinciale il quale potrà consultare tutti i documenti del caso.
+La rettifica la potrai fare anche tu quale tecnico incaricato (nel senso che dichiari che sei stato incaricato) ed è opportuno inviarla via PEC.
+Fino ad adesso ho inviato istanze su un modello in uso nel mio Ufficio Provinciale dove la richiesta va firmata o dal tecnico o dal possessore (e basta).
+Quello unico scaricabile al sito Agenzia delle Entrate non l'ho mai utilizzato quindi non l'ho nemmeno analizzato.
+Pertanto non sono a conoscenza se occorre anche qualche firma delle parti, lettere di incarico, deleghe, ecc. oltre a quello del tecnico che firma e timbra la domanda di rettifica.
+Per volture, variazioni colturali ed altre operazioni diverse dalle rettifiche allego sempre alla PEC una delega firmata dalla parte e contro firmata da me.
+Devi essere un utente registrato per rispondere a questo messaggio
+Gia153
+Iscritto il:
+14 Novembre 2016 alle ore 10:15
+Messaggi:
+157
+"EALFIN" ha scritto:
+Se ho ben capito nel tuo caso si tratta di costituire un subalterno che ora manca agli atti catastali, oltre a far intestare detto subalterno a determinati soggetti.
+Se ho ben capito nel tuo caso si tratta di costituire un subalterno che ora manca agli atti catastali, oltre a far intestare detto subalterno a determinati soggetti.
+No, il subalterno esiste già e nella visura catastale è intestato ad altri condomini del palazzo del mio cliente. Probabilmente non è stata fatta la voltura catastale al tempo della vendita del suo appartamento. Perché nell'atto di compravendita e nella nota di trascrizione il mio cliente risulta che ha una quota di possesso per quel subalterno. Nella visura catastale non risulta. Come posso verificare se è stata fatta la voltura catastale? Telematicamente è possibile?
+Altrimenti la voltura la posso fare con il software Unimod?
+Grazie di nuovo !
+Devi essere un utente registrato per rispondere a questo messaggio
+EALFIN
+Iscritto il:
+03 Dicembre 2006
+Messaggi:
+4043
+Se è solo un problema di voltura la quota acquistata dal cliente dovrebbe risultare intestata ancora al venditore o peggio ancora ad eventuale precedente possessore.
+In casi simili di diversi intestatari possessori di una singola particella le volture a volte si inceppano anche per presenza di quote errate in visura, addirittura per mancanza di quote (spesse volte il titolo di possesso è comproprietario), ecc.
+Se dalla Trascrizione si ricava che il venditore risulta come attuale intestatario catastale e se la quota trasferita è la stessa come riportata in visura, basta solo fare una rettifica tramite Contact Center dove devi indicare la ditta attuale catastale e la ditta attuale proprietaria, oltre ad indicare gli estremi dell'atto quali data di stipula, Repertorio, Nome del Notaio, ecc.
+Ripeto: la cosa importante per le rettifiche è che ditta e quote da sostituire siano coerenti fra Atto ovvero Trascrizione e visura catastale.
+Qualora invece pendono, per la stessa quota oggetto di rettifica, volture precedenti e/o vi siano altre problematiche allora la materia si complica perché vanno sistemate prima le altre pendenze.
+Circa le eventuali volture mancanti e dalla necessità di presentarle oggi per allora, per esperienza e per atti ante circa 1990 (prima dell'informatizzazione delle trascrizioni) mi hanno sempre accolto le rettifiche anche se non conoscevo gli estremi delle volture, purché le Trascrizioni siano state presentate e redatte in modo esatto.
+In casi simili di diversi intestatari possessori di una singola particella le volture a volte si inceppano anche per presenza di quote errate in visura, addirittura per mancanza di quote (spesse volte il titolo di possesso è comproprietario), ecc.
+Se dalla Trascrizione si ricava che il venditore risulta come attuale intestatario catastale e se la quota trasferita è la stessa come riportata in visura, basta solo fare una rettifica tramite Contact Center dove devi indicare la ditta attuale catastale e la ditta attuale proprietaria, oltre ad indicare gli estremi dell'atto quali data di stipula, Repertorio, Nome del Notaio, ecc.
+Ripeto: la cosa importante per le rettifiche è che ditta e quote da sostituire siano coerenti fra Atto ovvero Trascrizione e visura catastale.
+Qualora invece pendono, per la stessa quota oggetto di rettifica, volture precedenti e/o vi siano altre problematiche allora la materia si complica perché vanno sistemate prima le altre pendenze.
+Circa le eventuali volture mancanti e dalla necessità di presentarle oggi per allora, per esperienza e per atti ante circa 1990 (prima dell'informatizzazione delle trascrizioni) mi hanno sempre accolto le rettifiche anche se non conoscevo gli estremi delle volture, purché le Trascrizioni siano state presentate e redatte in modo esatto.
+Devi essere un utente registrato per rispondere a questo messaggio
+bioffa69
+Iscritto il:
+23 Settembre 2009
+Messaggi:
+6648
+BRESCIA
+"Gia153" ha scritto:
+No, il subalterno esiste già e nella visura catastale è intestato ad altri condomini del palazzo del mio cliente. Probabilmente non è stata fatta la voltura catastale al tempo della vendita del suo appartamento. Perché nell'atto di compravendita e nella nota di trascrizione il mio cliente risulta che ha una quota di possesso per quel subalterno. Nella visura catastale non risulta. Come posso verificare se è stata fatta la voltura catastale? Telematicamente è possibile?
+Altrimenti la voltura la posso fare con il software Unimod?
+Grazie di nuovo !
+"EALFIN" ha scritto:
+Se ho ben capito nel tuo caso si tratta di costituire un subalterno che ora manca agli atti catastali, oltre a far intestare detto subalterno a determinati soggetti.
+Se ho ben capito nel tuo caso si tratta di costituire un subalterno che ora manca agli atti catastali, oltre a far intestare detto subalterno a determinati soggetti.
+No, il subalterno esiste già e nella visura catastale è intestato ad altri condomini del palazzo del mio cliente. Probabilmente non è stata fatta la voltura catastale al tempo della vendita del suo appartamento. Perché nell'atto di compravendita e nella nota di trascrizione il mio cliente risulta che ha una quota di possesso per quel subalterno. Nella visura catastale non risulta. Come posso verificare se è stata fatta la voltura catastale? Telematicamente è possibile?
+Altrimenti la voltura la posso fare con il software Unimod?
+Grazie di nuovo !
+Come dice EALFIN, in visura devi pertanto trovare come proprietario in quota del bcnc, il venditore.
+In questo caso procedi con la voltura, o preallineamento, se l'atto è molto vecchio.
+Il programma da usare è il VOLTURA 1.1, dell'Agenzia delle Entrate.
+Saluti
+Devi essere un utente registrato per rispondere a questo messaggio
+Gia153
+Iscritto il:
+14 Novembre 2016 alle ore 10:15
+Messaggi:
+157
+"EALFIN" ha scritto:
+Se è solo un problema di voltura la quota acquistata dal cliente dovrebbe risultare intestata ancora al venditore o peggio ancora ad eventuale precedente possessore.
+Se è solo un problema di voltura la quota acquistata dal cliente dovrebbe risultare intestata ancora al venditore o peggio ancora ad eventuale precedente possessore.
+Nella visura catastale non c'è il proprietario precedente, ci sono gli altri condomini del palazzo del mio committente che risultano intestatari di questa area di manovra, ma non so perchè non c'è lui e la moglie, che però risulta che gli sono stati trasferiti 1/38 (2/114 a lui e 1/114 alla moglie) di questa area condominiale nell'atto notarile e nella nota di trascrizione. Non è nemmeno un bcnc, altrimenti ci sarebbe scritto nella visura. E' strano perchè gli altri condomini hanno comprato tutti dal proprietario precedente, che è un costruttore, e loro hanno avuto la voltura catastale effettuata correttamente, mentre il mio committente no, sennò ci sarebbe scritto pure lui tra gli intestari, con la moglie. Forse è come dici te che si sono inceppate le volture.
+Devi essere un utente registrato per rispondere a questo messaggio
+Gia153
+Iscritto il:
+14 Novembre 2016 alle ore 10:15
+Messaggi:
+157
+"EALFIN" ha scritto:
+Circa le eventuali volture mancanti e dalla necessità di presentarle oggi per allora, per esperienza e per atti ante circa 1990 (prima dell'informatizzazione delle trascrizioni) mi hanno sempre accolto le rettifiche anche se non conoscevo gli estremi delle volture, purché le Trascrizioni siano state presentate e redatte in modo esatto.
+Circa le eventuali volture mancanti e dalla necessità di presentarle oggi per allora, per esperienza e per atti ante circa 1990 (prima dell'informatizzazione delle trascrizioni) mi hanno sempre accolto le rettifiche anche se non conoscevo gli estremi delle volture, purché le Trascrizioni siano state presentate e redatte in modo esatto.
+L'atto è del 2006. Ma quindi potrebbe bastare il contact center per risolvere questo caso? Alla luce di quello che vi ho scritto dopo il mio primo messaggio. Grazie ancora per la pazienza.
+Devi essere un utente registrato per rispondere a questo messaggio
+bioffa69
+Iscritto il:
+23 Settembre 2009
+Messaggi:
+6648
+BRESCIA
+Atto del 2006, devi fare voltura, o farla inserire se già fatta, consiglierei di sentire il Notaio, per questo.
+In ogni caso devi ricostruire la storia, andando indietro con gli atti, non puoi sistemare col contact, un problema simile.
+Non si tratta evidentemente di un bcnc, ma sarà più verosimilmente di un'area urbana, per cui di un'unità immobiliare.
+Purtroppo capita spesso che detti beni non siano corretamente volturati, e solitamente sono gli atti non corretti.
+Ho un caso simile per le mani adesso, stiamo raccogliendo tutti gli atti notarili del fabbricato, per poi consultarci con il Notaio.
+E' una rogna, che puoi risolvere solo ricostruendo tutti i passaggi.
+Se il venditore non è intestario di quel bene, è evidente che non possa essere stato volturato al tuo cliente in visura, devi capire cosa è successo e risolvero di conseguenza.
+Saluti
+In ogni caso devi ricostruire la storia, andando indietro con gli atti, non puoi sistemare col contact, un problema simile.
+Non si tratta evidentemente di un bcnc, ma sarà più verosimilmente di un'area urbana, per cui di un'unità immobiliare.
+Purtroppo capita spesso che detti beni non siano corretamente volturati, e solitamente sono gli atti non corretti.
+Ho un caso simile per le mani adesso, stiamo raccogliendo tutti gli atti notarili del fabbricato, per poi consultarci con il Notaio.
+E' una rogna, che puoi risolvere solo ricostruendo tutti i passaggi.
+Se il venditore non è intestario di quel bene, è evidente che non possa essere stato volturato al tuo cliente in visura, devi capire cosa è successo e risolvero di conseguenza.
+Saluti
+Devi essere un utente registrato per rispondere a questo messaggio
+Gia153
+Iscritto il:
+14 Novembre 2016 alle ore 10:15
+Messaggi:
+157
+Intendi che devo sentire il notaio che ha fatto l'atto nel 2006? O il notaio che farà l'atto di vendita ora? Il notaio che farà l'atto ora non sa come risolvere questa cosa, mi ha detto che ci devo pensare io.
+Intendi che devo prendere tutti gli atti notarili di tutti gli altri appartamenti del fabbricato? Diventa un lavoro molto grosso e non ho tutto questo tempo a disposizione purtroppo perché vogliono fare l'atto di vendita tra pochi giorni.
+Intendi che devo prendere tutti gli atti notarili di tutti gli altri appartamenti del fabbricato? Diventa un lavoro molto grosso e non ho tutto questo tempo a disposizione purtroppo perché vogliono fare l'atto di vendita tra pochi giorni.
+Devi essere un utente registrato per rispondere a questo messaggio
+bioffa69
+Iscritto il:
+23 Settembre 2009
+Messaggi:
+6648
+BRESCIA
+Proprio perchè è una rogna non la risolve lui, io sentirei il Notaio che ha fatto l'atto del 2006, dicendogli che il bene non risulta volturato in carico ai tuoi clienti.
+Poi potrà risolvere la cosa lui, dubito, o darti copia della voltura che ha presentato.
+Ma anche questo non risole il problema, visto che la stessa non è andata in banca dati in quanto il venditore non risultava intestario di quel bene, il perchè lo devi risolvere tu, risalendo agli atti precedenti, forse risulta intestario ancora il precedente proprietario al venditore.
+Saluti
+Poi potrà risolvere la cosa lui, dubito, o darti copia della voltura che ha presentato.
+Ma anche questo non risole il problema, visto che la stessa non è andata in banca dati in quanto il venditore non risultava intestario di quel bene, il perchè lo devi risolvere tu, risalendo agli atti precedenti, forse risulta intestario ancora il precedente proprietario al venditore.
+Saluti
+Devi essere un utente registrato per rispondere a questo messaggio
+Gia153
+Iscritto il:
+14 Novembre 2016 alle ore 10:15
+Messaggi:
+157
+Scusa se mi dilungo nella risposta, purtroppo il proprietario precedente al venditore del 2006 non esiste perché prima non esisteva l'edificio.
+Infatti in Comune c'è un permesso di costruzione del 2005 intestato al costruttore che ha venduto a tutti gli attuali condomini e anche al mio committente, chiaramente.
+Spero con un'istanza al catasto o contact center di risolvere questa situazione rapidamente, perché da quello che ho capito i notai non possono aiutarmi e nemmeno fare una voltura catastale.
+Infatti in Comune c'è un permesso di costruzione del 2005 intestato al costruttore che ha venduto a tutti gli attuali condomini e anche al mio committente, chiaramente.
+Spero con un'istanza al catasto o contact center di risolvere questa situazione rapidamente, perché da quello che ho capito i notai non possono aiutarmi e nemmeno fare una voltura catastale.
+Devi essere un utente registrato per rispondere a questo messaggio
+bioffa69
+Iscritto il:
+23 Settembre 2009
+Messaggi:
+6648
+BRESCIA
+Unico modo per inserire una ditta in visura è al voltura, non ci sono altri modi.
+Seil costruttore non risulta più in visura, allora significa che ci sono dei problemi , coll contact, senza citare estremi della voltura e senza avere venditore in visura, non puoi risolvere niente.
+Ma quel bene in visura ha ditta completa, cioè ci sono 100/100 di prorpietà?
+Devi partire da quello
+Saluti
+Seil costruttore non risulta più in visura, allora significa che ci sono dei problemi , coll contact, senza citare estremi della voltura e senza avere venditore in visura, non puoi risolvere niente.
+Ma quel bene in visura ha ditta completa, cioè ci sono 100/100 di prorpietà?
+Devi partire da quello
+Saluti
+Devi essere un utente registrato per rispondere a questo messaggio
+Gia153
+Iscritto il:
+14 Novembre 2016 alle ore 10:15
+Messaggi:
+157
+Infatti non fa 100/100...ho fatto una visura storica ora e il vecchio venditore, il costruttore, c'era nel 2005 con una quota di 31659/70300...Ma il mio cliente non appare mai nella visura storica. Situazione molto strana, indagherò. Grazie mille per l'aiuto!
+Devi essere un utente registrato per rispondere a questo messaggio
+Pagine: 2 - Vai a pagina successiva
+Ultime guide:
+NUOVA VERSIONE DI PREGEO 10.6.2 DEL 29/04/2021:
+Ricerca moderatori per il forum:
+Nell'ottica di migliorare la qualità dei post e ridurre i "flame", cerchiamo volontari per moderare uno o più forum di GeoLIVE, se siete interessati consultate direttamente il seguente post:
+Grazie
+Convertitore da PDF a libretto DAT:
+Servizio gratuito che abbiamo realizzato per estrarre il libretto presente nel PDF rilasciato da SISTER e salvarlo come semplice file DAT da importare direttamente su PREGEO.
+Il nostro visualizzatore delle mappe catastali:
+Benvenuto su GeoLIVE se non fai già parte della nostra community:
+altrimenti se sei già un nostro utente:
+Ultimi termini
+Amici:
+Studio Tecnico Guerra
+Sviluppo di software topografico e catastale e rilievi topografici
+» Consulta l'elenco di tutti i nostri amici «(Crediti)
+RECENSIONI | NORMATIVA CATASTALE | ALTRE NORMATIVE | DOCUMENTI | DOWNLOADS
+LINKS | BLOG

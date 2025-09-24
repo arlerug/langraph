@@ -1,0 +1,7 @@
+ategoria, le caratteristiche qualitative vengono apprezzate per mezzo della assegnazione di una classe;
+- Consistenza catastale: l’unità di misura della consistenza può essere il numero di vani, la superficie dell'immobile o il suo volume, a seconda della categoria di appartenenza;
+- Rendita: è il guadagno medio presunto ritraibile dall'immobile, ottenuta moltiplicando la rendita unitaria (che dipende da categoria e classe) per la consistenza. I terreni posseggono due rendite: il reddito dominicale, legato al possesso del bene in sé e per sé, ed il reddito agrario, il quale spetta a chi sfrutta commercialmente l'appezzamento.
+Inoltre vi possono essere anche delle informazioni facoltative:
+- Sezione urbana: porzione di Comune, come ad esempio un rione;
+- Zona censuaria e Microzona: porzioni di Comune che si differenziano dal resto del territorio.
+Infine il Catasto registra anche le quote

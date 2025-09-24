@@ -1,0 +1,33 @@
+---
+title: Acquisto con riserva 1
+author: Elisa-Raimondo
+url: https://forum.topgeometri.it/t/acquisto-con-riserva-1/3499
+hostname: topgeometri.it
+description: Buongiorno, dovrei acquistare un fabbricato rurale. Al momento di redarre il compromesso l’agenzia si è resa conto che c’è la riserva 1 su tale immobile. A questo punto, oltre a poter aver problemi con la banca, a cosa potrei andare incontro? Cosa mi consigliate di fare? Grazie Saluti
+sitename: Forum Topgeometri
+date: 2022-03-06
+---
+Buongiorno, dovrei acquistare un fabbricato rurale. Al momento di redarre il compromesso l’agenzia si è resa conto che c’è la riserva 1 su tale immobile. A questo punto, oltre a poter aver problemi con la banca, a cosa potrei andare incontro? Cosa mi consigliate di fare?
+Grazie
+Saluti
+E’ compito del Venditore provvedere alla cancellazione della riserva, mediante apposita Istanza Catastale; da visura storica si dovrebbe capire quando e perché è stata introdotta la riserva, allegando all’Istanza la documentazione che comprova la continuità delle variazioni di intestazione, la problematica si dovrebbe sanare.
+Bhe se c’è la ris. 1 vuol dire che la continuità dei vari passaggi (continuità delle trascrizioni) sicuramente non c’è.
+Occorre solo verificare se è passato un ventennio dall’inserimento della ris. 1 e laddove sia passato il ventennio si fa istanza al catasto per la cancellazione di questa riserva.
+Diverso è il discorso di una eventuale richiesta di un mutuo ipotecario che nel caso specifico occorre discuterne con la banca stessa per capire se nonostante la non continuità delle trascrizioni, a prescindenre dalla presenza o meno in visura della ris. 1, si possa o meno richiedere, dato che cambia molto da banca a banca.
+Saluti
+Direi che non è proprio così come semplifica Fausto, qui di seguito quanto riportato al Paragrafo 15 del DECRETO 5 novembre 1969 - Approvazione dell’istruzione provvisoria per l’attuazione della L. 1° ottobre 1969, n. 679 , concernente la semplificazione delle procedure catastali.
+"A partire dalla data di entrata in vigore della legge 1° ottobre 1969, n. 679, ogni qualvolta l’ufficio debba far constare ne gli atti de l catasto che una mutazione è stata eseguita ai soli fini della conservazione del catasto medesimo, senza pregiudizio di qualsiasi ragione o diritto, provvede a contrassegnare ciascuna delle particelle od unità immobiliari urbane interessate con apposita sigla, giusta la seguente nomenclatura:
+RIS 1: per inesistenza di atti legali giustificanti uno o più passaggi intermedi;
+(omissis. per altre riserve)
+Le indicate sigle seguiranno i numeri distintivi delle particelle o delle unità immobiliari in ogni ulteriore operazione catastale e saranno comunque trascritte unitamente ai numeri stessi.
+Paragrafo 16.
+La cancellazione della sigla di annotazione di riserva può essere ottenuta dal possessore cui le particelle o le unità immobiliari sono intestate mediante la presentazione di apposita domanda in bollo, corredata dai documenti idonei a dimostrare la estinzione de i motivi pe r i quali la formalità era stata accesa: ove trattisi in particolare di tipo di frazionamento, esso deve portare le firme autenticate delle parti interessate .
+Non è necessario che la domanda di cancellazione sia corre data da documenti, quando è trascorso un ventennio dalla data del documento traslativo che dette origine alla annotazione di riserva.
+La decisione dell’ufficio in ordine alla domanda di cancellazione deve essere notificata al richiedente nelle forme di rito"..
+La Riserva 1 si riferisce unicamente alla continuità delle Volture di intestazioni Catastali, che dovrebbero corrispondere anche alle Trascrizioni, ma queste ultime dipendono da altri adempimenti con ben nota valenza probatoria, a differenza dell’intestazione catastale.
+Di regola, a quanto mi risulta, le banche non transigono sulla continuità delle Trascrizioni dei Titoli di provenienza, a differenza delle Riserve di natura catastale.
+Cordiali saluti.
+Non credo di aver semplificato il concetto.
+La ris. 1 viene inserita quando mancano passaggi intermedi (come nel caso di dichiarazioni di possesso) e quindi la cancellazione potrà avvenire solo con il decorso del ventennio dalla data del titolo.
+Vi ringrazio per le risposte.
+Non sono ancora passati i 20 anni quindi non si può togliere la riserva. Probabilmente la banca ci chiederà un’assicurazione.

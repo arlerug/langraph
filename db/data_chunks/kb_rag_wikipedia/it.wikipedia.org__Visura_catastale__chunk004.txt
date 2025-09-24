@@ -1,0 +1,4 @@
+mobile) per i fabbricati;
+- quantitativo: i terreni sono misurati in ettari (1 ha = 10.000 m²) o in are (1 are = 100 m²), mentre i fabbricati sono catalogati in base alla loro consistenza;
+- fiscale: per i terreni vengono riportate reddito dominicale (reddito attribuito al proprietario sia che il terreno sia oggetto di attività agricola che in caso contrario) e reddito agrario (reddito attribuito all’esercente dell’attività agricola), mentre per i fabbricati si riporta la rendita catastale (capacità di produzione reddituale della struttura).
+Con la rendita catastale si possono inoltre calcolare l'imposta sul reddito e le imposte locali, come ad es. l'Imposta comunale sugli immobili. Nella visura catastale possono essere trovati anche il nome del proprietario, del nudo proprietario o dell'usufruttuario, anche se il documento non gode di valore legale di proprietà (si dice quindi che è un

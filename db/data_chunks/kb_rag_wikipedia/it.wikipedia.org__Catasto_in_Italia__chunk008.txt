@@ -1,0 +1,4 @@
+[modifica | modifica wikitesto]Il Catasto raccoglie le informazioni essenziali su tutti i beni immobili presenti in Italia. Ogni immobile è identificato da due o, talvolta, tre numeri (cosiddetti identificativi catastali) detti foglio, particella (o mappale) ed, eventualmente, subalterno.
+Il territorio di ogni Comune italiano è rappresentato su dei fogli di carta, detti fogli di mappa, numerati progressivamente (quindi ogni Comune possiede il foglio 1 e poi a seconda delle dimensioni ci possono essere il 2, il 3, ecc. fino a che l'intera superficie municipale sia interamente disegnata).
+Tutti gli appezzamenti di terreno contenuti in ogni foglio vengono ulteriormente numerati sempre a partire da 1. Queste porzioni di superficie vengono denominate particelle o mappali.
+Talvolta i mappali contengono dei fabbricati; in tal caso, poiché in un singolo appezzamento di terreno ci possono essere

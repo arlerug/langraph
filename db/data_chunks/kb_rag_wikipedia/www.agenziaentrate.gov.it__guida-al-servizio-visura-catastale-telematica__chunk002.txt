@@ -1,0 +1,7 @@
+l’Ufficio Provinciale – Territorio nel cui ambito di competenza si trovano gli immobili di interesse. Nella lista degli Uffici Provinciali non sono compresi Trento e Bolzano, i cui archivi catastali sono gestiti dalle rispettive Province autonome.
+È possibile scegliere di effettuare una visura per soggetto o per immobile. Effettuata la ricerca di un immobile censito al Catasto dei Terreni, è possibile anche richiedere una visura della mappa.
+Le visure saranno fornite su file in formato pdf.
+Modalità di ricerca
+Visura per soggetto
+Si può richiedere la visura attuale per soggetto, ossia limitata agli immobili su cui il soggetto cercato risulti all’attualità titolare di diritti reali (non è al momento previsto il rilascio della visura per soggetto storica).
+E’ possibile effettuare una ricerca sia per persone fisiche che per persone giuridiche, indicando, in alternativa, il codice fiscale o

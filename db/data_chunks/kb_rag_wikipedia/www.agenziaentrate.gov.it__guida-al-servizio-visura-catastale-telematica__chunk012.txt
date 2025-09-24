@@ -1,0 +1,5 @@
+accesso ai documenti acquistati, sarà richiesto di inserire l’identificativo di pagamento IUV rilasciato a conclusione della transazione di pagamento.
+Qualora siano stati effettuati più acquisti, si potrà indicare un qualsiasi identificativo di pagamento, purché relativo a un acquisto eseguito negli ultimi dieci giorni.
+L’inserimento di un identificativo di pagamento valido renderà disponibili per il prelievo tutte le visure acquistate nel suddetto periodo e le relative ricevute di pagamento. Saranno evidenziati i documenti già prelevati con il simbolo di spunta.
+Anche qualora una transazione di pagamento sia conclusa con esito negativo (senza dunque la generazione di una visura), si potrà accedere alla sezione visure acquistate dove sarà comunque disponibile la relativa ricevuta di pagamento a importo nullo.
+Attenzione: i documenti richiesti sono disponibili fino a 10 giorni dal pagamen

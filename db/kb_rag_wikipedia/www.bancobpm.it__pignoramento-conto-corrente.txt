@@ -1,0 +1,49 @@
+---
+title: Pignoramento conto corrente: come funziona? | Banco BPM
+url: https://www.bancobpm.it/magazine/privati/vita-quotidiana/pignoramento-conto-corrente/
+hostname: bancobpm.it
+description: Scopri tutto sul pignoramento del conto corrente, da come funziona a come evitarlo. Trova le risposte alle domande sul pignoramento con Banco BPM!
+sitename: bancobpm.it
+date: 2025-05-07
+tags: ['App mobile', 'Internet banking', 'Mobile banking']
+---
+Pignoramento conto corrente: cos’è e come funziona
+Il pignoramento del conto corrente rappresenta un grave rischio per chi si trova in una situazione di insolvenza. Questa procedura di espropriazione forzata può causare significativi disagi economici, bloccando l’accesso ai fondi depositati in banca e compromettendo la gestione finanziaria quotidiana. Capire come funziona il pignoramento del conto corrente e i limiti applicabili può aiutare a gestire meglio questa situazione difficile.
+Pignoramento presso terzi
+Il pignoramento di conto corrente rientra nella tipologia dei pignoramenti presso terzi che coinvolge, oltre al creditore e al debitore, anche un terzo che è l’istituto (Banca o Poste Italiane) presso il quale il debitore detiene un conto. In questo caso, la Banca assume la veste di terzo pignorato ed è tenuta a bloccare tutti i fondi per coprire il debito. Può essere di due tipologie:
+- Pignoramento ordinario (ai sensi dell’art. 543 c.p.c. e seguenti): richiede che il creditore abbia ottenuto un decreto ingiuntivo o un altro titolo esecutivo, sulla base del quale è stato notificato al debitore un atto di precetto; decorsi 10 giorni dalla notifica del precetto senza che sia intervenuto il pagamento, l’avvocato del creditore può richiedere all’ufficiale giudiziario di eseguire la notifica dell’atto di pignoramento al debitore e al terzo pignorato. Il pignoramento deve essere iscritto a ruolo nel termine di 30 giorni; a seguito dell’iscrizione a ruolo, il procedimento viene assegnato ad un Giudice dell’Esecuzione.
+- Pignoramento esattoriale (ai sensi dell’art. 72bis dpr 602/73): può essere promosso soltanto dall’Agenzia delle Entrate o da altri enti di riscossione; contiene l’ordine al terzo di pagare la somma dovuta al concessionario nel termine di 60 giorni dalla notifica dell’atto di pignoramento; non richiede quindi l’intervento del Giudice dell’Esecuzione.
+Limiti di pignorabilità
+La legge prevede che non tutto il saldo del conto corrente presente al momento della notifica dell’atto di pignoramento possa essere pignorato: nel caso in cui sul conto vengano accreditati stipendi e/o pensioni o altre indennità equivalenti al debitore deve essere garantito il minimo vitale per condurre una vita dignitosa. Il minimo vitale è pari al triplo dell’assegno sociale, il cui importo, determinato dall’INPS, varia di anno in anno poiché è soggetto a rivalutazione in base all’inflazione. Per il 2025 l’assegno sociale è pari a 538,68 euro e di conseguenza il minimo vitale è di 1.616,04 euro. L’ammontare corrispondente al minimo vitale è impignorabile, mentre la parte rimanente potrà essere vincolata. Ci sono poi limiti più specifici per gli stipendi e/o pensioni o altre indennità equivalenti accreditati successivamente alla notifica del pignoramento:
+- stipendio: può essere pignorato solo nella misura di un quinto;
+- pensione: la pensione può essere pignorata nella misura di un quinto della parte eccedente il doppio dell’assegno sociale (1.077,36 euro nel 2025).
+Pignoramento del conto corrente da parte dall’Agenzia delle Entrate e/o dagli altri enti di riscossione: come funziona
+Il pignoramento del conto corrente da parte dei suddetti soggetti segue una procedura simile a quella descritta sopra, ma con alcune differenze che rendono il processo più diretto e rapido. L’Agenzia delle Entrate e/o gli altri enti di riscossione, infatti, possono avviare il pignoramento senza l’intervento dell’autorità giudiziaria, basandosi solo su cartelle esattoriali non pagate. Tali soggetti possono scegliere se intraprendere un pignoramento ordinario oppure un pignoramento esattoriale, che come detto sopra è più rapido perché non richiede l’intervento del Giudice dell’Esecuzione. Una volta notificato l’atto di pignoramento alla banca, i fondi vengono bloccati e utilizzati per saldare il debito fiscale.
+Domande frequenti sul pignoramento del conto corrente
+Affrontiamo infine alcune delle domande più frequenti in merito al pignoramento del conto corrente.
+Posso prelevare dal conto corrente pignorato?
+Sì, è possibile. Il pignoramento, infatti, non riguarda tutte le somme depositate sul conto corrente. Quando la banca riceve l’atto di pignoramento, è obbligata a trattenere le somme dovute dal cliente al creditore fino al limite indicato nell’atto stesso. Questo importo include la somma portata nel precetto, aumentata:
+- di 1.000 euro per i debiti fino a 1.100 euro;
+- di 1.600 euro per i debiti da 1.100,01 fino a 3.200 euro;
+- del 50% per debiti superiori a 3.200 euro.
+per coprire le spese della procedura.
+Se sul conto corrente ci sono fondi superiori a questo limite, il correntista può continuare a utilizzarli liberamente.
+Pignoramento conto corrente cointestato: come funziona?
+In caso di pignoramento ordinario, viene reso indisponibile l’intero rapporto cointestato e nella dichiarazione che il terzo pignorato è tenuto a rendere alla procedura (ai sensi dell’art. 547 c.p.c.) si dà atto che il rapporto oggetto di pignoramento è cointestato con altro nominativo non esecutato; in questo modo, la decisione viene rimessa al Giudice dell’Esecuzione.
+In caso di pignoramento esattoriale, non essendo previsto l’intervento Giudice dell’Esecuzione che possa determinare la quota pignorata, la banca lascia nella disponibilità del cointestatario non esecutato la relativa quota di propria spettanza; quindi, se per esempio il conto è intestato a due persone, esso viene pignorato solo per il 50%.
+È possibile azzerare il saldo del conto prima del pignoramento?
+Diversi debitori adottano strategie per azzerare il saldo del conto prima del pignoramento. Occorre però ricordare che la legge è volta a tutelare il creditore e a fare in modo che quest’ultimo ottenga quanto gli è dovuto, e che gli stratagemmi adottati hanno limiti e rischi legali significativi.
+Quando la banca sblocca il conto pignorato e svincola le somme pignorate?
+La banca procede a sbloccare il conto e a svincolare le somme, al verificarsi delle seguenti condizioni:
+- quando la banca riceve comunicazione da parte del creditore o del suo avvocato che il debito è stato saldato prima della scadenza del termine per l’iscrizione a ruolo; pagare il proprio debito è la scelta che permette di rientrare nella disponibilità del proprio conto corrente;
+- quando la banca riceve comunicazione da parte del creditore o del suo avvocato che la procedura non è stata iscritta a ruolo;
+- quando la procedura esecutiva si estingue a seguito di provvedimento di estinzione, emesso dal Giudice dell’Esecuzione;
+- quando la procedura esecutiva si conclude con l’ordinanza di assegnazione delle somme vincolate a favore del creditore, emessa dal Giudice dell’Esecuzione.
+Si possono ricevere accrediti su conto pignorato?
+In questo caso, bisogna distinguere due ipotesi:
+- se non è stata ancora raggiunta la somma pignorata, la banca provvede a vincolare la somma in entrata a favore del pignoramento, fatti salvi i limiti di impignorabilità relativi a stipendi, pensioni o altre indennità equivalenti, come sopra specificati;
+- se invece è stata già raggiunta la somma pignorata, qualunque accredito potrà essere utilizzato regolarmente dall’intestatario del conto.
+Il pignoramento può avvenire anche se il saldo è negativo?
+Sì, è possibile. Nel caso di conto corrente con saldo debitore, gli accrediti successivi non possono essere sottoposti a pignoramento e non devono quindi essere vincolati, salvo per l’eventuale quota che dovesse eccedere portando il saldo in positivo.
+L’articolo è di carattere divulgativo aggiornato alla data di pubblicazione. Per conoscere l’offerta della Banca consulta l’area Prodotti.
+“Messaggio pubblicitario a finalità promozionale. Per le condizioni contrattuali si rinvia ai fogli informativi e/o alla documentazione contrattuale disponibili sul sito www.bancobpm.it e presso le filiali della Banca. Per l’emissione della carta di debito e della carta di credito la Banca si riserva la valutazione dei requisiti necessari alla concessione e dei massimali di spesa da assegnare alla stessa.”

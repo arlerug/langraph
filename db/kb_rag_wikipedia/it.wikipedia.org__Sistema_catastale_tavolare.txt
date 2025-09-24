@@ -1,0 +1,98 @@
+---
+title: Sistema catastale tavolare - Wikipedia
+url: https://it.wikipedia.org/wiki/Sistema_catastale_tavolare
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2006-02-07
+license: CC BY-SA 4.0
+---
+Sistema catastale tavolare
+Il sistema tavolare (o sistema del libro fondiario; in tedesco Grundbuch) è un tipo di ordinamento catastale, nato nell'Impero austro-ungarico, e attualmente utilizzato in Italia limitatamente ai territori annessi al termine della prima guerra mondiale.
+Si differenzia dal catasto ordinario, oltre che per le origini storiche, per la modalità di conservazione e per il diverso rilievo giuridico delle sue risultanze, che hanno efficacia costitutiva, oltre che probatoria, per i trasferimenti immobiliari.
+Oggi il catasto tavolare relativo al territorio della provincia di Bolzano (Südtiroler Grundbuch und Kataster) viene autonomamente gestito dalla Provincia di Bolzano[1], quello relativo al territorio della provincia di Trento e dei Comuni di Pedemonte (Provincia di Vicenza), di Magasa e Valvestino (Provincia di Brescia) viene gestito dalla Provincia di Trento. Per gli altri territori in cui vige il sistema tavolare la componente strettamente fondiaria viene gestita dal giudice tavolare di competenza mentre la componente descrittiva degli immobili viene gestita dall'Agenzia delle Entrate in modo integrato con il catasto nazionale vigente nel resto d’Italia.
+Storia
+[modifica | modifica wikitesto]Il catasto fondiario austriaco
+[modifica | modifica wikitesto]I territori facenti parte fino al 1918 dell'impero austro-ungarico e annessi dall'Italia, per un po' di tempo furono retti da un regime giuridico transitorio, man mano assorbito dalla normativa del Regno d'Italia. Sui territori ex-austriaci vigeva il Catasto fondiario austriaco, regolato dalla regia patente di Francesco I d'Austria del 23 dicembre 1817 e formato[2] fra il 1817 e il 1861.
+Il sistema discendeva nei suoi principi dall'istituto delle "Landtafeln" (da Tafel, "tavola"), creato nel XIII secolo e in applicazione in Slesia, Boemia e Moravia[3]. Sottintendeva il principio che nessun diritto riguardante beni immobili potesse avere riconoscimento giuridico nell'ordinamento se non previa iscrizione nelle tavole, il che obbligava da un lato alla corretta tenuta del regime di pubblicità immobiliare e dall'altro consentiva una più incisiva azione fiscale.
+Con la Patente sovrana del 22 aprile 1794 fu introdotto lo "Hauptbuch" ("libro maestro") che spostava il perno delle registrazioni dal contribuente al diritto reale connesso all'immobile e dunque all'immobile stesso. Nel 1811 il sistema fu esteso a tutto il territorio dell'impero. Con le due leggi del 25 luglio 1871, Bli n. 95 e n. 96[4], si operò l'armonizzazione catastale nel territorio dell'impero e (col secondo provvedimento, che era una legge-quadro) si stabilì l'impianto del Libro fondiario. Per quanto riguarda i territori passati all'Italia nel 1919 e prima compresi nella Contea del Tirolo, fu la legge 17 marzo 1897, Blp n. 9, a regolare la materia.
+L'insieme dei provvedimenti normativi regolanti la materia prende il nome di legge tavolare[5].
+Il passaggio all'Italia
+[modifica | modifica wikitesto]Il primo provvedimento ufficiale viene individuato nella circolare amministrativa del Ministero delle Finanze del 13 ottobre 1932, n. 9016, che disponeva testualmente: "Poiché nelle Terre Redente vige l'Istituto del Libro Fondiario (Tavolare), che non esiste nelle altre province del Regno e poiché il Catasto vi è strettamente collegato e ne forma anzi un necessario complemento, la conservazione del catasto, nelle Terre Redente, deve essere fatta seguendo la legislazione ex-austriaca, cioè sulla base della Legge 23 maggio 1883, B.L.I. n. 83, e l'Ordinanza Ministeriale 11 giugno 1883, B.L.I. n. 91".
+In tal modo veniva ufficializzata la non applicabilità della legge sulla perequazione fondiaria del 1º marzo 1886, n. 3682, "formazione del Nuovo Catasto dei Terreni (N.C.T.)".
+Nella regione Trentino-Alto Adige, e nei comuni di alcune zone soggette a successive rettifiche dei confini, si è pertanto continuato ad applicare la legislazione ex-austriaca. I comuni di Pedemonte (in provincia di Vicenza), di Valvestino e di Magasa (in provincia di Brescia), che erano appartenuti al Tirolo, applicano il sistema tavolare: per queste occorrenze dipendono dalla Provincia autonoma di Trento.
+La diffusione del sistema tavolare
+[modifica | modifica wikitesto]Il sistema tavolare ha trovato la sua espressione più completa nell'impero austro-ungarico. Esso trae le sue origini in istituzioni germaniche che hanno improntato non solo paesi germanofoni come Germania e Svizzera, ma anche aree in cui era forte l'attrattiva dell'esempio tedesco (Polonia, Finlandia, Russia, Svezia). Similmente è stato introdotto in Spagna e Portogallo e di recente anche in Tunisia e Australia. In Italia, che partiva da una situazione confusa, si era sentita l'attrattiva di un tale sistema. Curiosamente la sua introduzione era cominciata nelle ex colonie italiane dell'Eritrea, della Libia e a Rodi, anche per reperire i terreni da assegnare ai coloni.
+Da tempi remoti nelle zone abitate da popolazioni germaniche si tendeva ad attribuire alle istituzioni pubbliche il compito di "attribuire verità alle manifestazioni delle parti", l'iscrizione nei "pubblici libri" divenne perciò il requisito principale per l'acquisto o il trasferimento del diritto reale; per la sua efficacia il sistema si estese gradualmente all'intera monarchia asburgica.
+Principi informatori
+[modifica | modifica wikitesto]Il sistema tavolare poggia su quattro principi:
+- Principio del predecessore tavolare
+- detto anche principio di continuità nelle intavolazioni, ovvero nel senso che si può iscrivere un diritto solo nei confronti del soggetto proprietario iscritto.
+- Principio dell'iscrizione
+- il diritto di proprietà e gli altri diritti reali sui beni immobili non si acquistano per atto tra vivi se non con l'iscrizione nel libro fondiario.
+Questa operazione, detta "intavolazione", è il vero atto traslativo, ed è quindi presupposto di efficacia, anche fra le parti, del trasferimento o della costituzione del diritto reale.
+Nel diritto italiano vige invece il principio che la compravendita, anche immobiliare, si perfeziona con il solo consenso (art. 1376 del Codice Civile) e che la trascrizione è il mezzo per dirimere i conflitti tra più acquirenti dallo stesso alienante.
+- il diritto di proprietà e gli altri diritti reali sui beni immobili non si acquistano per atto tra vivi se non con l'iscrizione nel libro fondiario.
+- Principio di legalità
+- nessuna iscrizione può avvenire se non è ordinata con decreto del giudice tavolare, previo controllo, da parte dello stesso, del titolo in base al quale è richiesta l'iscrizione medesima.
+- Principio della pubblica fede
+- l'iscrizione vale titolo in favore dei terzi (aventi un interesse legittimo e attuale) che in essa facciano affidamento con un duplice senso:
+- funzione negativa: ciò che non è iscritto nel libro fondiario è inefficace contro i terzi in buona fede[6]
+- funzione positiva: ciò che è iscritto, ha efficacia contro chiunque.
+- l'iscrizione vale titolo in favore dei terzi (aventi un interesse legittimo e attuale) che in essa facciano affidamento con un duplice senso:
+Il sistema tavolare riconosce l'esistenza dell'usucapione (possesso pacifico, non clandestino, non ad altro titolo come il precario): questa sorta di "proprietà naturale" deve essere intavolata in seguito a una sentenza passata in giudicato che ne convalidi il diritto e serva da titolo per l'iscrizione stessa.
+Le "schede" sono redatte sui beni immobiliari, con la descrizione di tutti i diritti sopra di essi spettanti alle singole persone, non sulle persone con gli atti traslativi dei beni stessi.
+Disciplina normativa
+[modifica | modifica wikitesto]La legge generale sui libri fondiari fu emanata il 25 luglio 1871, B.L.I. n. 95, e con relativo regolamento (O.M. 12 gennaio 1872, B.L.I. n. 5), mentre per quanto riguarda il Tirolo (comprendente l'attuale Regione Trentino-Alto Adige), l'impianto tavolare fu regolamentato dalla legge 17 marzo 1897, B.L.P. n. 9, e relative norme di attuazione.
+Le leggi austriache ebbero applicazione anche nei territori passati sotto la sovranità italiana, per essere poi sostituiti con R.D. 28 marzo 1929, n. 499 e dall'allegato Nuovo Testo della Legge generale sui libri fondiari (che tuttavia, pur dando una nuova formulazione, non mutavano l'impianto del sistema austriaco).
+Ulteriori modifiche vennero apportate da leggi successive, mentre le norme di coordinamento con il nuovo diritto di famiglia vennero fissate con la legge 8 agosto 1977, n. 574.
+L'art. 1 del D.P.R. 31 luglio 1978, n. 569 ha trasferito le competenze statali alle autorità regionali per quanto riguarda la regione Trentino-Alto Adige accrescendo la competenza primaria, in base allo Statuto dell'autonomia, in materia di impianto e di tenuta dei Libri Fondiari, in particolare le funzioni prima di spettanza del Ministero della Giustizia con appositi organi decentrati a livello di Mandamento.
+Con Legge Costituzionale 31 gennaio 1963, n. 1 (art. 4) è stata demandata alla regione Friuli Venezia Giulia la competenza in materia di impianto e tenuta dei Libri Fondiari.
+C'è una netta distinzione tra il sistema "tavolare" e il sistema di "pubblicità" cosiddetto latino, dove per "pubblicità" si intende la modalità con cui gli atti traslativi della proprietà sono resi noti al pubblico, nonché gli effetti giuridici che ne derivano.
+Il R.D. 4 novembre 1928, n. 2325, ha mantenuto nelle cosiddette "nuove province" un sistema di pubblicità impostata sul criterio "reale" (riferito ai beni), non su quello "personale" (riferito alle persone), della trascrizione regolata dal codice civile del 1942.
+Efficacia probatoria
+[modifica | modifica wikitesto]A differenza del normale catasto urbano e rustico, nel diritto italiano vigente il catasto tavolare ha carattere probatorio e le risultanze tavolari hanno valore costitutivo dei diritti. Sancisce infatti il Regio Decreto 28 marzo 1929, n. 499[7] all'art.2: "A modificazione di quanto è disposto dal codice civile italiano, il diritto di proprietà e gli altri diritti reali sui beni immobili non si acquistano per atto tra vivi se non con la iscrizione del diritto nel libro fondiario"[8].
+Il sistema del catasto ordinario invece non attribuisce valore di prova alle risultanze pubbliche degli Uffici dei registri immobiliari, avendo queste carattere "non probatorio" per testuale definizione nella loro legge istitutiva. Nel sistema del catasto ordinario, infatti, le schede non sono "intestate" ai beni, ma ai nominativi.
+Caratteristiche tecniche
+[modifica | modifica wikitesto]Rilevamento
+[modifica | modifica wikitesto]Il rilevamento alla base del catasto tavolare austriaco fu effettuato per triangolazioni in parte basate sulla rete geodetica sviluppata dall'Istituto Geografico dell'Esercito Imperial-Regio, per un'estensione di circa 300.000 km²; il territorio fu suddiviso in 7 sistemi autonomi zonali, ciascuno con un proprio sistema di coordinate piane e un suo vertice trigonometrico. La triangolazione nei primi tre ordini raggiunse una densità in foglio di tre vertici per miglio quadrato, mentre la triangolazione in quarto ordine fu eseguita a tavoletta pretoriana, graficamente, su fogli a scala 1:14400.
+Per ognuna delle 20 sezioni di foglio di mappa, furono determinati 3 vertici grafici, raggiungendo i 57 punti di appoggio per miglio quadrato. Il foglio generale era riferito come unità di misura al miglio austriaco (pari a 4.000 klafter[9], o in italiano tese), che equivale a 7.585,94 metri e ogni foglio di triangolazione aveva l'ampiezza di un miglio austriaco, ma per praticità è stato suddiviso in 20 sezioni. Ciascuna sezione copriva la rappresentazione di una larghezza reale di 1.000 klafter (1.896,48 m) e un'altezza reale di 800 klafter (1.517,19 m), in un piano di proiezione nel quale l'asse delle ascisse ha direzione positiva verso sud e quello delle ordinate verso ovest. La scala risultante è 1:2.880.
+Ogni mappa rappresenta un'estensione pari a 288 ettari (= 500 jugeri). La si compila col metodo detto "a perimetro aperto"[10], ma per zone di intenso frazionamento (ad esempio alcuni centri urbani), sono state realizzate "isole" a stralcio in scala 1:1440. Con l'introduzione del sistema metrico decimale tutte le misure e i riferimenti, in precedenza ordinati sul klafter, sono stati convertiti[5].
+Organi gestori
+[modifica | modifica wikitesto]Secondo l'art. 75 del Nuovo Testo della Legge generale sui libri fondiari, allegato al R.D. 28 marzo 1929, n. 499, presso ogni tribunale e sezione distaccata di tribunale è costituito un ufficio tavolare, incaricato della conservazione dei libri fondiari, cui è preposto un giudice (giudice tavolare) designato dal presidente del tribunale. Ogni ufficio è competente alla conservazione dei libri fondiari riguardanti gli immobili che sono situati, in tutto o nella loro parte preminente, nella rispettiva circoscrizione.
+Concordanza fra catasto e tavole
+[modifica | modifica wikitesto]Uno dei pregi del sistema è la concordanza tra i dati catastali e quelli tavolari che manca quasi totalmente nel regime giuridico vigente nelle altre province.
+Zona di applicabilità
+[modifica | modifica wikitesto]Il sistema catastale tavolare vige:
+- nelle province intere di Trieste, Gorizia, Trento, e Bolzano;
+- nei comuni di Aiello del Friuli, Aquileia, Campolongo al Torre, Cervignano del Friuli, Chiopris-Viscone, Fiumicello, Malborghetto-Valbruna, Ruda, San Vito al Torre, Tapogliano, Tarvisio, Terzo di Aquileia, Villa Vicentina e Visco (Udine);
+- nel comune di Pedemonte (Vicenza);
+- nei comuni di Magasa e Valvestino (Brescia);
+- nei comuni di Cortina d'Ampezzo, Colle Santa Lucia e Livinallongo del Col di Lana (Belluno).
+Riferimenti normativi
+[modifica | modifica wikitesto]- legge 4 dicembre 1956, n. 1376 (in G.U. 21 dicembre 1956, n. 321);
+- legge 29 ottobre 1974, n. 594 (in G.U. 30 novembre 1974, n. 312);
+- legge 8 agosto 1977, n. 574 (in G.U. 25 agosto 1977, n. 231);
+- art. 3, comma 8, del decreto-legge 31 dicembre 1996, n. 669, convertito nella legge 28 febbraio 1997, n. 30 (in G.U. 1º marzo 1997, n. 50);
+- artt. 162, 163, 164, 165 del decreto legislativo 19 febbraio 1998, n. 51 (in Suppl. ord. n. 1 alla G.U. 20 marzo 1998, n. 66);
+- art. 34 della L. 24 novembre 2000, n. 340 (in G.U. 24 novembre 2000, n. 275).
+Note
+[modifica | modifica wikitesto]- ^ Grundbuch und Kataster, consultato il 6 maggio 2024.
+- ^ La formazione è la prima operazione tecnica di costituzione di un catasto.
+- ^ In cui era stato sviluppato con un provvedimento di Ferdinando II del 1627 per la Boemia e del 1628 per la Moravia.
+- ^ "Legge generale sui libri fondiari", integrata dal relativo regolamento (Ordinanza Ministeriale del 12 gennaio 1872, B.L.I. n. 95).
+- ^ a b Fonti per questa sezione reperite Catasto online in Trentino
+- ^ Principio della pubblicità (quod non est in actis non est in mundo).
+- ^ "Disposizioni relative ai libri fondiari dei territori delle nuove province".
+- ^ La rilevanza nel codice civile delle materie catastali è invero limitata a questioni riguardanti le iscrizioni di ipoteca. Maggiore se ne ha invece nel codice di procedura civile.
+- ^ 1 klafter (o tesa di Vienna) = 1,896484 metri = 72 pollici
+- ^ Nel catasto ordinario invece si usa il metodo "a perimetro chiuso" e le particelle sono isolate e raffigurate nella loro interezza nel foglio.
+Voci correlate
+[modifica | modifica wikitesto]Collegamenti esterni
+[modifica | modifica wikitesto]- R. DECRETO 28 MARZO 1929, n. 499 la cosiddetta Legge Tavolare sul sito Italgiure
+- LEGGE 29 OTTOBRE 1974, n. 594[collegamento interrotto] (GU n. 312 del 30/11/1974) sul sito Italgiure
+- Catasto tavolare in provincia di Bolzano, su provincia.bz.it.
+- Storia del catasto tavolare nel Trentino sul sito della provincia di Trento
+- Storia e caratteristiche del catasto tavolare nel Trentino-Alto Adige, su regione.taa.it. URL consultato il 24 aprile 2007 (archiviato dall'url originale il 18 aprile 2007).
+- Il sistema catastale tavolare nel Trentino-Alto Adige, su agraria.org.
+- Libro Fondiario sul sito della Regione Autonoma Friuli Venezia Giulia
+- Provvedimento A.E. 29.12.2006, sul sito dell'Agenzia del Territorio, contenente le specifiche tecniche di formazione degli identificativi catastali anche per il catasto tavolare.

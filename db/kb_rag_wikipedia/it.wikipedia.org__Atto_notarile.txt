@@ -1,0 +1,40 @@
+---
+title: Atto notarile - Wikipedia
+url: https://it.wikipedia.org/wiki/Atto_notarile
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2008-06-18
+license: CC BY-SA 4.0
+---
+Atto notarile
+L'atto notarile (o rogito o istrumento o documento pubblico) è il documento rogato, ossia redatto con le prescritte formalità, da un notaio che fa prova legale dei fatti ed atti giuridici che il notaio stesso attesta essere avvenuti in sua presenza o da lui compiuti.
+Caratteri generali
+[modifica | modifica wikitesto]La maggioranza degli ordinamenti civil law, con la notevole eccezione dei paesi nordeuropei (Svezia, Finlandia, Danimarca ecc.), conosce l'atto notarile come particolare specie di atto pubblico. In tali ordinamenti qualsiasi contratto o, più in generale, atto giuridico privato (salvo sia prescritta una forma speciale: si pensi al matrimonio) può essere fatto in forma di atto pubblico con la partecipazione del notaio, forma che, per certi atti, è addirittura imposta dall'ordinamento ai fini della validità o della prova. Il notaio ha non solo competenza generale ma anche esclusiva a rogare atti giuridici privati, essendo l'eventuale competenza di altri soggetti limitata a specifici atti.
+Negli ordinamenti di common law e nei paesi nordeuropei, non esistendo la figura del notaio, non è possibile fare atti giuridici privati in forma di atto pubblico; è possibile la sola autenticazione delle firma - conosciuta anche dagli altri ordinamenti di civil law - che si limita ad attestarne la provenienza dalla persona che l'ha apposta e che, negli ordinamenti di common law, può essere fatta dal notary public, figura diversa dal notariato libero di tipo latino dei paesi di civil law. Non è, quindi, un atto notarile il deed, atto privato formale caratteristico degli ordinamenti di common law, nonostante taluni dizionari traducano impropriamente in italiano il termine con "atto notarile" o "rogito".
+Ordinamento italiano
+[modifica | modifica wikitesto]Nell'ordinamento italiano l'atto notarile ha efficacia di atto pubblico ai sensi dell'art. 2699 del Codice civile. È il più diffuso e importante tra gli atti pubblici perché solo il notaio ha competenza generale a ricevere qualsiasi tipo di atto mentre gli altri pubblici ufficiali autorizzati a rogare atti pubblici (ad esempio, l'ufficiale rogante) possono ricevere solo gli atti espressamente indicati dalle norme che conferiscono loro tale potestà.
+Formalità principali
+[modifica | modifica wikitesto]La formazione degli atti notarili è disciplinata dalla legge 16 febbraio 1913, n. 89 (cosiddetta legge notarile) la quale prescrive, fra l'altro, che l'atto notarile sia redatto a mano, a macchina o a stampa e che, in ogni caso, il notaio provveda personalmente alla redazione o diriga la stessa, in ogni suo momento, allorché l'abbia demandata a persona di sua fiducia.
+Secondo la legge notarile, l'atto notarile deve essere ricevuto in presenza delle parti e, in alcuni casi, di almeno due testimoni. Dopo le modifiche introdotte dalla legge 28 novembre 2005, n. 246, la presenza dei testimoni è richiesta solo per gli atti di donazione, le convenzioni matrimoniali e loro modificazioni e per le dichiarazioni di scelta del regime di separazione dei beni, nonché qualora anche una sola delle parti non sappia o non possa leggere e scrivere ovvero una parte o il notaio ne richieda la presenza; a questi si aggiungono i casi in cui disposizioni di legge richiedono la presenza dei testimoni per specifici atti (ad esempio, l'art. 603 del Codice civile per il testamento pubblico). Il notaio deve essere certo dell'identità personale delle parti, anche avvalendosi di due fidefacienti da lui conosciuti, che possono coincidere con i testimoni. I testimoni e i fidefacienti devono essere maggiorenni, cittadini della Repubblica Italiana o stranieri in essa residenti, avere la capacità di agire e non essere interessati nell'atto.
+Contenuto
+[modifica | modifica wikitesto]Secondo l'art. 51 della legge 89/1913 l'atto notarile deve recare l'intestazione "REPUBBLICA ITALIANA" e contenere:
+- l'indicazione in lettere per esteso dell'anno, mese, giorno, comune e luogo in cui è ricevuto;
+- il nome, il cognome e la residenza del notaio nonché il distretto notarile nel cui ruolo è iscritto;
+- il nome, il cognome, il luogo e la data di nascita, il domicilio o la residenza delle parti e dei loro eventuali rappresentanti, dei testimoni e dei fidefacienti;
+- la dichiarazione della certezza dell'identità personale delle parti o dell'accertamento fattone per mezzo dei fidefacienti;
+- l'indicazione, almeno per la prima volta, in lettere per esteso, delle date, delle somme e della quantità delle cose che formano oggetto dell'atto;
+- la designazione precisa delle cose che formano oggetto dell'atto;
+- l'indicazione dei titoli e delle scritture inseriti nell'atto;
+- la menzione che dell'atto, delle scritture e dei titoli inserti nel medesimo è stata data dal notaio o da persona di sua fiducia (comunque in presenza del notaio) lettura alle parti, in presenza degli eventuali testimoni (la lettura delle scritture e dei titoli può essere omessa per espressa volontà delle parti, facendone menzione nell'atto);
+- la menzione che l'atto è stato scritto dal notaio o da persona di sua fiducia, con l'indicazione dei fogli di cui è composto e delle pagine scritte;
+- la sottoscrizione col nome e cognome delle parti, dei fidefacienti, dell'eventuale interprete, dei testimoni e del notaio;
+- per gli atti di ultima volontà, l'ora in cui avviene la sottoscrizione dell'atto;
+- negli atti composti da più fogli, la sottoscrizione in margine di ciascun foglio (eccettuato quello contenente le sottoscrizioni finali), anche col solo cognome, delle parti, dell'eventuale interprete, dei testimoni e del notaio.
+Bibliografia
+[modifica | modifica wikitesto]- Council of the Notariats of the European Union. (EN) Comparative Study on Authentic Instruments (PDF), su cnue-nouvelles.be. URL consultato il 19 dicembre 2020 (archiviato dall'url originale il 20 ottobre 2020).
+- Gian Carlo Lasagna, L'atto notarile, Genova, SAGEP, 1971
+Testi normativi
+[modifica | modifica wikitesto]Voci correlate
+[modifica | modifica wikitesto]Altri progetti
+[modifica | modifica wikitesto]- Wikizionario contiene il lemma di dizionario «rogito»
+- Wikimedia Commons contiene immagini o altri file su rogito

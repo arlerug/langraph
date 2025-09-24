@@ -1,0 +1,11 @@
+---
+title: Agenzia delle entrate - Wikipedia
+url: https://it.wikipedia.org/wiki/Agenzia_delle_entrate
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2006-02-20
+license: CC BY-SA 4.0
+---
+Agenzia delle entrate
+L'Agenzia delle entrate (ADE) è un ente governativo fiscale italiano, alle dirette dipendenze del Ministero dell'economia e delle finanze. Ad esso sono demandati compiti ispettivi relativi alla gestione dei tributi.
+Istituita con d.l. 300/1999, è diretta prosecutrice delle intendenze di finanza, i cui compiti ha incamerato; ha l'obiettivo di garantire l'adempimento degli obblighi fiscali da parte dei cittadini contribuenti. Svolge inoltre i servizi relativi al catasto, i servizi geotopocartografici e quelli relativi alle conservatorie dei registri immobiliari, con il compito di costituire l'anagrafe dei beni immobiliari esistenti sul territorio nazionale. L'obiett

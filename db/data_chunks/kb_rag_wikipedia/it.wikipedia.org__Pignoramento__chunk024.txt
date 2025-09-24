@@ -1,0 +1,8 @@
+l conto corrente[12], stipendio[13]), oppure cose del debitore che sono in possesso di terzi. Si esegue mediante atto notificato al terzo e al debitore, e deve contenere (art. 543 c.p.c.):
+- l'ingiunzione a non compiere alcun atto dispositivo sui beni e i crediti assoggettati a pignoramento;
+- l'indicazione del credito per cui si procede, del titolo esecutivo e del precetto;
+- l'indicazione anche generica delle cose o somme dovute e l'intimazione al terzo di non disporne senza ordine del giudice;
+- l'invito a comparire davanti al giudice per effettuare la dichiarazione del terzo a norma dell'art. 547 c.p.c.
+Come per i beni mobili, anche determinati crediti non possono essere sottoposti a pignoramento, in considerazione della loro funzione di sostentamento (art. 545 c.p.c.):
+- i crediti alimentari, tranne che per le cause di alimenti;
+- i crediti aventi come oggetto sussidi dovuti per mat

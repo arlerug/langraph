@@ -1,0 +1,15 @@
+ondomini del palazzo del mio cliente. Probabilmente non è stata fatta la voltura catastale al tempo della vendita del suo appartamento. Perché nell'atto di compravendita e nella nota di trascrizione il mio cliente risulta che ha una quota di possesso per quel subalterno. Nella visura catastale non risulta. Come posso verificare se è stata fatta la voltura catastale? Telematicamente è possibile?
+Altrimenti la voltura la posso fare con il software Unimod?
+Grazie di nuovo !
+Come dice EALFIN, in visura devi pertanto trovare come proprietario in quota del bcnc, il venditore.
+In questo caso procedi con la voltura, o preallineamento, se l'atto è molto vecchio.
+Il programma da usare è il VOLTURA 1.1, dell'Agenzia delle Entrate.
+Saluti
+Devi essere un utente registrato per rispondere a questo messaggio
+Gia153
+Iscritto il:
+14 Novembre 2016 alle ore 10:15
+Messaggi:
+157
+"EALFIN" ha scritto:
+Se è solo

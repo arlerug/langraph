@@ -1,0 +1,6 @@
+riportate le sagome degli edifici e delle particelle dei terreni con i relativi numeri di particella.
+Se ne ricorrono le condizioni, sarà comprensivo anche delle mappe limitrofe, ossia delle particelle appartenenti ai fogli confinanti a quello in cui si trova la particella richiesta.
+Non è prevista la possibilità di richiedere la stampa di un intero foglio di mappa.
+Inoltro della richiesta di visura
+Cliccando su qualsiasi pulsante “Visura”, si procede alla richiesta della visura stessa. È possibile quindi procedere al pagamento dei tributi dovuti oppure richiedere altre visure ed effettuare un pagamento complessivo. Non è possibile superare il limite di venti richieste contemporanee. Per poter inoltrare nuove richieste di visura oltre la soglia determinata, occorre effettuare il pagamento dei tributi dovuti per le visure già richieste.
+Il rapporto tra ricerche effettuate e visure effetti

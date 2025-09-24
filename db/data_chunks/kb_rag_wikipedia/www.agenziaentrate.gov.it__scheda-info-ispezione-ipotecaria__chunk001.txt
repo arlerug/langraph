@@ -1,0 +1,13 @@
+---
+title: Che cos'è - Portale Agenzia Entrate
+url: https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/ispezione-ipotecaria/scheda-info-ispezione-ipotecaria
+hostname: agenziaentrate.gov.it
+description: Ispezione ipotecaria - Che cos'è
+sitename: Portale Agenzia Entrate
+date: 2003-01-01
+tags: ['Ispezione ipotecaria']
+---
+Ispezione ipotecaria - Che cos'è
+Ultimo aggiornamento: 18 ottobre 2024
+Con l’ispezione ipotecaria è possibile consultare i registri immobiliari del territorio nazionale, con esclusione dei territori ove vige il sistema del libro fondiario (province di Bolzano, Gorizia, Trento, Trieste e alcuni comuni delle province di Belluno, Brescia Udine e Vicenza).
+L’ispezione può riguardare qualsiasi soggetto (persona fisica o giuridica) e permette di accedere agli atti depositati presso i Servizi di pubblicità immobiliare dell’Agenzia (atti notarili, giudiziari, ammin

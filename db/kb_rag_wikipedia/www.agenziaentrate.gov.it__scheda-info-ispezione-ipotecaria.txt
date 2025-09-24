@@ -1,0 +1,23 @@
+---
+title: Che cos'è - Portale Agenzia Entrate
+url: https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/ispezione-ipotecaria/scheda-info-ispezione-ipotecaria
+hostname: agenziaentrate.gov.it
+description: Ispezione ipotecaria - Che cos'è
+sitename: Portale Agenzia Entrate
+date: 2003-01-01
+tags: ['Ispezione ipotecaria']
+---
+Ispezione ipotecaria - Che cos'è
+Ultimo aggiornamento: 18 ottobre 2024
+Con l’ispezione ipotecaria è possibile consultare i registri immobiliari del territorio nazionale, con esclusione dei territori ove vige il sistema del libro fondiario (province di Bolzano, Gorizia, Trento, Trieste e alcuni comuni delle province di Belluno, Brescia Udine e Vicenza).
+L’ispezione può riguardare qualsiasi soggetto (persona fisica o giuridica) e permette di accedere agli atti depositati presso i Servizi di pubblicità immobiliare dell’Agenzia (atti notarili, giudiziari, amministrativi ecc.) e alle relative formalità di trascrizione, di iscrizione e di annotazione.
+Note di Trascrizione
+In queste formalità, per lo più relative ad atti di trasferimento o costituzione di diritti su beni immobili, il soggetto referenziato nell’ispezione può comparire come parte “a favore” (per esempio, l’acquirente) o come parte “contro” (per esempio, il venditore). Mediante l’ispezione delle trascrizioni è possibile visionare anche quelle relative ad atti di costituzione di vincoli di vario genere (pignoramenti, sequestri, domande giudiziali).
+Note di Iscrizione
+L’ispezione delle iscrizioni consente la visione delle formalità relative alla costituzione di ipoteche su immobili derivanti, per esempio, da contratti di finanziamento.
+Domande di Annotazione
+In questo caso si visionano quelle formalità che modificano precedenti trascrizioni, iscrizioni o annotazioni, come le cancellazioni di ipoteche e di pignoramenti.
+Le ispezioni ipotecarie possono essere richieste sia presso gli uffici provinciali, sia online.
+E’ importante sapere che i registri di pubblicità immobiliare sono organizzati su base personale e che pertanto la modalità di ispezione effettuata per soggetto - attraverso l’indicazione dei dati identificativi delle persone fisiche o delle persone giuridiche - rappresenta la coerente modalità di ricerca per conoscere, per ogni soggetto ispezionato, tutte le formalità che lo riguardano, con riferimento agli immobili ubicati nella circoscrizione territoriale oggetto di ricerca. L’organizzazione su base personale comporta inoltre che le informazioni relative ad un bene immobile, inclusa la presenza di eventuali pesi, vincoli o garanzie sullo stesso, possano essere conosciute nella loro sequenza cronologica solo effettuando l’ispezione sui vari soggetti che nel tempo ne hanno avuto la titolarità.
+L’informatizzazione dei registri ha poi reso possibili, limitatamente al periodo informatizzato, anche le ispezioni sulla base degli identificativi catastali dell’immobile oppure “incrociate” per soggetto/immobile; è bene però sapere che questa modalità di ispezione, molto spesso vicina alle esigenze dell’utente, fornisce solo le formalità in cui compare l'immobile come identificato nella richiesta di ispezione, sempreché gli stessi identificativi catastali coincidano con quelli presenti in un titolo e nella relativa formalità eseguita nei registri immobiliari.
+Attenzione: la banca dati dei registri immobiliari può contenere dati personali anche di natura sensibile e giudiziaria, tutelati in base al Dlgs 196/2003. L'uso improprio o eccessivo di queste informazioni è punibile ai sensi di legge.

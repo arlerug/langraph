@@ -1,0 +1,13 @@
+---
+title: Catasto in Italia - Wikipedia
+url: https://it.wikipedia.org/wiki/Catasto_in_Italia
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2015-06-02
+license: CC BY-SA 4.0
+---
+Catasto in Italia
+Il catasto in Italia è il registro dei beni immobili siti nel territorio della Repubblica Italiana. Ha valore non probatorio, è ad estimo indiretto, geometrico, particellare, ed è suddiviso in catasto dei terreni e catasto dei fabbricati.
+Nelle province di Trieste, Gorizia, Trento e Bolzano, e in alcuni comuni delle province di Belluno, Brescia e Udine, invece, è ancora esistente il sistema del libro fondiario ereditato dall'amministrazione austro-ungarica.
+Storia
+[modifica | modifica wikitesto]I catasti comunali o estimi del Medioevo stabilivano che i cittadini avessero iscritti in essi i loro beni mobili e immobili. Vigevano spesso grandi differenze tra i vari Stati italian

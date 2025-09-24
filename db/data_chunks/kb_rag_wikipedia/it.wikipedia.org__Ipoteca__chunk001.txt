@@ -1,0 +1,12 @@
+---
+title: Ipoteca - Wikipedia
+url: https://it.wikipedia.org/wiki/Ipoteca
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2005-11-24
+license: CC BY-SA 4.0
+---
+Ipoteca
+In diritto l'ipoteca è un diritto reale di garanzia che riguarda, principalmente, beni immobili e in secondo piano i beni mobili registrati. Esso non comporta la perdita del possesso da parte del debitore del bene stesso che è oggetto della garanzia.
+Storia
+[modifica | modifica wikitesto]La moderna configurazione dell'ipoteca come garanzia reale su cosa altrui è il punto di equilibrio raggiunto fra le opposte esigenze di tutela del credito e di libertà nella circolazione dei beni. In epoca anteriore alle codificazioni moderne il vincolo ipotecario su un bene ne comportava l'inalienabilità. Il Codice napoleonico lo trasformava in vincolo gravante, con diritto di seguito, su un bene liberamente negoziabile.

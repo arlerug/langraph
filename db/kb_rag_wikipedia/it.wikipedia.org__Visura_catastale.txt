@@ -1,0 +1,44 @@
+---
+title: Visura catastale - Wikipedia
+url: https://it.wikipedia.org/wiki/Visura_catastale
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2007-03-25
+license: CC BY-SA 4.0
+---
+Visura catastale
+La visura catastale è un documento rilasciato dall'Agenzia delle entrate della Repubblica Italiana contenente le informazioni alfanumeriche e topografiche registrate presso il catasto relativamente ad un immobile, sia esso fabbricato o terreno, situato sul territorio nazionale italiano.
+Contenuto
+[modifica | modifica wikitesto]I dati della visura catastale variano a seconda che essi vengano richiesti per un terreno o un fabbricato. Inoltre i dati contenuti possono riguardare, a seconda della richiesta effettuata, tutti i beni immobili di proprietà di un soggetto fisico o giuridico, oppure un singolo bene.
+I dati della visura ordinaria di un immobile sono[1]:
+- dati identificativi: sezione urbana, foglio, particella, subalterno, Comune.
+- dati di classamento: zona censuaria ed eventuale microzona, categoria catastale, classe e superficie catastale, consistenza, rendita.
+altre informazioni: dati anagrafici e codice fiscale delle ditte catastali o dei possessori.
+La visura catastale storica riporta invece le informazioni (in ordine cronologico) sulla storia dell’immobile, tra cui i precedenti proprietari o titolari di diritti estinti (come un eventuale diritto di usufrutto o di abitazione), fusioni con altri immobili, ampliamenti o cambi di destinazione d'uso.
+Nelle visure per immobile al catasto fabbricati è di conseguenza possibile verificare anche eventuali variazioni di consistenza (espressa in vani ed in metri quadrati) ed eventuali aggiornamenti relativi alla rendita catastale.
+Per quanto riguarda i terreni e i fabbricati, invece, riporta le caratteristiche sotto diversi profili:
+- individuativo: comune (comune catastale dove si trova il terreno), sezione, foglio, particella e subalterno (in caso di fabbricato rurale) per entrambe le categorie, anche se nel caso del fabbricato, quando presente, viene riportato anche il denominatore;
+- qualitativo: tipologia di coltura (113 categorie) e classe per i terreni, categoria catastale (dalla A alla F e 58 sottocategorie) e classe (livello di qualità dell’immobile) per i fabbricati;
+- quantitativo: i terreni sono misurati in ettari (1 ha = 10.000 m²) o in are (1 are = 100 m²), mentre i fabbricati sono catalogati in base alla loro consistenza;
+- fiscale: per i terreni vengono riportate reddito dominicale (reddito attribuito al proprietario sia che il terreno sia oggetto di attività agricola che in caso contrario) e reddito agrario (reddito attribuito all’esercente dell’attività agricola), mentre per i fabbricati si riporta la rendita catastale (capacità di produzione reddituale della struttura).
+Con la rendita catastale si possono inoltre calcolare l'imposta sul reddito e le imposte locali, come ad es. l'Imposta comunale sugli immobili. Nella visura catastale possono essere trovati anche il nome del proprietario, del nudo proprietario o dell'usufruttuario, anche se il documento non gode di valore legale di proprietà (si dice quindi che è un atto “non probatorio").
+Le visure vengono erogate tramite la piattaforma dell'agenzia del territorio oggi accorpata nell'agenzia delle entrate.
+Dal 1º luglio 2010 è obbligatorio, in sede di atto notarile di compravendita, attestare la conformità tra lo stato di fatto dell'immobile e le planimetrie catastali. All'atto verrà poi allegata la planimetria catastale o ne verranno citati gli estremi.
+Utilizzo
+[modifica | modifica wikitesto]La visura catastale consente ai soggetti privati e giuridici di reperire i dati catastali di immobili, terreni e fabbricati appartenenti a altre persone fisiche e giuridiche, ma la sua utilità è prevalentemente informativa. I dati contenuti nella visura catastale non hanno infatti valenza legale, in quanto il catasto è definito un ente non probatorio. I dati contenuti possono perciò non rispecchiare la realtà dei fatti, per esempio gli intestatari di un immobile possono non essere corretti, oppure variare nel tempo.
+Per i motivi sopracitati, se si vuole far valere un qualche diritto reale su un immobile, terreno o fabbricato, è necessario recuperare un titolo di proprietà presso la Conservatoria dei registri immobiliari del territorio in cui si trova il bene. Tale documento può essere comunque ottenuto rivolgendosi al pubblico ufficiale che ha stipulato lo stesso atto, oppure, nel caso in cui il notaio non eserciti più la professione, recandosi presso l’archivio notarile competente per territorio.
+Note
+[modifica | modifica wikitesto]- ^ Visura catastale - Che cos'è, su agenziaentrate.gov.it, Agenzia delle entrate. URL consultato il 22 giugno 2020.
+Voci correlate
+[modifica | modifica wikitesto]- Catasto
+- Catasto (Italia)
+- Foglio (catasto)
+- Particella catastale
+- Redditi dominicali dei terreni
+- Subalterno
+- Visura camerale
+- Visura ipotecaria
+Altri progetti
+[modifica | modifica wikitesto]- Wikizionario contiene il lemma di dizionario «visura»
+Collegamenti esterni
+[modifica | modifica wikitesto]- Visura catastale - Che cos'è, su Agenzia delle Entrate. URL consultato il 10 ottobre 2019.

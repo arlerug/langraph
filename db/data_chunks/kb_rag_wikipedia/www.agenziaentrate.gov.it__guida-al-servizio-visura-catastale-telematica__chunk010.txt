@@ -1,0 +1,6 @@
+fase di pagamento secondo le modalità previste dal sistema pagoPA. Oltre ai tributi catastali, saranno addebitate anche le commissioni applicate variabili in base al Prestatore di Servizi di Pagamento (PSP) e allo strumento di pagamento scelto.
+Il sistema pagoPA invia all'utente una mail che attesta l'esito positivo della transazione e fornisce l’identificativo del pagamento (il numero IUV), che deve essere utilizzato per il prelievo dei documenti. Il medesimo numero è mostrato dalla procedura a conclusione della fase di pagamento.
+Prelievo della visura
+Conclusa, con esito positivo, la fase di pagamento, cliccando sul pulsante “Preleva visure” si accede alla pagina da cui effettuare il download delle visure acquistate.
+Nella stessa pagina è disponibile, in formato pdf, anche la ricevuta di pagamento.
+Attenzione: normalmente la ricevuta viene notificata da pagoPA ai sistemi dell'Agenzia d

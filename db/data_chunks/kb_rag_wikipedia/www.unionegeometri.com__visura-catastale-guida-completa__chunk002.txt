@@ -1,0 +1,7 @@
+he classifica e cataloga tutti gli immobili presenti sul territorio nazionale, allo scopo di garantire la corretta imposizione fiscale e agevolare le transazioni immobiliari.
+Visura catastale: cosa è, come si richiede, quali informazioni contiene, dove può essere richiesta e quali documenti bisogna avere.
+La visura è un documento fondamentale per chi intende acquistare o vendere un immobile, per verificare la correttezza dei dati catastali e per individuare eventuali anomalie.
+La visura delle informazioni catastali contiene infatti informazioni quali:
+- Dati identificativi dell’immobile: Comune, foglio, particella e subalterno.
+- Dati del proprietario: Nome, cognome, data e luogo di nascita del proprietario, nonché la data di acquisto dell’immobile.
+- Dati catastali dell’immobile: Categoria (es. abitazione, negozio, terreno agricolo), classe, consistenza (numero di vani o unità), rendita

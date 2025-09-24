@@ -1,0 +1,62 @@
+---
+title: Guida al servizio - Visura catastale telematica - Portale Agenzia Entrate
+url: https://www.agenziaentrate.gov.it/portale/-/guida-al-servizio-visura-catastale-telematica
+hostname: agenziaentrate.gov.it
+description: Guida al servizio - Visura catastale telematica. Guida al servizio - Visura catastale telematica
+sitename: Portale Agenzia Entrate
+date: 2025-01-01
+tags: ['Visura catastale']
+---
+Menu della sezione Visura catastale
+Guida al servizio - Visura catastale telematica
+Per utilizzare il servizio di visura catastale telematica è necessario aver accettato le condizioni d’uso e dichiarare di aver preso visione dell'informativa sul trattamento dei dati personali.
+Per richiedere una visura catastale si dovrà indicare in primo luogo l’Ufficio Provinciale – Territorio nel cui ambito di competenza si trovano gli immobili di interesse. Nella lista degli Uffici Provinciali non sono compresi Trento e Bolzano, i cui archivi catastali sono gestiti dalle rispettive Province autonome.
+È possibile scegliere di effettuare una visura per soggetto o per immobile. Effettuata la ricerca di un immobile censito al Catasto dei Terreni, è possibile anche richiedere una visura della mappa.
+Le visure saranno fornite su file in formato pdf.
+Modalità di ricerca
+Visura per soggetto
+Si può richiedere la visura attuale per soggetto, ossia limitata agli immobili su cui il soggetto cercato risulti all’attualità titolare di diritti reali (non è al momento previsto il rilascio della visura per soggetto storica).
+E’ possibile effettuare una ricerca sia per persone fisiche che per persone giuridiche, indicando, in alternativa, il codice fiscale o l’anagrafica completa: cognome e nome per la persona fisica,(sesso, luogo e data di nascita sono facoltativi); denominazione per la persona giuridica (la sede è facoltativa).
+E’ necessario definire l’ambito della consultazione, specificando sia il tipo di catasto (Fabbricati, Terreni o entrambi), sia il territorio di interesse (singolo comune o intera provincia). Una volta indicato il comune e il tipo di catasto, si può limitare ulteriormente l’ambito territoriale inserendo il numero del foglio (fino a un massimo di tre, separati da una virgola) e, se richieste, le sezioni censuarie terreni o fabbricati e l’eventuale sezione urbana.
+Indipendentemente dai parametri utilizzati per attivare la ricerca, il sistema restituirà:
+- in caso di esito positivo, la lista dei soggetti reperiti, dalla quale selezionare quello di interesse ai fini della richiesta di visura
+- in caso di esito negativo, uno specifico messaggio con cui si informa che il soggetto non è stato trovato nella banca dati catastale.
+Si può richiedere la visura attuale per soggetto, ossia limitata agli immobili su cui il soggetto cercato risulti all’attualità titolare di diritti reali (non è al momento previsto il rilascio della visura per soggetto storica).
+E’ possibile effettuare una ricerca sia per persone fisiche che per persone giuridiche, indicando, in alternativa, il codice fiscale o l’anagrafica completa: cognome e nome per la persona fisica,(sesso, luogo e data di nascita sono facoltativi); denominazione per la persona giuridica (la sede è facoltativa).
+E’ necessario definire l’ambito della consultazione, specificando sia il tipo di catasto (Fabbricati, Terreni o entrambi), sia il territorio di interesse (singolo comune o intera provincia). Una volta indicato il comune e il tipo di catasto, si può limitare ulteriormente l’ambito territoriale inserendo il numero del foglio (fino a un massimo di tre, separati da una virgola) e, se richieste, le sezioni censuarie terreni o fabbricati e l’eventuale sezione urbana.Indipendentemente dai parametri utilizzati per attivare la ricerca, il sistema restituirà:
+- in caso di esito positivo, la lista dei soggetti reperiti, dalla quale selezionare quello di interesse ai fini della richiesta di visura
+- in caso di esito negativo, uno specifico messaggio con cui si informa che il soggetto non è stato trovato nella banca dati catastale.
+Visura per immobile
+Si può richiedere la visura di un immobile conoscendone gli identificativi catastali.
+Per attivare la ricerca si deve indicare il tipo di Catasto (Fabbricati o Terreni), il comune catastale e l’eventuale sezione, il foglio, la particella e l’eventuale subalterno.
+In caso di omissione dei dati di sezione e/o subalterno, la ricerca produrrà l’elenco dei beni che risponde ai dati parziali forniti, dal quale si può selezionare l’immobile di specifico interesse ai fini della richiesta di visura.
+È evidenziata anche l’eventuale presenza di unità immobiliari urbane graffate o di particelle terreni suddivise in porzioni, e le ulteriori informazioni di dettaglio sono consultabili attraverso un collegamento dedicato.
+Alla conclusione della ricerca, agendo sui relativi pulsanti si può richiedere la visura attuale o storica dell’immobile selezionato.
+Visura della mappa
+In caso di immobili censiti al Catasto dei Terreni, è possibile richiedere anche una visura della mappa, agendo sull’apposito pulsante presente alla conclusione della ricerca.
+Il documento fornito su file pdf in formato A4, contiene la rappresentazione grafica in scala dell’area, centrata sulla particella scelta, nella quale sono riportate le sagome degli edifici e delle particelle dei terreni con i relativi numeri di particella.
+Se ne ricorrono le condizioni, sarà comprensivo anche delle mappe limitrofe, ossia delle particelle appartenenti ai fogli confinanti a quello in cui si trova la particella richiesta.
+Non è prevista la possibilità di richiedere la stampa di un intero foglio di mappa.
+Inoltro della richiesta di visura
+Cliccando su qualsiasi pulsante “Visura”, si procede alla richiesta della visura stessa. È possibile quindi procedere al pagamento dei tributi dovuti oppure richiedere altre visure ed effettuare un pagamento complessivo. Non è possibile superare il limite di venti richieste contemporanee. Per poter inoltrare nuove richieste di visura oltre la soglia determinata, occorre effettuare il pagamento dei tributi dovuti per le visure già richieste.
+Il rapporto tra ricerche effettuate e visure effettivamente richieste nella giornata non deve essere superiore a cinque. In caso di superamento della soglia l’accesso sarà bloccato fino alle ore 24.00 per utilizzo non coerente con le finalità del servizio.
+Acquisto e pagamento della visura
+Si potrà procedere all’acquisto delle visure richieste tramite l’apposita voce di menu “Acquista visure”. In presenza di visure pronte per l’acquisto, richieste dall’utente nelle 24 ore precedenti, sarà mostrata la relativa lista dalla quale è possibile selezionare le visure di interesse.
+Il sistema calcolerà l’importo totale dei tributi dovuti e attiverà la fase di pagamento secondo le modalità previste dal sistema pagoPA. Oltre ai tributi catastali, saranno addebitate anche le commissioni applicate variabili in base al Prestatore di Servizi di Pagamento (PSP) e allo strumento di pagamento scelto.
+Il sistema pagoPA invia all'utente una mail che attesta l'esito positivo della transazione e fornisce l’identificativo del pagamento (il numero IUV), che deve essere utilizzato per il prelievo dei documenti. Il medesimo numero è mostrato dalla procedura a conclusione della fase di pagamento.
+Prelievo della visura
+Conclusa, con esito positivo, la fase di pagamento, cliccando sul pulsante “Preleva visure” si accede alla pagina da cui effettuare il download delle visure acquistate.
+Nella stessa pagina è disponibile, in formato pdf, anche la ricevuta di pagamento.
+Attenzione: normalmente la ricevuta viene notificata da pagoPA ai sistemi dell'Agenzia delle Entrate entro pochi secondi dalla conclusione della transazione di pagamento da parte dell’utente.
+In alcuni casi i tempi per la notifica della ricevuta possono anche superare le 24 ore (eventualità prevista dalle specifiche di pagoPA), e il servizio segnala che:
+"La richiesta di pagamento non è ancora conclusa, accedere in un secondo momento alla sezione Visure acquistate per verificare lo stato della transazione."
+Tramite la voce di menu “Visure acquistate”, si può accedere alla funzione di prelievo dei documenti anche in un momento successivo alla fase di acquisto. In tale caso, per l’accesso ai documenti acquistati, sarà richiesto di inserire l’identificativo di pagamento IUV rilasciato a conclusione della transazione di pagamento.
+Qualora siano stati effettuati più acquisti, si potrà indicare un qualsiasi identificativo di pagamento, purché relativo a un acquisto eseguito negli ultimi dieci giorni.
+L’inserimento di un identificativo di pagamento valido renderà disponibili per il prelievo tutte le visure acquistate nel suddetto periodo e le relative ricevute di pagamento. Saranno evidenziati i documenti già prelevati con il simbolo di spunta.
+Anche qualora una transazione di pagamento sia conclusa con esito negativo (senza dunque la generazione di una visura), si potrà accedere alla sezione visure acquistate dove sarà comunque disponibile la relativa ricevuta di pagamento a importo nullo.
+Attenzione: i documenti richiesti sono disponibili fino a 10 giorni dal pagamento. Trascorso questo tempo, non sarà più non sarà più possibile visualizzare e prelevare i documenti richiesti.
+Assistenza
+Informazioni relative alle modalità di utilizzo del servizio “Visura catastale telematica” sono disponibili nel portale dell'assistenza online, in particolare seguendo il percorso Home / Servizi / Servizi al Cittadino / Servizi Catastali e Ipotecari senza registrazione / Visure catastali telematiche.
+Per richiedere assistenza è possibile contattare
+- il numero verde 800219402 dedicato alla risoluzione di problemi di carattere generale e tecnico (per es.: problemi tecnici di configurazione della postazione, di collegamento e di gestione contabile)
+- la casella di posta elettronica assistenzaweb@agenziaentrate.it per problemi di accesso al sistema e di utilizzo dei servizi.

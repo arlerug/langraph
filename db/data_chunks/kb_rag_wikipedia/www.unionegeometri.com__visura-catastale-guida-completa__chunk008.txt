@@ -1,0 +1,6 @@
+obile nel sistema catastale e ottenere le informazioni corrispondenti. I dati richiesti sono:
+- Comune: Indica il comune in cui si trova l’immobile.
+- Foglio: Il foglio è un elemento numerico che identifica una specifica porzione del territorio comunale.
+- Particella: La particella è un numero che identifica univocamente un’unità immobiliare all’interno del foglio catastale.
+- Subalterno (facoltativo): Il subalterno è un ulteriore elemento numerico che identifica un’unità immobiliare all’interno di una particella. Non è sempre necessario, ma può essere utile per individuare con maggiore precisione un’unità immobiliare in caso di fabbricati con più unità.
+Queste informazioni possono essere trovate in diversi documenti, come un atto di compravendita, una nota di trascrizione, un contratto di locazione o un precedente documento catastale. Se non si dispone di tali dati, è possibile rivolger

@@ -1,0 +1,6 @@
+rlo Palumbo - Risorse (2020-2022)
+- Antonio Dorrello - Risorse (dal 2022)
+- Vincenzo Carbone - Contribuenti (dal 2024)
+Software di controllo
+[modifica | modifica wikitesto]VeRa
+[modifica | modifica wikitesto]Per individuare i soggetti ad alto rischio di evasione fiscale, l’Agenzia delle Entrate utilizza un nuovo software, VeRa, acronimo di «verifica dei rapporti finanziari». VeRa è uno strumento di analisi dei dati che consente di incrociare i dati dell’Archivio dei rapporti finanziari con gli altri dati dei contribuenti di cui l’amministrazione finanziaria è a conoscenza. L’algoritmo cerca anomalie tra varie voci, come redditi, conti corrente, immobili dei contribuenti, acquisti digitali. Con l’interpolazione di questi dati, si compone un identikit del contribuente e si creano delle liste di contribuenti «rischio», che vengono poi esaminate dalle Direzioni regionali e provinciali, le qu

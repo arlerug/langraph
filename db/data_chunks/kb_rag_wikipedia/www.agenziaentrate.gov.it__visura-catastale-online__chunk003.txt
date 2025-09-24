@@ -1,0 +1,8 @@
+astali anche se il richiedente non è titolare neanche in parte dell’immobile.
+E’ possibile richiedere:
+- visure attuali per soggetto, ossia limitate agli immobili su cui il soggetto cercato risulti all’attualità titolare di diritti reali (non è al momento previsto il rilascio della visura per soggetto storica)
+- visure, attuali o storiche, di un immobile (censito al Catasto dei Terreni o al Catasto dei Fabbricati), impostando la ricerca attraverso gli identificativi catastali
+- visure della mappa, di una particella censita al Catasto dei Terreni, impostando la ricerca attraverso gli identificativi catastali.
+La ricerca è estesa a tutto il territorio nazionale, a esclusione delle province autonome di Trento e Bolzano.
+I documenti sono forniti su file in formato pdf.
+Per utilizzare il servizio è necessario effettuare l’accesso ai servizi online dell’Agenzia tramite un'identità SPID, una Ca

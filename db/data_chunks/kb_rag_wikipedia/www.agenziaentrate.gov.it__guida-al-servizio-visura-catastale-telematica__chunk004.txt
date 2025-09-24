@@ -1,0 +1,6 @@
+fabbricati e l’eventuale sezione urbana.
+Indipendentemente dai parametri utilizzati per attivare la ricerca, il sistema restituirà:
+- in caso di esito positivo, la lista dei soggetti reperiti, dalla quale selezionare quello di interesse ai fini della richiesta di visura
+- in caso di esito negativo, uno specifico messaggio con cui si informa che il soggetto non è stato trovato nella banca dati catastale.
+Si può richiedere la visura attuale per soggetto, ossia limitata agli immobili su cui il soggetto cercato risulti all’attualità titolare di diritti reali (non è al momento previsto il rilascio della visura per soggetto storica).
+E’ possibile effettuare una ricerca sia per persone fisiche che per persone giuridiche, indicando, in alternativa, il codice fiscale o l’anagrafica completa: cognome e nome per la persona fisica,(sesso, luogo e data di nascita sono facoltativi); denominazione per

@@ -1,0 +1,6 @@
+inate particelle o mappali.
+Talvolta i mappali contengono dei fabbricati; in tal caso, poiché in un singolo appezzamento di terreno ci possono essere porzioni di fabbricato non appartenenti allo stesso proprietario (ad esempio in un condominio), queste particelle possono essere divise in più unità (che generalmente si sviluppano in verticale e quindi non sono rappresentate sulla mappa) alle quali viene assegnato un terzo numero detto subalterno.
+Ad ogni unità immobiliare identificata come esposto fanno capo una serie di informazioni obbligatorie:
+- Categoria (per i fabbricati), Qualità (per i terreni): descrivono la tipologia dell'immobile. Ad esempio villa, villino, autorimessa, prato, vigneto, ecc.;
+- Classe: nell’ambito di una medesima categoria, le caratteristiche qualitative vengono apprezzate per mezzo della assegnazione di una classe;
+- Consistenza catastale: l’unità di misura del

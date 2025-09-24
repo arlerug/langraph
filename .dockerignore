@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite*
+.env
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+.qdrant/
+ollama/

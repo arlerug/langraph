@@ -1,0 +1,29 @@
+---
+title: Espropriazione forzata - Wikipedia
+url: https://it.wikipedia.org/wiki/Espropriazione_forzata
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2007-06-06
+license: CC BY-SA 4.0
+---
+Espropriazione forzata
+In diritto, l'espropriazione forzata o espropriazione coattiva è un procedimento esecutivo, di natura coattiva, diretto a sottrarre al debitore determinati beni (pignorabili) facenti parte del suo patrimonio e a convertirli in denaro mediante la vendita ai pubblici incanti, o altre procedure, al fine di soddisfare il creditore precedente, in attuazione della loro funzione di garanzia generica delle obbligazioni ex articolo 2740 del codice civile italiano.
+L'espropriazione forzata non va confusa con l'espropriazione per pubblica utilità, in cui il proprietario è indennizzato per un valore pari a quello del bene espropriato; l'espropriazione per pubblica utilità si fonda sul fatto che l'utile collettivo è superiore all'utile individuale.
+Tipologia
+[modifica | modifica wikitesto]Possiamo avere diversi tipi di espropriazione forzata:
+- esecuzione forzata mobiliare
+- esecuzione forzata immobiliare
+- esecuzione forzata presso terzi.
+Procedimento
+[modifica | modifica wikitesto]Comincia con la presentazione di istanza del creditore all'ufficiale giudiziario. L'espropriazione viene diretta dal giudice dell'esecuzione a norma dell'art. 484 cpc. La nomina di questi avviene da parte del presidente del tribunale dopo la presentazione del fascicolo a cura del cancelliere, entro due giorni dalla sua formazione.
+Il giudice dell'esecuzione è immutabile (art. 174 cpc), cioè rimane tale per tutto il corso del processo. Tra i suoi poteri ricordiamo: potere di audizione delle parti interessate, potere di ordinanza, potere di decidere con sentenza le opposizioni agli atti esecutivi.
+L'espropriazione forzata si inizia con il pignoramento (art. 491 cpc). L'atto è compiuto dall'ufficiale giudiziario su istanza del creditore e previa esibizione del titolo esecutivo del precetto ritualmente notificati. Esso produce un assoggettamento specifico dei beni, nel senso che risulteranno inefficaci eventuali atti di alienazione e disposizione (art. 492 cpc). Possono essere oggetto di pignoramento sia beni determinati appartenenti al patrimonio del debitore sia beni appartenenti a un terzo vincolati a garanzia del credito.
+Il creditore sceglie con libertà quali beni sono da pignorare siano essi immobili o mobili. Non può pignorare beni soggetti a pegno o ipoteca e alcuni diritti esclusi tassativamente dalla legge, come il diritto agli alimenti.
+Il pignoramento perderà efficacia se siano trascorsi 90 giorni senza assegnazione o vendita. La vendita può avvenire con incanto a mezzo di asta oppure senza incanto a mezzo di commissario. Dalla vendita si ricaverà la somma di denaro che provvederà alla liquidazione dei crediti dei creditori (principalmente i chirografari) tramite la ripartizione della somma ricavata.
+Il debitore esecutato potrà evitare il pignoramento versando nelle mani dell'ufficiale giudiziario l'ammontare della somma necessario a soddisfare il credito insieme con le spese relative all'esecuzione, oppure, chiedere la conversione del pignoramento ai sensi dell'art. 495 cpc. Con la conversione si sostituiscono le cose pignorate con una somma di denaro di equivalente valore comprensivo di spese. Tale richiesta va proposta in cancelleria prima che sia disposta la vendita e l'assegnazione a norma degli artt. 503, 552, 569 cpc. Il debitore potrà anche chiedere la riduzione del pignoramento quando il valore dei beni pignorati è superiore all'importo delle spese e dei crediti.
+Riferimenti normativi
+[modifica | modifica wikitesto]Voci correlate
+[modifica | modifica wikitesto]Altri progetti
+[modifica | modifica wikitesto]- Wikiversità contiene risorse sul Diritto privato
+Collegamenti esterni
+[modifica | modifica wikitesto]- Pignoramento su Wiki Prestiti - Enciclopedia del Credito, aprile 2015.

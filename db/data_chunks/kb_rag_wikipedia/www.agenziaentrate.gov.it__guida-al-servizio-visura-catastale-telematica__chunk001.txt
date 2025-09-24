@@ -1,0 +1,13 @@
+---
+title: Guida al servizio - Visura catastale telematica - Portale Agenzia Entrate
+url: https://www.agenziaentrate.gov.it/portale/-/guida-al-servizio-visura-catastale-telematica
+hostname: agenziaentrate.gov.it
+description: Guida al servizio - Visura catastale telematica. Guida al servizio - Visura catastale telematica
+sitename: Portale Agenzia Entrate
+date: 2025-01-01
+tags: ['Visura catastale']
+---
+Menu della sezione Visura catastale
+Guida al servizio - Visura catastale telematica
+Per utilizzare il servizio di visura catastale telematica è necessario aver accettato le condizioni d’uso e dichiarare di aver preso visione dell'informativa sul trattamento dei dati personali.
+Per richiedere una visura catastale si dovrà indicare in primo luogo l’Ufficio Provinciale – Territorio nel cui ambito di competenza si trovano gli immobili di interesse. Nella lista degli Uffici Provinciali non sono c

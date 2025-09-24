@@ -1,0 +1,5 @@
+ure per immobile al catasto fabbricati è di conseguenza possibile verificare anche eventuali variazioni di consistenza (espressa in vani ed in metri quadrati) ed eventuali aggiornamenti relativi alla rendita catastale.
+Per quanto riguarda i terreni e i fabbricati, invece, riporta le caratteristiche sotto diversi profili:
+- individuativo: comune (comune catastale dove si trova il terreno), sezione, foglio, particella e subalterno (in caso di fabbricato rurale) per entrambe le categorie, anche se nel caso del fabbricato, quando presente, viene riportato anche il denominatore;
+- qualitativo: tipologia di coltura (113 categorie) e classe per i terreni, categoria catastale (dalla A alla F e 58 sottocategorie) e classe (livello di qualità dell’immobile) per i fabbricati;
+- quantitativo: i terreni sono misurati in ettari (1 ha = 10.000 m²) o in are (1 are = 100 m²), mentre i fabbricati sono cat

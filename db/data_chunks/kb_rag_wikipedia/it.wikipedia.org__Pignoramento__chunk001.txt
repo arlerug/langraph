@@ -1,0 +1,13 @@
+---
+title: Pignoramento - Wikipedia
+url: https://it.wikipedia.org/wiki/Pignoramento
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2005-10-26
+license: CC BY-SA 4.0
+---
+Pignoramento
+Nel diritto italiano, si definisce pignoramento l'atto con il quale ha inizio l'espropriazione forzata. È l'ingiunzione che l'ufficiale giudiziario fa al debitore di astenersi da ogni atto diretto a sottrarre alla garanzia del credito i beni a esso assoggettati e i frutti di essi, con l'avvertimento che qualsiasi atto sarà invalido (art. 492 c.p.c.). È disciplinato dal Libro III del codice di procedura civile italiano (artt. da 491 a 497).
+La legge consente strumenti di protezione del patrimonio opponibili ai creditori, come il conferimento dei beni a un fondo patrimoniale, oppure a un trust di diritto anglosassone.
+Presupposti
+[modifica | modifica wikitesto]In primo luogo, è necessaria la

@@ -1,0 +1,133 @@
+---
+title: Pignoramento - Wikipedia
+url: https://it.wikipedia.org/wiki/Pignoramento
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2005-10-26
+license: CC BY-SA 4.0
+---
+Pignoramento
+Nel diritto italiano, si definisce pignoramento l'atto con il quale ha inizio l'espropriazione forzata. È l'ingiunzione che l'ufficiale giudiziario fa al debitore di astenersi da ogni atto diretto a sottrarre alla garanzia del credito i beni a esso assoggettati e i frutti di essi, con l'avvertimento che qualsiasi atto sarà invalido (art. 492 c.p.c.). È disciplinato dal Libro III del codice di procedura civile italiano (artt. da 491 a 497).
+La legge consente strumenti di protezione del patrimonio opponibili ai creditori, come il conferimento dei beni a un fondo patrimoniale, oppure a un trust di diritto anglosassone.
+Presupposti
+[modifica | modifica wikitesto]In primo luogo, è necessaria la presenza di un titolo esecutivo e di un atto di precetto. Il pignoramento può essere iniziato solo dopo la notifica di quest'ultimo atto e dopo il decorso del termine per l'adempimento spontaneo in esso indicato. Tale termine non può essere minore di dieci giorni.
+Effetti
+[modifica | modifica wikitesto]I beni, pur restando di proprietà (e, di solito, anche nel possesso) del debitore, sono sottratti alla sua libera disponibilità, essendo diretti al soddisfacimento delle pretese creditorie. Contro gli atti di disposizione materiale la garanzia è fornita in due modi:
+- preventivamente, attraverso l'istituto della custodia (artt. 520-522, 546, 559 e 560 c.p.c.);
+- successivamente, attraverso l'impiego del bene (artt. 388 e 388 bis c.p.);
+Atti di disposizione che non hanno effetto, posti in pregiudizio del creditore procedente e di quelli intervenuti, sono ad esempio:
+- gli atti di alienazione dei beni sottoposti a pignoramento, salvi gli effetti del possesso in buona fede dei beni mobili non iscritti in pubblici registri;
+- le alienazioni di beni immobili o di beni mobili iscritti in pubblici registri, che siano state trascritte successivamente al pignoramento;
+- le cessioni di crediti che siano state notificate al debitore ceduto e accettate dal medesimo successivamente al pignoramento;
+- le alienazioni di universalità di mobili che non abbiano data certa;
+- le alienazioni di beni mobili di cui non sia stato trasmesso il possesso anteriormente al pignoramento, salvo che risultino da atto avente data certa;
+- gli atti che importano vincoli di indisponibilità, se non sono stati trascritti prima del pignoramento, quando hanno come oggetto beni immobili o beni mobili iscritti in pubblici registri e, negli altri casi, se non hanno data certa anteriore al pignoramento;
+- gli atti e le domande per la cui efficacia rispetto ai terzi acquirenti la legge richiede la trascrizione, se non trascritti anteriormente al pignoramento.
+Forma dell'atto di pignoramento
+[modifica | modifica wikitesto]Il pignoramento deve contenere, oltre l'ingiunzione di cui sopra (art. 492 c.p.c):
+- l'invito al debitore a fare dichiarazione di residenza - o ad eleggere domicilio - in uno dei comuni del circondario ove ha sede il giudice competente per l'esecuzione. In mancanza tutte le notifiche saranno fatte presso la cancelleria del giudice;
+- l'avvertimento che il debitore possa chiedere, depositando apposita istanza in cancelleria, di sostituire alle cose o ai crediti pignorati una somma di denaro pari all'importo dovuto ai creditori, comprensivo di interessi e spese. Ciò depositando in cancelleria un'apposita istanza e una somma non inferiore a un quinto dell'importo del credito per cui è stato eseguito il pignoramento.
+Oggetto del pignoramento
+[modifica | modifica wikitesto]Secondo l'art. 2740 del codice civile, la responsabilità patrimoniale del debitore comprende tutti i suoi beni presenti e futuri, con le limitazioni di legge.
+Possono essere beni mobili e/o immobili o crediti, anche in possesso di terzi.
+- Se il debitore indica cose mobili, queste dal momento della dichiarazione sono considerate pignorate anche agli effetti della custodia e l'ufficiale giudiziario procede ad accedere al luogo in cui si trovano;
+- Se sono indicati beni immobili, l'ufficiale giudiziario procede con le forme dell'espropriazione immobiliare;
+- Se sono indicati crediti o cose mobili che sono in possesso di terzi, il pignoramento si considera perfezionato nei confronti del debitore esecutato dal momento della sua dichiarazione.
+Quando i beni assoggettati a pignoramento appaiano insufficienti per la soddisfazione del creditore procedente ovvero appaia manifesta la lunga durata della loro liquidazione, l'ufficiale giudiziario invita il debitore a indicare ulteriori beni utilmente pignorabili, i luoghi ove si trovano ovvero le generalità dei terzi debitori. Di tale dichiarazione viene redatto processo verbale, sottoscritto dal debitore.
+Crediti e beni impignorabili
+[modifica | modifica wikitesto]L'art. 545 c.p.c. specifica i crediti non pignorabili. Questi sono i crediti alimentari e quelli aventi come oggetto sussidi di grazia o di sostentamento a persone in difficoltà economiche, oppure sussidi dovuti per maternità, malattie e funerali da casse di assicurazione, da enti di assistenza o da istituti di beneficenza. Inoltre, la legge dispone l'impignorabilità di beni aventi valore religioso, oppure che garantiscano il sostentamento del debitore e della sua famiglia almeno per un mese e, ancora, debbano essere conservati per l'adempimento di un pubblico servizio.
+I crediti erogati da enti di assistenza sono oggetto di impignorabilità relativa, limitata alla quota di pensione, assegno o indennità necessaria per assicurare al pensionato mezzi adeguati alle sue esigenze di vita, in genere pari alla pensione sociale INPS riproporzionata al numero e reddito dei componenti il nucleo famigliare.
+Il Dl n. 83/2015[1], modifica l'art. 545 del codice di procedura civile, e per la prima volta, oltre all'an, specifica il quantum, del minimo vitale non pignorabile, pari alla << misura massima mensile dell'assegno sociale, aumentato della metà>> (per 13 mensilità).
+Può essere invece pignorata, al massimo per il 20%, la quota eccedente questo reddito[2].
+In forza della legge n. 1261/1965 l'indennità mensile e la diaria dei parlamentari non possono essere sequestrate o pignorate.[3]
+È impignorabile l'unico immobile a uso abitativo di proprietà del debitore per soli debiti tributari, quindi soltanto da parte dell'agente di riscossione a favore della pubblica amministrazione (Art. 76 del D.P.R. n. 602/1973), che non è classificata di lusso e se il contribuente vi ha la residenza anagrafica. Resta pignorabile per debiti verso banche o cittadini privati di qualsiasi importo (quindi senza la soglia minima di 120.000, e di 20.000 euro per l'ipoteca), o per debiti tributari di almeno 120.000 euro verso immobili prima casa "di lusso" (e comunque se di categoria catastale A/8 e A/9). Resta pignorabile la prima casa, a prescindere dal reddito del proprietario, da parte di tutti i soggetti privati: banche o semplici cittadini. Per l'impignorabilità rimane tutto invariato da Luglio 2017 con la nascita di Agenzia delle entrate-Riscossione al posto di Equitalia, agenzia cui la legge ha trasferito la titolarità di tutti i rapporti negoziali in essere in capo a quest'ultima.
+Anche l'impignorabilità della prima casa da parte di Equitalia è vera solo in parte: infatti, Equitalia non può avviare il processo di pignoramento, ma può costituirsi parte civile a processo avviato, tipico il caso dei ritardi nelle spese condominiali.[senza fonte]
+A prescindere dalla qualificazione giuridica dell'agente di riscossione, Stato e banche beneficiano della speciale tutela riservata dalla legge ai creditore chirografari, tutelati in misura maggiore dei cittadini privati: dato il limite imposto a Equitalia che operava in nome e per conto di soggetti di diritto pubblico, sono state presentate nel recente passato alcuni disegni di legge[4] che si sarebbero proposti di estendere l'impignorabilità anche ai rapporti di diritto privato fra persone fisiche e/o giuridiche, con l'unica eccezione degli istituti di credito.[senza fonte]
+Soddisfatti i creditori privilegiati, è possibile chiedere al giudice il beneficio dell'esdebitazione nei casi di sovraindebitamento.
+Al 2019, non sono previsti limiti minimi di importo perché una banca possa far valere legittimamente un proprio credito, procedendo in modo coattivo al suo soddisfacimento mediante esecuzione forzata. Una parziale giustificazione di ciò si può rinvenire nel fatto che la perdita o limitazione del diritto del sarebbe "monetizzata" in un maggiore costo dei prestiti, ed in particolare in maggiore tassi di interesse medi per classe di rischio, con una componente maggiore di premio.
+Nei rapporti condominiali
+[modifica | modifica wikitesto]Sebbene il condominio non sia qualificato come un creditore chirografario, l'amministratore è munito dalla legge di particolari poteri di autotutela per il recupero dei crediti vantati da terzi nei confronti del condominio (art. 63 delle disposizioni di attuazione del codice civile[5]).
+Al 2019, non esistono limiti minimi alla procedibilità dei crediti condominiali: l'amministratore può chiedere al giudice di merito di far pignorare l'appartamento di un condomino moroso per crediti di qualsiasi importo.[6] L'assemblea può dispensarlo per qualsiasi importo. Ciò diventa opportuno per crediti di importo particolarmente basso, per i quali le spese di convocazione dell'assemblea, del decreto ingiuntivo e del successivo recupero del credito risultassero:
+- un'iniziativa non proporzionata al valore del diritto di credito azionato, tale da poter configurare un abuso di diritto da parte dell'amministratore[7][8];
+- non cost-effective, nel caso (straordinario) di un mancato ribaltamento di queste spese al condomino moroso.[9]
+Diversa è la possibilità dei terzi creditori di agire direttamente nei confronti del condominio, identificato anche con un complesso di cose, impianti e servizi comuni del fabbricato: questi beni sono normalmente indivisibili e assolutamente inespropriabili. In altre parole, beni come "la scala, l'androne e il tetto non possono essere venduti per ricavare quanto necessario per soddisfare coattivamente il creditore insoddisfatto".[10]
+Tipologie di pignoramento
+[modifica | modifica wikitesto]Pignoramento di beni mobili
+[modifica | modifica wikitesto]Ha normalmente come oggetto cose mobili di proprietà del debitore. L'ufficiale giudiziario, munito del titolo esecutivo e dell'atto di precetto, cerca le cose da pignorare nella casa del debitore e negli altri luoghi a lui appartenenti, nonché sulla persona stessa del debitore, osservando le dovute cautele e nel rispetto del decoro.
+Per le cose rinvenute nella casa di abitazione di quest'ultimo vi è una presunzione legale di appartenenza al debitore, anche se si tratti di beni acquistati da terzi o introdotti in tale abitazione.
+Per altri luoghi appartenenti al debitore si intendono quelli in cui egli eserciti la propria attività professionale o commerciale, purché non pubblica.
+Il pignoramento deve essere eseguito sulle cose che l'ufficiale giudiziario ritiene di più pronta e facile liquidazione, nel limite del presumibile valore di realizzo pari all'importo del credito oggetto del precetto, aumentato della metà. In ogni caso, l'ufficiale giudiziario deve preferire, in ordine: il denaro contante, gli oggetti preziosi, i titoli di credito e ogni altro bene che appaia di sicura realizzazione.
+La legge 24 febbraio 2006, n. 52 ha sottratto dalla categoria dei beni assolutamente impignorabili i beni necessari all'esercizio della professione del debitore, oggi pignorabili nei limiti del valore di un quinto del credito. Inoltre, ai sensi di tale norma, l'ufficiale giudiziario potrà farsi assistere da un esperto stimatore (commercialisti, avvocati, notai) nella scelta delle cose da pignorare.
+Concluse le operazioni descritte nell'art. 518 c.p.c., l'ufficiale giudiziario consegna al cancelliere del Tribunale il denaro, i titoli di credito e gli oggetti preziosi pignorati.
+Gli altri beni pignorati vengono invece lasciati nella detenzione del debitore, generalmente nominato custode dei medesimi, salvo che il creditore si opponga. In tal caso l'ufficiale giudiziario nomina un diverso custode.
+Pignoramento di beni immobili
+[modifica | modifica wikitesto]Ha per oggetto beni immobili. In particolare, una banca o una società finanziaria possono presentare la richiesta perché il pagamento di una rata di un mutuo o altra forma di finanziamento (o dell'importo totale, se è una singola quota) non è stato saldato, è stato saldato solo in parte e/o il pagamento è avvenuto oltre la scadenza prevista.
+L'ipoteca può essere iscritta o si può dare avvio alla procedura di espropriazione soltanto per crediti di importo pari almeno a 20.000 euro[11].
+L'art. 642 c.p.c. prevede l'immediata esecutività dei decreti ingiuntivi solamente nel caso di giustificata urgenza, con onere della prova a carico del creditore richiedente. Il semplice ritardo nel pagamento non giustifica in sé un carattere di urgenza, che è invece previsto se c'è pericolo di un trasferimento di beni mobili (denaro e titoli) e, per i beni immobili, se c'è il pericolo che siano intestati a persona diversa oppure venduti per impedirne il pignoramento.
+L'immediata esecutività comporta l'iscrizione di ipoteca giudiziale su uno o più beni intestati al cliente, indipendentemente dall'entità del credito da recuperare. L'ipoteca riguarda solo i beni immobili, e non sempre precede il pignoramento, ed è richiesta generalmente per crediti che sono pari a un terzo del valore del bene ipotecato o per gli altri motivi che determinano un carattere di urgenza. L'ipoteca prevede il diritto di seguito, la possibilità per il creditore ipotecario di far pignorare e vendere all'incanto il bene, a prescindere da eventuali passaggi di proprietà, e dalla presenza di intestatari a persone estranee al rapporto di credito.
+La valutazione del bene per un pignoramento (gravato o meno da ipoteca) avviene a cura di periti incaricati dal giudice, e non a cura del creditore, per l'ovvia ragione che egli potrebbe sottostimare il valore di mercato del bene per poterlo ricomprare a un prezzo di realizzo durante l'asta. Se le sessioni d'asta sono più volte disertate, nelle successive il prezzo base del bene è progressivamente ribassato.
+La legislazione non prevede un criterio di proporzionalità fra il credito da garantire e il bene pignorato. Spesso il creditore sceglie la casa perché è un bene immobile e difficilmente si riesce a vendere nel tempo di alcuni mesi previsto dalla procedura, mentre un bene mobile può essere sottratto ed eventualmente con danno e truffa dell'acquirente, se il bene era stato sottoposto nel frattempo a ipoteca dal giudice.
+Ne risulta che il pignoramento di immobili avviene anche per crediti di valore molto minore; la valorizzazione al costo storico di acquisto anziché al valore corrente di mercato non tiene conto degli eventuali lavori di messa a norma e di allargamento apportati all'immobile negli anni, e soprattutto della forte rivalutazione dei prezzi delle case nel tempo.
+Per di più, è una prassi dichiarare un valore catastale parecchio inferiore al prezzo pagato per l'acquisto, perché sul valore catastale saranno poi calcolate le imposte sulla casa. Un prezzo molto basso facilita la vendita all'incanto e assicura al creditore tempi rapidi di recupero, se non dell'acquisto di un immobile a prezzi di realizzo.
+D'altra parte, il debitore potrebbe trovarsi privato di una fissa dimora, e con una differenza (rispetto al ricavato della vendita all'incanto) che non è sufficiente ad acquistarne una nuova, essendo l'immobile venduto al costo storico e non ai prezzi correnti. Più in generale, la perdita a causa di una vendita del bene a prezzi inferiori a quelli correnti può essere vista come una "sanzione" per il ritardo di un pagamento, l'equivalente di una multa, molto più alta dell'importo da restituire.
+Il creditore può avere un evidente interesse al pignoramento dei beni, se la vendita all'incanto, in quanto creditore privilegiato, gli assegna buone probabilità di acquistare beni sottocosto, a volte di importi molto maggiori del credito vantato, per rivenderli eventualmente in secondo momento al prezzo corrente di mercato e lucrare la differenza.
+Il creditore può avere un interesse a un rimborso non immediato del credito, perché a ogni tornata d'asta il prezzo di partenza (e probabilmente di vendita) sono progressivamente ribassati.
+Mentre l'ingiunzione e l'eventuale successiva ipoteca sono notificati da un ufficiale giudiziario al proprietario del bene, la notifica non avviene in caso di pignoramento. L'ipoteca dura finché il credito non è stato completamento risarcito, e non viene progressivamente rilasciata nel caso di un rimborso del credito suddiviso in più rate.
+La segnalazione dell'insolvenza alla Centrale Rischi Interbancaria esclude tali soggetti dall'accesso al credito, mentre l'ingiunzione di pagamento blocca l'operatività finanziaria di questi ultimi.
+Pignoramento presso terzi
+[modifica | modifica wikitesto]Attiene crediti che il debitore ha verso terzi (ad esempio il conto corrente[12], stipendio[13]), oppure cose del debitore che sono in possesso di terzi. Si esegue mediante atto notificato al terzo e al debitore, e deve contenere (art. 543 c.p.c.):
+- l'ingiunzione a non compiere alcun atto dispositivo sui beni e i crediti assoggettati a pignoramento;
+- l'indicazione del credito per cui si procede, del titolo esecutivo e del precetto;
+- l'indicazione anche generica delle cose o somme dovute e l'intimazione al terzo di non disporne senza ordine del giudice;
+- l'invito a comparire davanti al giudice per effettuare la dichiarazione del terzo a norma dell'art. 547 c.p.c.
+Come per i beni mobili, anche determinati crediti non possono essere sottoposti a pignoramento, in considerazione della loro funzione di sostentamento (art. 545 c.p.c.):
+- i crediti alimentari, tranne che per le cause di alimenti;
+- i crediti aventi come oggetto sussidi dovuti per maternità, malattie o funerali da casse di assicurazione, da enti di assistenza o da istituti di beneficenza.
+I crediti da lavoro possono essere pignorati solo parzialmente, per crediti alimentari, nella misura autorizzata dal presidente del tribunale o da un giudice da lui delegato e comunque fino alla misura del quinto, per i crediti dovuti allo Stato, alle province e ai comuni e per ogni altro credito (art. 545 c.p.c).
+Dal giorno in cui gli viene notificato l'atto di pignoramento, il terzo è soggetto, relativamente alle cose e alle somme da lui dovute al debitore e nei limiti dell'importo del credito precettato aumentato della metà, agli obblighi che la legge impone al custode. Scopo della norma è assicurare al creditore pignoratizio la fruttuosità della azione esecutiva scongiurando, nel lasso di tempo intercorrente tra la notifica dell'atto di pignoramento e la dichiarazione del terzo, il pericolo di sottrazioni, alienazioni, o, più in generale, atti di disposizione da parte del terzo debitore relativamente alle cose o somme da lui dovute in pregiudizio delle aspettative creditorie.
+Al blocco delle somme, con conseguente indisponibilità per il debitore, non consegue l'automatica e immediata assegnazione delle somme al creditore, il quale potrà disporre delle stesse sono a seguito di un'ordinanza di assegnazione emessa da un Giudice[14].
+La dichiarazione del terzo
+[modifica | modifica wikitesto]Il terzo pignorato deve dichiarare di quali cose o quali somme il terzo è debitore o si trova in possesso e quando ne deve eseguire il pagamento o la consegna.
+Tale dichiarazione avviene all'udienza di comparizione indicata nell'atto di pignoramento notificatogli, solo per i crediti da lavoro. Negli altri casi la dichiarazione può essere effettuata a mezzo raccomandata inviata al creditore pignoratizio.
+Se il terzo non compare all'udienza stabilita oppure compare ma si rifiuta di fare la dichiarazione ovvero ancora sulla dichiarazione sorgono contestazioni, si apre un subprocedimento, chiamato giudizio di accertamento dell'obbligo del terzo, che si conclude con una sentenza di accertamento nei confronti di questi, soggetta ai comuni mezzi di impugnazione.
+Con la sentenza che definisce il giudizio di accertamento dell'obbligo del terzo il giudice, se accerta l'esistenza del diritto del debitore nei confronti del terzo, fissa alle parti un termine perentorio per la prosecuzione dell'esecuzione forzata.
+Se, viceversa, il giudice accerti l'inesistenza dell'obbligo del terzo, il passaggio in giudicato della sentenza determina l'estinzione del procedimento esecutivo.
+Pignoramento e poteri del fisco
+[modifica | modifica wikitesto]Per i poteri degli organi competenti in materia tributaria (Agenzia delle entrate) si applica il D.P.R. 29 settembre 1973, n. 602 ("Disposizioni sulla riscossione delle imposte sul reddito."). L'esattore ha l'obbligo di notificare la cartella esattoriale entro il quinto giorno del mese successivo alla data della contestazione.
+Il termine è perentorio per un principio a tutela del cittadino, per evitare un'azione del fisco che può protrarsi a distanza di anni. Il contribuente ha 60 giorni di tempo per fare opposizione o pagare.
+Se non presenta ricorso né paga, pur potendo dimostrare a posteriori un regolare pagamento delle tasse e l'errore dell'ente tributario, scatta la procedura pignoratizia. Il pignoramento può riguardare beni immobili, ma può consistere in un'intimazione da parte dell'Agenzia delle Entrate alla banca di prelevare dal conto corrente e trasferire all'erario l'importo dovuto (il fisco ha accesso all'anagrafe dei conti correnti bancari).
+In proposito, con la legge 27 luglio 2000, n. 212 è stato emanato il cosiddetto Statuto dei diritti del contribuente, che ha modificato il D.P.R. n. 602/1973.
+Riferimenti normativi
+[modifica | modifica wikitesto]- Artt. 513 e succ. del Codice di procedura civile
+- Artt. 491-497 del Codice di procedura civile.
+- Regio Decreto 14 aprile 1910, n. 639 - Che approva l'annesso testo unico delle disposizioni di legge relative alla riscossione delle entrate patrimoniali dello Stato.
+- Decreto del Presidente della Repubblica 29 settembre 1973, n. 602 - Disposizioni sulla riscossione delle imposte sul reddito.
+- Art. 18-quater del Decreto-legge 30 dicembre 2019, n. 162 - Disposizioni urgenti in materia di proroga di termini legislativi, di organizzazione delle pubbliche amministrazioni, nonché di innovazione tecnologica.
+Note
+[modifica | modifica wikitesto]- ^ testo coordinato pubblicato in Gazzetta Ufficiale n. 192 di Sabato 27 giugno 2015; con modifiche convertito in legge n. 132 del 06/08, in GU n. 192 del 20-08-2015
+- ^ Corte Costituzionale, sentenza n. 506 del 04/12/2002, che dichiara la parziale illegittimità costituzionale dell'art. 128 del regio decreto-legge 4 ottobre 1935, n. 1827
+- ^ Legge 31 ottobre 1965, n. 1261, Determinazione dell'indennità spettante ai membri del Parlamento, pubblicata nella Gazz. Uff. 20 novembre 1965, n. 290 Archiviato il 2 settembre 2011 in Internet Archive., art. 5, comma 4
+- ^ ddl Ginetti, su senato.it, 26 giugno 2018. URL consultato il 16 luglio 2019 (archiviato dall'url originale il 25 maggio 2019)., esame non ancora iniziato
+- ^ Il decreto ingiuntivo contro il condomino moroso, su studiocataldi.it. URL consultato il 16 luglio 2019 (archiviato il 30 ottobre 2009).
+- ^ È possibile pagare a rate le spese condominiali?, su condominioweb.com, 21 agosto 2014. URL consultato il 16 luglio 2019 (archiviato il 4 settembre 2014).
+- ^ avv. Valentina Papanice (ADUC), Recupero del credito degli oneri condominiali: esiste una soglia minima?, su condominioweb.com, 9 maggio 2019. URL consultato il 16 luglio 2019 (archiviato il 16 luglio 2019).
+- ^ Cassazione civile Sez. III 18/09/2009, n. 20106, su ricercagiuridica.com, JSTOR 23204438. URL consultato il 16 luglio 2019 (archiviato il 16 luglio 2019). Ospitato su archive.is.
+- ^ Il decreto ingiuntivo per il recupero dei crediti del condominio - esempi di tariffazione (PDF), su studioragdeblasio.it, 2010, p. 8. URL consultato il 16 luglio 2019 (archiviato dall'url originale il 17 giugno 2012).
+- ^ Alberto Celeste, CSM, Il godimento degli immobili: questioni attuali in materia di condiminio e multiproprietà (PDF), su "Immobili e diritto privato" - Incontro di studio, astra.csm.it, Roma, 15 luglio 2009, p. 7. URL consultato il 16 luglio 2019 (archiviato il 16 luglio 2019).
+- ^ art. 77 del D.P.R. n. 602/1973, come interpretato dalla sentenza 4077/2010, Cassazione Sezioni Unite
+- ^ Credifamiglia, Pignoramento del Conto Corrente [collegamento interrotto], su credifamiglia.it.
+- ^ Pignoramento dello Stipendio [collegamento interrotto], su credifamiglia.it.
+- ^ msgarra, Pignoramento presso terzi, su Recupero Crediti Facile, 24 marzo 2019. URL consultato il 24 marzo 2019.
+Voci correlate
+[modifica | modifica wikitesto]- Titolo esecutivo
+- Procedimento d'ingiunzione
+- Esecuzione forzata
+- Espropriazione forzata
+- Asta giudiziaria
+- Mutuo
+Altri progetti
+[modifica | modifica wikitesto]- Wikizionario contiene il lemma di dizionario «pignoramento»
+- Wikimedia Commons contiene immagini o altri file su pignoramento
+Collegamenti esterni
+[modifica | modifica wikitesto]- Pignoramento, guida completa, aprile 2015.
+- (IT, EN) Quando e come avviene un pignoramento?, su piazzeaffari.it. URL consultato il 3 ottobre 2013 (archiviato dall'url originale il 5 ottobre 2013).

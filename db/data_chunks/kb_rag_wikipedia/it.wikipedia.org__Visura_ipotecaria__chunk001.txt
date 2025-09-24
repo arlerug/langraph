@@ -1,0 +1,10 @@
+---
+title: Visura ipotecaria - Wikipedia
+url: https://it.wikipedia.org/wiki/Visura_ipotecaria
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2007-04-09
+license: CC BY-SA 4.0
+---
+Visura ipotecaria
+La visura ipotecaria (chiamata anche visura ipocatastale o accertamento immobiliare) è un'attività di ricerca che permette di determinare se un soggetto, persona fisica o persona giuridica, risulta intestatario di beni immobili attraverso la verifica delle trascrizioni a favore e delle trascrizioni contro tale soggetto, oltre che di identificare la presenza di gravami sugli stessi beni immobili. I gravami possono consistere in: ipoteche legali (Equitalia - servizio riscossione tributi o compravendite), ipoteche giudiziali (iscritte sulla base di decreti ingiuntivi o di sentenze di condanna al pagamento di somme), ipoteche volontarie (ad es.: per accensione mutui, finanziament

@@ -1,0 +1,7 @@
+r immobile, se sono relative ad un singolo immobile;
+- Attuali, se riportano dati correnti;
+- Storiche, se riportano anche i dati passati;
+- Planimetrie catastali: disponibili solo per i fabbricati, riportano il disegno dell'immobile.
+- Elaborati planimetrici: disponibili, quando presenti in atti, solo per le particelle costituite da fabbricati suddivisi in più unità immobiliari. Indicano la distribuzione all'interno della singola particella dei vari subalterni (abitazioni, corti, posti auto, fondi commerciali, cantine, etc) in cui è suddivisa.
+Per i possessori gli atti catastali sono gratuitamente disponibili tramite i servizi telematici Entratel e Fisconline di Agenzia delle Entrate cui tutti possono registrarsi. I citati portali permettono anche la consultazione dei dati catastali essenziali di terzi, avendone a disposizione il codice fiscale.
+I notai, i geometri e gli altri tecnici h

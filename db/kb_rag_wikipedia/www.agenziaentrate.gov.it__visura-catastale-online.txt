@@ -1,0 +1,29 @@
+---
+title: Visura catastale online - Portale Agenzia Entrate
+url: https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/visura-catastale/visura-catastale-online
+hostname: agenziaentrate.gov.it
+description: Visura catastale online
+sitename: Portale Agenzia Entrate
+date: 2025-01-01
+tags: ['Visura catastale']
+---
+Visura catastale online
+Visure, planimetrie e ispezioni ipotecarie dei propri immobili
+Il servizio di consultazione online consente l'accesso alla banca dati catastale e ipotecaria relativamente agli immobili di cui il soggetto richiedente risulti titolare, anche per quota, del diritto di proprietà o di altri diritti reali di godimento e ottenere a titolo gratuito e in esenzione da tributi, su file in formato pdf, visure attuali e storiche dell'unità immobiliare, visure della mappa, visure planimetriche e ispezioni ipotecarie.
+Per accedere al servizio è necessario essere in possesso di credenziali del Sistema Pubblico di Identità Digitale (Spid), Carta di identità elettronica (CIE) o Carta Nazionale dei Servizi (CNS).
+Per approfondimenti visita la pagina Come accedere ai servizi online.
+Prima di utilizzare il servizio, leggi l’informativa sul trattamento dei dati personali
+Per maggiori informazioni consultare la Guida al servizio - Visure, planimetrie e ispezioni ipotecarie dei propri immobili
+Visure catastali di immobili non di proprietà
+Il servizio di Visure catastali di immobili non di proprietà consente l'accesso telematico gratuito alle banche dati catastali anche se il richiedente non è titolare neanche in parte dell’immobile.
+E’ possibile richiedere:
+- visure attuali per soggetto, ossia limitate agli immobili su cui il soggetto cercato risulti all’attualità titolare di diritti reali (non è al momento previsto il rilascio della visura per soggetto storica)
+- visure, attuali o storiche, di un immobile (censito al Catasto dei Terreni o al Catasto dei Fabbricati), impostando la ricerca attraverso gli identificativi catastali
+- visure della mappa, di una particella censita al Catasto dei Terreni, impostando la ricerca attraverso gli identificativi catastali.
+La ricerca è estesa a tutto il territorio nazionale, a esclusione delle province autonome di Trento e Bolzano.
+I documenti sono forniti su file in formato pdf.
+Per utilizzare il servizio è necessario effettuare l’accesso ai servizi online dell’Agenzia tramite un'identità SPID, una Carta di identità elettronica (CIE) o una Carta Nazionale dei Servizi (CNS). Per approfondimenti visita la pagina Come accedere ai servizi.
+Per maggiori informazioni consultare la Guida al servizio - Visure catastali di immobili non di proprietà
+Consultazione riservata ai soggetti convenzionati
+La piattaforma Sister permette l'accesso telematico alle banche dati catastali. Oltre alla visura catastale in formato pdf, consente di disporre delle visure catastali anche in formato elaborabile xml. L'abilitazione a Sister prevede la stipula di una convenzione e il pagamento di un canone.
+Prima di utilizzare il servizio, leggi l’informativa sul trattamento dei dati personali

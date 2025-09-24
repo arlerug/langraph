@@ -1,0 +1,5 @@
+disponibile, in formato pdf, anche la ricevuta di pagamento.
+Attenzione: normalmente la ricevuta viene notificata da pagoPA ai sistemi dell'Agenzia delle Entrate entro pochi secondi dalla conclusione della transazione di pagamento da parte dell’utente.
+In alcuni casi i tempi per la notifica della ricevuta possono anche superare le 24 ore (eventualità prevista dalle specifiche di pagoPA), e il servizio segnala che:
+"La richiesta di pagamento non è ancora conclusa, accedere in un secondo momento alla sezione Visure acquistate per verificare lo stato della transazione."
+Tramite la voce di menu “Visure acquistate”, si può accedere alla funzione di prelievo dei documenti anche in un momento successivo alla fase di acquisto. In tale caso, per l’accesso ai documenti acquistati, sarà richiesto di inserire l’identificativo di pagamento IUV rilasciato a conclusione della transazione di pagamento.

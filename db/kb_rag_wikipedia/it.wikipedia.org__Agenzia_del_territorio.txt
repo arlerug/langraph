@@ -1,0 +1,30 @@
+---
+title: Agenzia del territorio - Wikipedia
+url: https://it.wikipedia.org/wiki/Agenzia_del_territorio
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2006-02-19
+license: CC BY-SA 4.0
+---
+Agenzia del territorio
+L'Agenzia del territorio era una delle quattro agenzie fiscali italiane, istituite nell'ambito della riorganizzazione del Ministero dell'economia e delle finanze.
+Insieme all'Agenzia delle dogane, all'Agenzia delle entrate e all'Agenzia del demanio era preposta a svolgere le attività tecnico-operative che precedentemente erano svolte dal Ministero delle finanze. È stata incorporata - a partire dal 2012 - nell'Agenzia delle entrate.
+Storia
+[modifica | modifica wikitesto]Istituita dal d.lgs 30 luglio 1999, n. 300,[1], questa agenzia fiscale è stata incorporata nell'Agenzia delle entrate con il decreto-legge 6 luglio 2012, n. 95[2] - convertito in legge 7 agosto 2012, n. 135.
+Caratteristiche
+[modifica | modifica wikitesto]L'Agenzia del territorio era un ente pubblico dotato di personalità giuridica e ampia autonomia regolamentare, amministrativa, patrimoniale, organizzativa, contabile e finanziaria, le cui attività erano disciplinate attraverso convenzione con il Ministero delle finanze.
+L'Agenzia del territorio, come si evince dal d.lgs. 30 luglio 1999 n. 300 che istituisce le agenzie fiscali, era competente a svolgere i servizi relativi al catasto in Italia, i servizi geotopocartografici e quelli relativi alle conservatorie dei registri immobiliari, con il compito di costituire l'anagrafe dei beni immobiliari esistenti sul territorio nazionale sviluppando, anche ai fini della semplificazione dei rapporti con gli utenti, l'integrazione fra i sistemi informativi attinenti alla funzione fiscale ed alle trascrizioni ed iscrizioni in materia di diritti sugli immobili.
+L'agenzia operava in stretta collaborazione con gli enti locali per favorire lo sviluppo di un sistema integrato di conoscenze sul territorio.
+L'Agenzia costituiva l'organismo tecnico di cui all'articolo 67 del decreto legislativo 31 marzo 1998 n. 112 e poteva gestire, sulla base di apposite convenzioni stipulate con i comuni o, a livello provinciale con le associazioni degli enti locali, i servizi relativi alla tenuta e all'aggiornamento del catasto.
+L'Agenzia gestiva l'osservatorio del mercato immobiliare ed i connessi servizi estimativi che può offrire direttamente sul mercato. I rapporti tra l'Agenzia del Territorio ed il ministero erano regolati da apposita convenzione biennale che individuava gli obiettivi ed i risultati da raggiungere.
+Banca dati catastale
+[modifica | modifica wikitesto]L'Agenzia ha dato attuazione a quanto disposto dall'art. 59 – comma 7-bis - del Codice dell'amministrazione digitale consentendo l'accesso alle banche dati catastale e ipotecaria a pubbliche amministrazioni e ai cittadini.
+Per garantire la tutela della privacy, gli accessi erano tracciati conservando l'identità di chi accede tramite l'identificazione attraverso un identificativo e una password.
+Per le pubbliche amministrazioni, le imprese e i professionisti, l'accesso telematico alle banche dati catastale e ipotecaria è consentito attraverso un sistema tecnologico denominato Sister.
+È possibile accedere a tali servizi a seguito della stipula di specifica “Convenzione per l'accesso al sistema telematico dell'Agenzia del territorio per la consultazione delle banche dati ipotecaria e catastale”, in base a quanto disposto dal Decreto del Direttore dell'Agenzia del territorio del 4 maggio 2007 e successive modifiche e dal decreto del direttore dell'Agenzia del territorio del 18 dicembre 2007.
+La convenzione deve essere redatta e presentata esclusivamente in modalità telematica, con autenticazione attraverso firma digitale.
+Note
+[modifica | modifica wikitesto]Voci correlate
+[modifica | modifica wikitesto]Collegamenti esterni
+[modifica | modifica wikitesto]- Sito dell'Agenzia delle entrate, su agenziaentrate.it.
+- Sito della piattaforma SISTER, su sister.agenziaentrate.gov.it.

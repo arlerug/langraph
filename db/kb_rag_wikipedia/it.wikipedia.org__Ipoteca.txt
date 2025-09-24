@@ -1,0 +1,100 @@
+---
+title: Ipoteca - Wikipedia
+url: https://it.wikipedia.org/wiki/Ipoteca
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2005-11-24
+license: CC BY-SA 4.0
+---
+Ipoteca
+In diritto l'ipoteca è un diritto reale di garanzia che riguarda, principalmente, beni immobili e in secondo piano i beni mobili registrati. Esso non comporta la perdita del possesso da parte del debitore del bene stesso che è oggetto della garanzia.
+Storia
+[modifica | modifica wikitesto]La moderna configurazione dell'ipoteca come garanzia reale su cosa altrui è il punto di equilibrio raggiunto fra le opposte esigenze di tutela del credito e di libertà nella circolazione dei beni. In epoca anteriore alle codificazioni moderne il vincolo ipotecario su un bene ne comportava l'inalienabilità. Il Codice napoleonico lo trasformava in vincolo gravante, con diritto di seguito, su un bene liberamente negoziabile. La successiva ricerca di un equilibrio ottimale ha reso assai complessa la regolazione dell'ipoteca.
+Disciplina normativa
+[modifica | modifica wikitesto]In Italia
+[modifica | modifica wikitesto]Nell'ordinamento italiano è regolato dagli articoli 2808 e seguenti del Codice civile italiano del 1942. In particolare, secondo il codice, l'ipoteca è un diritto reale di garanzia su un bene altrui, costituito per fungere da garanzia di un credito.
+L'ipoteca si distingue dal pegno anzitutto per l'oggetto (art. 2810 c.c.), che può essere costituito da:
+- beni immobili,
+- diritti reali minori sugli immobili,
+- beni mobili iscritti in pubblici registri (autoveicoli, navi, aerei, rendite dello Stato).
+Si distingue, in secondo luogo, perché la sua costituzione richiede una speciale formalità, l'iscrizione nei pubblici registri.
+Infine, a differenza del pegno, non è necessario lo spossesso del bene, il godimento rimane infatti al proprietario (debitore).
+Fonti dell'ipoteca
+[modifica | modifica wikitesto]Ipoteca volontaria
+[modifica | modifica wikitesto]Si basa
+- su un contratto fra il debitore o il terzo datore di ipoteca da una parte e il creditore dall'altra;
+- su un atto unilaterale fra vivi del debitore o del terzo datore di ipoteca.
+Il contratto o l'atto unilaterale devono avere la forma scritta a pena di nullità. Non è ammessa la concessione per testamento (art. 2821 c.c.)
+È necessario che la sottoscrizione di chi ha concesso l'ipoteca sia autenticata o accertata giudizialmente (art. 2835 c.c.).
+Nulla vieta che il valore economico dell'ipoteca possa essere maggiore dell'ammontare del debito.
+Ipoteca giudiziale
+[modifica | modifica wikitesto]Si basa:
+- su una sentenza che rechi condanna al pagamento di una somma di denaro o all'adempimento di un'altra obbligazione o al risarcimento del danno da liquidarsi successivamente;
+- su un decreto ingiuntivo reso esecutivo;
+- su altri provvedimenti giudiziali cui la legge abbia attribuito tale effetto (sentenza di separazione personale fra coniugi, decreto di omologazione della separazione consensuale);
+- su lodi arbitrali resi esecutivi;
+- su sentenze straniere delibate dall'autorità giudiziaria italiana.
+Ipoteca legale
+[modifica | modifica wikitesto]Può essere iscritta, anche contro la volontà del debitore, nei casi previsti dalla legge. Hanno diritto a essa:
+- l'alienante di un bene immobile o di un bene mobile registrato che non sia stato pagato dall'acquirente;
+- ciascun coerede sugli immobili dell'eredità, a garanzia del pagamento del conguaglio in danaro spettantegli;
+- lo Stato sui beni del condannato o della persona civilmente responsabile del reato, a garanzia del pagamento delle pene pecuniarie, del rimborso delle spese processuali e delle spese di mantenimento del condannato in carcere.
+Vicende dell'ipoteca
+[modifica | modifica wikitesto]Costituzione
+[modifica | modifica wikitesto]Tanto l'ipoteca giudiziale quanto quella legale dello Stato si costituiscono per iniziativa, meramente facoltativa, del creditore. L'ipoteca legale a favore dell'alienante e del coerede è iscritta d'ufficio dal conservatore della conservatoria dei registri immobiliari, a meno che non risulti dal titolo o da separato atto pubblico che vi è stata rinuncia all'ipoteca.
+Iscrizione di ipoteca
+[modifica | modifica wikitesto]Il contratto o l'atto unilaterale per l'ipoteca volontaria, la sentenza o altro provvedimento per l'ipoteca giudiziale, l'atto di alienazione del bene per l'ipoteca legale sono semplicemente titolo per ottenere la costituzione dell'ipoteca: questa si costituisce solo con l'iscrizione nei registri immobiliari (art. 2808, comma 2 c.c.). È una forma di pubblicità giuridica analoga, per le formalità di esecuzione, alla trascrizione. Da questa differisce, tuttavia, perché è pubblicità costitutiva. Il che non significa però che sia condizione sufficiente per l'esistenza dell'ipoteca: questa si estingue se si estingue l'obbligazione garantita o se viene dichiarato nullo o annullato o reso inefficace il titolo da cui traeva origine.
+Su un medesimo bene si possono iscrivere più ipoteche, a garanzia di crediti diversi. Ogni successiva ipoteca è, in ordine di tempo, contrassegnata da un numero, che prende il nome di grado (ipoteca di primo grado, di secondo grado e così via). Se il bene ipotecato verrà sottoposto a vendita forzata, con il ricavato della vendita si soddisferà anzitutto il creditore con ipoteca di primo grado e, se c'è un residuo, quello di secondo grado e così via (artt. 2852 e ss. c.c.).
+Il creditore che ha un'ipoteca di grado inferiore può estinguere, con il pagamento, il credito di chi ha un'ipoteca di grado superiore, con l'effetto di surrogarsi nei suoi diritti (surrogazione ipotecaria di pagamento, art. 1203, n. 1 c.c.)
+L'iscrizione conserva il suo effetto per venti anni, trascorsi i quali l'ipoteca si estingue, salvo che con istanza del creditore l'iscrizione non venga rinnovata prima della scadenza (art. 2847 c.c).
+L'ipoteca prende grado dal momento dell'iscrizione: il grado determina un ordine progressivo tra le varie ipoteche che possono gravare sul medesimo bene. Pertanto, il creditore la cui ipoteca ha grado anteriore, si soddisferà per primo sul bene e il criterio del soddisfacimento proporzionale opera solo tra creditori di pari grado (artt. 2852-2854 c.c.).
+È anche possibile lo scambio per grado dei creditori ipotecari, nel senso che il grado dell'ipoteca può essere oggetto di veri e propri atti di disposizione, con efficacia reale e non meramente obbligatoria (si parla di "postergazione" o "permuta" a seconda della contiguità o meno del grado che viene scambiato). Può anche verificarsi l'ipotesi di una surrogazione legale nel grado ipotecario (cosiddetta surrogazione del creditore perdente: art. 2856 c.c.).
+Postergazione e surrogazione costituiscono alcune delle vicende successive all'iscrizione che devono essere annotate in margine all'iscrizione: l'annotazione, come l'iscrizione, ha efficacia costitutiva, nel senso che la trasmissione del credito garantito o il vincolo dell'ipoteca non produce effetti finché la stessa non sia eseguita.[1]
+Riduzione
+[modifica | modifica wikitesto]L'ipoteca può essere ridotta se si verifica una sproporzione tra il valore dei beni vincolati e il valore del credito garantito (perché per esempio sono stati eseguiti pagamenti parziali). La riduzione si opera limitando l'iscrizione a una parte soltanto dei beni o riducendo la somma per la quale è stata presa l'iscrizione (art. 2872 c.c.), quando vi consente il creditore, che in tal caso rinuncia parzialmente al diritto (riduzione convenzionale) oppure quando interviene una sentenza passata in giudicato pronunciata a seguito di azione di riduzione promossa dagli interessati (debitore, terzo acquirente, terzo datore, creditore successivamente iscritto: cosiddetta riduzione giudiziale). La riduzione deve essere annotata in margine all'iscrizione per avere effetto rispetto ai terzi.
+Estinzione
+[modifica | modifica wikitesto]L'ipoteca si estingue con la sua cancellazione dal registro. Anche per la cancellazione occorre un titolo:
+- l'estinzione dell'obbligazione garantita,
+- la rinuncia espressa e redatta per iscritto del creditore all'ipoteca,
+- la vendita forzata della cosa ipotecata,
+- il perimento della cosa (vedi alla voce Diritti reali di garanzia),
+- lo spirare del termine ventennale senza rinnovazione.
+Il conservatore dei registri non può procedere d'ufficio alla cancellazione.[1]
+Circolazione del bene ipotecato
+[modifica | modifica wikitesto]Il bene ipotecato può essere venduto, ma chi lo compera, acquista un bene gravato da ipoteca, esposto all'azione esecutiva del creditore ipotecario. Il bene si trasmette agli eredi, e ciascuno di essi è tenuto "ipotecariamente per l'intero" (art. 754 c.c.), stante l'indivisibilità dell'ipoteca (e in deroga al principio della parziarietà della responsabilità dei coeredi per i debiti ereditati).
+Posizione del terzo
+[modifica | modifica wikitesto]Alla scadenza il creditore del credito non pagato ha diritto di promuovere la vendita forzata del bene anche nei confronti del terzo acquirente. Questi, per evitare la vendita forzata, ha tre possibilità (art. 2858 c.c.):
+- egli stesso paga i creditori ipotecari, liberando il bene dall'ipoteca,
+- effettua il rilascio del bene ipotecato, ossia rinuncia alla proprietà con un'apposita dichiarazione resa presso la cancelleria del tribunale, in modo che l'esecuzione non avvenga contro di lui ma contro l'amministratore nominato dal tribunale,
+- libera il bene dall'ipoteca (purgazione dell'ipoteca): offre ai creditori una somma pari al prezzo di acquisto del bene (pari al valore del bene se l'acquisto è avvenuto a titolo gratuito); se nessun creditore si offre di acquistare per un prezzo superiore di almeno un decimo, il bene è liberato dall'ipoteca contro il pagamento della somma offerta dal terzo acquirente.
+Il terzo acquirente, che subisca l'esecuzione forzata o che liberi il bene o che rilasci il bene, ha azione di regresso verso il debitore principale. Per il regresso può avvalersi della surrogazione ipotecaria, ma non in danno dei creditori che abbiano un'iscrizione anteriore alla trascrizione del suo titolo di acquisto.
+Il terzo datore di ipoteca si trova in posizione analoga: egli non può invocare, nei confronti del creditore precedente, il beneficio della preventiva escussione del debitore, se il beneficio non è stato convenuto (art. 2868 c.c.). È direttamente esposto all'azione esecutiva. Per evitarla, deve pagare i creditori ipotecari. Anch'egli ha azione di regresso verso il debitore e diritto di surrogazione nell'ipoteca del creditore.
+Specialità e indivisibilità
+[modifica | modifica wikitesto]L'ipoteca è, in linea di principio, speciale e indivisibile: grava solo sui beni specificamente indicati e solo per una somma determinata di danaro; e grava, per intero, su tutti i beni ipotecati e su ogni loro parte (art. 2809 c.c.).[2]
+La specialità dell'ipoteca va considerata sotto un duplice aspetto:
+- con riguardo al credito garantito:
+la prelazione sul bene vale solo nei limiti della somma per la quale l'ipoteca è iscritta (ma il credito garantito non deve per questo necessariamente essere un credito pecuniario). La prelazione assiste il credito, anche oltre questo limite, per ciò che attiene ai suoi accessori (spese di costituzione, iscrizione e rinnovazione dell'ipoteca, spese ordinarie dell'intervento nel processo di esecuzione).
+- con riguardo ai beni ipotecati:
+il principio è che l'ipoteca può essere iscritta solo "su beni specialmente indicati". Tali non sono i beni futuri (potendo l'ipoteca essere iscritta solo quando la cosa è venuta a esistenza; art. 2823 c.c.), né i beni altrui (l'ipoteca può essere iscritta solo quando la cosa è acquistata del concedente; art. 2822 c.c.). È invece possibile iscrivere ipoteca su una quota di proprietà indivisa, anche se l'ipoteca produrrà effetto rispetto ai beni che al debitore verranno assegnati in sede di divisione (art. 2825 c.c.).
+L'ipoteca si estende alla pertinenze dell'immobile, i miglioramenti e le accessioni. L'estensione dell'ipoteca alle accessioni dell'immobile ipotecato (come l'edificio costruito sul terreno oggetto di ipoteca) finisce con il tradursi in garanzia ipotecaria, su cose future, non menzionate nell'iscrizione ipotecaria. Può accadere che un mutuo venga erogato per un importo superiore al valore del terreno offerto in ipoteca, quando il mutuo è concesso per finanziare l'edificazione e l'ipoteca è iscritta per una somma che tiene conto del valore dell'edificio da costruire. Il rischio che l'opera non sia portata a compimento incombe sul creditore.
+L'ipoteca è, in linea di principio, indivisibile al pari del pegno. Continua a gravare su tutti i beni ipotecati e su ogni loro parte, anche se il credito si sia in parte estinto o se il valore dei beni ipotecati sia successivamente aumentato. Tuttavia, con il consenso del creditore o con sentenza, si può ottenere la riduzione dell'ipoteca. Questa può consistere nella riduzione della somma per la quale l'ipoteca fu iscritta o nella riduzione dell'iscrizione a una parte soltanto dei beni originariamente ipotecati.
+Note
+[modifica | modifica wikitesto]- ^ a b Equitalia ed iscrizione di ipoteca, su Studio Legale Antonella Pedone, 25 marzo 2010. URL consultato il 25 ottobre 2021.
+- ^ Nozione e caratteristiche dell'ipoteca.
+Bibliografia
+[modifica | modifica wikitesto]- Palumbo, Filippo. La concessione d'ipoteca da parte del terzo : contributo alla teorica del debito e della responsabilità. Padova CEDAM, 1937.
+- Distaso, Nicola. Natura giuridica dell'ipoteca : contributo alla teoria dei diritti reali di garanzia. Milano A. Giuffrè, 1953.
+- Fais, Aldo. Natura giuridica della ipoteca Milano A. Giuffrè, 1953.
+- Maggiolo, Marcello. La concessione di ipoteca per atto unilaterale Padova CEDAM, 1998.
+Voci correlate
+[modifica | modifica wikitesto]- Diritto reale
+- Diritti reali di garanzia
+- Bene mobile
+- Bene immobile
+- Pegno
+- Prelazione
+- Ipoteca fiscale
+- Garanzia
+Altri progetti
+[modifica | modifica wikitesto]- Wikizionario contiene il lemma di dizionario «ipoteca»
+- Wikimedia Commons contiene immagini o altri file su ipoteca

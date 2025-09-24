@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+requests
+pydantic
+streamlit
+qdrant-client
+langchain
+langchain-community
+langchain-qdrant
+sentence-transformers
+httpx

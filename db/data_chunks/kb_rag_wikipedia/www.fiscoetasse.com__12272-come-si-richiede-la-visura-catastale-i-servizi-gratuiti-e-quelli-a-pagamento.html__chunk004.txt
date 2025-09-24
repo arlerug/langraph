@@ -1,0 +1,10 @@
+)
+- le visure, attuali o storiche, per immobile (censito al catasto terreni o al catasto fabbricati), impostando la ricerca attraverso gli identificativi catastali
+- la visura della mappa di una particella censita al catasto terreni, impostando la ricerca attraverso gli identificativi catastali.
+I documenti sono forniti su file in formato pdf.
+Per la consultazione non è prevista alcuna registrazione.
+Il servizio prevede il pagamento online, effettuato attraverso il sistema pagoPA, dei tributi speciali catastali previsti e delle commissioni applicate dal Prestatore di Servizi di Pagamento e dallo strumento di pagamento scelto.
+Per ogni visura erogata dal servizio “Visura catastale telematica” l’importo dovuto è di:
+- 1,35 euro per ogni 10 unità immobiliari, o frazione di 10, in caso di visura per soggetto
+- 1,35 euro, nel caso di visura, attuale o storica, per immobile
+- 1,35 euro, in cas

@@ -1,0 +1,55 @@
+---
+title: Come si richiede la visura catastale? I servizi gratuiti e quelli a pagamento
+author: Redazione Fisco e Tasse
+url: https://www.fiscoetasse.com/domande-e-risposte/12272-come-si-richiede-la-visura-catastale-i-servizi-gratuiti-e-quelli-a-pagamento.html
+hostname: fiscoetasse.com
+description: Le Entrate con una guida pratica illustrano le novità della nuova visura catastale. Vediamo come si richiede una visura
+sitename: FISCOeTASSE.com
+date: 2025-09-19
+tags: ['IPOTECARIA E CATASTALI']
+---
+Per richiedere una visura catastale i cittadini e gli addetti ai lavori hanno a disposizione vari servizi messi a disposizione dall' Agenzia delle Entrate. Vediamoli.
+Visura catastale: come richiederla con i servizi gratuiti
+Accedendo al servizio “CONSULTAZIONE PERSONALE ONLINE” si può ottenere, gratuitamente e limitatamente agli immobili dei quali il richiedente risulta titolare di diritti reali:
+- la visura catastale attuale (con gli intestatari catastali) o la visura catastale storica (senza intestatari) per immobilecontenente:
+- i dati identificativi,
+- di classamento,
+- le causali di aggiornamento e annotazione,
+- la superficie catastale
+- l’indirizzo (solo per i fabbricati)
+- la visura della mappa con la rappresentazione della particella del catasto terreni
+- la planimetria dell’unità immobiliare urbana
+- l’ispezione ipotecaria, con l’elenco delle formalità riguardanti l’immobile selezionato, le singole note e, se disponibile, il relativo titolo, presenti nella banca dati informatizzata dei registri immobiliari.
+I documenti sono forniti anche in formato pdf.
+Si può accedere al servizio, disponibile nell’area personale di Fisconline /Entratel, con:
+- il “Sistema Pubblico dell’Identità Digitale” (SPID)
+- la Carta di Identità Elettronica (CIE)
+- la Carta Nazionale Servizi (CNS)
+- le credenziali dell’Agenzia delle entrate per l’accesso a Entratel /Fisconline (fino a quando saranno in uso).
+Visura catastale: come richiederla con i servizi a pagamento
+Il servizio “VISURA CATASTALE TELEMATICA” consente di ottenere:
+- le visure attuali per soggetto, ossia limitate agli immobili su cui il soggetto cercato risulti all’attualità titolare di diritti reali (non è al momento previsto il rilascio della visura per soggetto storica)
+- le visure, attuali o storiche, per immobile (censito al catasto terreni o al catasto fabbricati), impostando la ricerca attraverso gli identificativi catastali
+- la visura della mappa di una particella censita al catasto terreni, impostando la ricerca attraverso gli identificativi catastali.
+I documenti sono forniti su file in formato pdf.
+Per la consultazione non è prevista alcuna registrazione.
+Il servizio prevede il pagamento online, effettuato attraverso il sistema pagoPA, dei tributi speciali catastali previsti e delle commissioni applicate dal Prestatore di Servizi di Pagamento e dallo strumento di pagamento scelto.
+Per ogni visura erogata dal servizio “Visura catastale telematica” l’importo dovuto è di:
+- 1,35 euro per ogni 10 unità immobiliari, o frazione di 10, in caso di visura per soggetto
+- 1,35 euro, nel caso di visura, attuale o storica, per immobile
+- 1,35 euro, in caso di visura della mappa.
+Si accede al servizio senza alcuna registrazione, digitando il codice fiscale, dalla pagina:
+Visura catastale: i servizi presso gli uffici
+La consultazione dei dati catastali archiviati nella banca dati informatica, relativi agli immobili presenti su tutto il territorio nazionale, può essere richiesta presso:
+- qualsiasi Ufficio provinciale – Territorio dell’Agenzia delle entrate (escluse le sedi di Trento e Bolzano, ove il servizio è gestito dalle Province autonome)
+- lo sportello catastale decentrato presso le sedi dei Comuni, delle Comunità montane, le Unioni dei Comuni e le Associazioni di Comuni.
+La visura è rilasciata al richiedente in formato cartaceo se richiesta agli sportelli.
+Per consultare i dati disponibili solo su supporto cartaceo, è necessario recarsi presso l’Ufficio provinciale - Territorio competente.
+Presso l'Ufficio è possibile anche la consultazione degli atti storici del catasto (registri di partita, mappe, tipi frazionamento, modelli 55, eccetera).
+Sulle novità per le visure catastali ti consigliamo di leggere anche Nuova visura catastale: la guida delle Entrate con tutte le novità ed esempi pratici
+Ti potrebbero interessare:
+- Dichiarazione di successione | eBook 2025
+- Manuale pratico successione e donazioni | Libro carta
+- La tassazione degli immobili 2023 |Libro di carta
+- Donare ai figli | eBook
+Sul Business Center scopri e-book e fogli di calcolo in promozione

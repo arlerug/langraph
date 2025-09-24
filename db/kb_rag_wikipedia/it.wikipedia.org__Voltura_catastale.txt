@@ -1,0 +1,24 @@
+---
+title: Voltura catastale - Wikipedia
+url: https://it.wikipedia.org/wiki/Voltura_catastale
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2020-01-21
+license: CC BY-SA 4.0
+---
+Voltura catastale
+La voltura catastale è una particolare procedura del diritto civile della Repubblica Italiana volta all'aggiornamento del catasto.[1]
+Descrizione
+[modifica | modifica wikitesto]L'aggiornamento consiste nella modifica dei dati relativi ad esempio ai dati identificativi del proprietario oppure del titolare di altri diritti reali su un determinato terreno o fabbricato, e si rende necessario ogniqualvolta vi è una modifica di tali dati. Essa è richiesta nel caso di trasferimenti di immobili (ad esempio, terreni, fabbricati, edifici, ecc.) o di diritti reali di godimento (ad esempio usufrutto, diritto di abitazione, ecc.) oppure nel caso di successione.[2] La domanda di voltura viene presentata all'Agenzia delle entrate (avendo inglobato nel 2012 la precedente Agenzia del territorio).
+In particolare, la legge impone che "ogni qualvolta vengono posti in essere atti civili o giudiziali od amministrativi che diano origine al trasferimento di diritti censiti nel catasto dei terreni, coloro che sono tenuti alla registrazione degli atti stessi hanno altresì l'obbligo di richiedere le conseguenti volture catastali. Lo stesso obbligo incombe, nei casi di trasferimenti per causa di morte, a coloro che sono tenuti alla presentazione delle denunce di successione. Le volture devono essere richieste mediante presentazione delle apposite domande, nel termine di trenta giorni dall'avvenuta registrazione degli atti o delle denunce" di cui sopra.[3]
+La voltura catastale può essere richiesta anche al fine di correggere eventuali errori presenti nel catasto.[4] L'art. 14 del DPR 650/1972 sancisce che "le norme sulle volture catastali [...] regolano anche le volture dei beni iscritti nel catasto edilizio urbano".
+Soggetti obbligati alla presentazione
+[modifica | modifica wikitesto]A norma dell'art. 3 del Decreto del Presidente della Repubblica 26 ottobre 1972, n. 650, i soggetti obbligati alla presentazione della domanda di voltura sono i soggetti tenuti alla registrazione degli "atti civili o giudiziali od amministrativi che diano origine al trasferimento di diritti censiti nel catasto dei terreni". In altre parole, l'obbligo verterà su colui che registra l'atto.
+Nel caso di atti notarili, l'obbligo di presentare la domanda di voltura spetta al notaio, mentre nel caso di atti giudiziari (ad esempio, sentenze di usucapione, ecc.), l'obbligo spetta al cancelliere del tribunale.[2]
+Nel caso di successioni, la domanda di voltura viene presentata da coloro che presentano la dichiarazione di successione.[5]
+Note
+[modifica | modifica wikitesto]- ^ Voltura catastale - Che cos'è, su agenziaentrate.gov.it.
+- ^ a b https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/voltura-catastale/scheda-info-voltura-catastale
+- ^ Art. 3 del Decreto del Presidente della Repubblica 26 ottobre 1972, n. 650
+- ^ https://www.pgcasa.it/articoli/eredita-e-successioni-immobili/voltura-catastale-per-successione-come-funziona__6017
+- ^ Art. 3, comma 2 del Decreto del Presidente della Repubblica 26 ottobre 1972, n. 650

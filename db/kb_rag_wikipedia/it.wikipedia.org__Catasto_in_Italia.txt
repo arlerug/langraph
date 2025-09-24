@@ -1,0 +1,73 @@
+---
+title: Catasto in Italia - Wikipedia
+url: https://it.wikipedia.org/wiki/Catasto_in_Italia
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2015-06-02
+license: CC BY-SA 4.0
+---
+Catasto in Italia
+Il catasto in Italia è il registro dei beni immobili siti nel territorio della Repubblica Italiana. Ha valore non probatorio, è ad estimo indiretto, geometrico, particellare, ed è suddiviso in catasto dei terreni e catasto dei fabbricati.
+Nelle province di Trieste, Gorizia, Trento e Bolzano, e in alcuni comuni delle province di Belluno, Brescia e Udine, invece, è ancora esistente il sistema del libro fondiario ereditato dall'amministrazione austro-ungarica.
+Storia
+[modifica | modifica wikitesto]I catasti comunali o estimi del Medioevo stabilivano che i cittadini avessero iscritti in essi i loro beni mobili e immobili. Vigevano spesso grandi differenze tra i vari Stati italiani. Con l'Impero napoleonico i funzionari applicarono un modello comune.
+La prima norma dell'Italia unita al riguardo fu la legge n.1831 del 14 luglio 1864, destinata a restare in vigore sino al 1867, che tentò di definire l'imposta fondiaria nel neonato Regno d'Italia, introducendo un'imposizione basata sulle superfici anziché sulla loro redditività. Successivamente fu emanata la legge 1º marzo 1886, n. 3682, sulla perequazione fondiaria, che disponeva l'istituzione di un catasto allo scopo di calcolare le imposte, con l'adozione del sistema di rappresentazione cartografica di Cassini-Soldner. Questo approccio si rivelò differente rispetto al sistema catastale tavolare in uso nell'Impero austro-ungarico, per cui, quando in conclusione alla prima guerra mondiale alcuni territori già austriaci furono annessi all'Italia, il cosiddetto "catasto tavolare" fu nei fatti non avvicendabile ed è quindi rimasto per questi luoghi tuttora in uso.
+Nel 1901 nacque, nell'ambito del Ministero delle finanze, la Direzione Generale del Catasto e dei Servizi Tecnici, e con la legge n. 321 del 7 luglio 1901, venne introdotto il tipo di frazionamento. Venne poi approvato (col Regio Decreto n. 1572 del 8 ottobre 1931) il Testo unico delle leggi sul nuovo catasto, seguito dal relativo Regolamento (di cui al R.D. n. 2153 dell'8 dicembre 1938 - Regolamento per la conservazione del catasto terreni). Con essi fu introdotta la distinzione tra catasto terreni e catasto fabbricati, ma quest'ultimo venne istituito effettivamente solo l'anno successivo, con la legge 11 agosto 1939 (Conversione del Regio Decreto Legge n. 652 del 13 Aprile 1939). Nel 1940 fu adottata la proiezione di Gauss-Boaga ‒ il cui inventore era all'epoca geodeta capo dell'Istituto Geografico Militare ‒ dapprima in via sperimentale solo per le registrazioni geodetiche locali, in seguito per la cartografia generale.
+Prima della fine del secondo conflitto mondiale ulteriori modifiche al regime fondiario furono apportate dalla legge n.1043 del 17 agosto 1941 (Modificazioni al testo unico delle leggi sul nuovo catasto dei terreni...) e dal Regio Decreto Legge n.1418 del 7 dicembre 1942 (Determinazione delle aliquote [...] inerenti al reddito dei terreni...) ma si dovette attendere la fine della guerra perché venisse emanato il Decreto del Presidente della Repubblica n. 1142 del 1 dicembre 1949 per l'Approvazione del Regolamento per la formazione del nuovo catasto edilizio urbano.
+Nel secondo dopoguerra il catasto conobbe molte riforme: la legge n. 68 del 28 febbraio 1960 ammise l'amministrazione del catasto fra gli organi cartografici dello Stato, mentre la legge n. 679 del 1 ottobre 1969 (Semplificazione delle procedure catastali) fu introdotto il cosiddetto tipo mappale. Di pochi anni successivo fu invece la revisione del sistema catastale per gli effetti del D.P.R. n.650 del 26 ottobre 1972.
+Negli anni ottanta il materiale cartaceo del vecchio catasto venne informatizzato e digitalizzato. Il progetto, che durò alcuni anni, a cura della Sogei che aveva vinto la gara, portò all'installazione sul territorio nazionale di 93 centri di elaborazione dati, (uno per ogni capoluogo di provincia) contenenti le mappe e le informazioni relative alla provincia.
+Negli anni 2000 l'accesso alle informazioni è stato reso possibile via internet, sia per soggetti interessati, sia pubblici che privati.
+Caratteristiche
+[modifica | modifica wikitesto]Il catasto vigente è geometrico, particellare, non probatorio e ad estimo indiretto. Le sue registrazioni, sebbene contengano in parte le mutazioni di proprietà dei beni censiti, non hanno valore di piena prova della proprietà, ai sensi della definizione nella norma del 1886.
+Il catasto terreni ha finalità fiscali, civili e giuridiche.
+Vengono calcolati per ogni immobile due redditi: reddito dominicale e reddito agrario (funzione fiscale). Nel catasto ordinario, infatti, le schede relative alla conservazione del catasto fabbricati sono "intestate" ai possessori, non ai proprietari dei beni. Il passaggio di proprietà (funzione civile), per acquisto o successione, di un terreno o immobile viene registrato subito alla locale conservatoria, dopo alcuni mesi al catasto. Vengono inoltre stabiliti i diritti reali di godimento (funzione giuridica) che, ad esempio, possono essere un usufrutto.
+Le informazioni raccolte
+[modifica | modifica wikitesto]Il Catasto raccoglie le informazioni essenziali su tutti i beni immobili presenti in Italia. Ogni immobile è identificato da due o, talvolta, tre numeri (cosiddetti identificativi catastali) detti foglio, particella (o mappale) ed, eventualmente, subalterno.
+Il territorio di ogni Comune italiano è rappresentato su dei fogli di carta, detti fogli di mappa, numerati progressivamente (quindi ogni Comune possiede il foglio 1 e poi a seconda delle dimensioni ci possono essere il 2, il 3, ecc. fino a che l'intera superficie municipale sia interamente disegnata).
+Tutti gli appezzamenti di terreno contenuti in ogni foglio vengono ulteriormente numerati sempre a partire da 1. Queste porzioni di superficie vengono denominate particelle o mappali.
+Talvolta i mappali contengono dei fabbricati; in tal caso, poiché in un singolo appezzamento di terreno ci possono essere porzioni di fabbricato non appartenenti allo stesso proprietario (ad esempio in un condominio), queste particelle possono essere divise in più unità (che generalmente si sviluppano in verticale e quindi non sono rappresentate sulla mappa) alle quali viene assegnato un terzo numero detto subalterno.
+Ad ogni unità immobiliare identificata come esposto fanno capo una serie di informazioni obbligatorie:
+- Categoria (per i fabbricati), Qualità (per i terreni): descrivono la tipologia dell'immobile. Ad esempio villa, villino, autorimessa, prato, vigneto, ecc.;
+- Classe: nell’ambito di una medesima categoria, le caratteristiche qualitative vengono apprezzate per mezzo della assegnazione di una classe;
+- Consistenza catastale: l’unità di misura della consistenza può essere il numero di vani, la superficie dell'immobile o il suo volume, a seconda della categoria di appartenenza;
+- Rendita: è il guadagno medio presunto ritraibile dall'immobile, ottenuta moltiplicando la rendita unitaria (che dipende da categoria e classe) per la consistenza. I terreni posseggono due rendite: il reddito dominicale, legato al possesso del bene in sé e per sé, ed il reddito agrario, il quale spetta a chi sfrutta commercialmente l'appezzamento.
+Inoltre vi possono essere anche delle informazioni facoltative:
+- Sezione urbana: porzione di Comune, come ad esempio un rione;
+- Zona censuaria e Microzona: porzioni di Comune che si differenziano dal resto del territorio.
+Infine il Catasto registra anche le quote di proprietà e di titolarità di altri diritti reali.
+I documenti catastali
+[modifica | modifica wikitesto]Il catasto italiano fornisce i seguenti documenti:
+- Fogli di mappa: sono dei fogli su cui è disegnato il territorio di ogni Comune;
+- Estratti di mappa: sono dei fogli su cui è rappresentata una porzione della mappa catastale, la quale rappresenta una particella e ciò che vi si trova attorno;
+- Visure catastali: sono dei documenti che espongono analiticamente i dati degli immobili registrati. Possono essere:
+- Per soggetto, se riportano tutti gli immobili cui è collegato un soggetto;
+- Per immobile, se sono relative ad un singolo immobile;
+- Attuali, se riportano dati correnti;
+- Storiche, se riportano anche i dati passati;
+- Planimetrie catastali: disponibili solo per i fabbricati, riportano il disegno dell'immobile.
+- Elaborati planimetrici: disponibili, quando presenti in atti, solo per le particelle costituite da fabbricati suddivisi in più unità immobiliari. Indicano la distribuzione all'interno della singola particella dei vari subalterni (abitazioni, corti, posti auto, fondi commerciali, cantine, etc) in cui è suddivisa.
+Per i possessori gli atti catastali sono gratuitamente disponibili tramite i servizi telematici Entratel e Fisconline di Agenzia delle Entrate cui tutti possono registrarsi. I citati portali permettono anche la consultazione dei dati catastali essenziali di terzi, avendone a disposizione il codice fiscale.
+I notai, i geometri e gli altri tecnici hanno accesso agli atti catastali, dietro pagamento dell'imposta catastale.
+I Comuni, solo e solamente per i fini istituzionali, hanno accesso alla banca dati catastale a titolo gratuito.
+La gestione
+[modifica | modifica wikitesto]Il catasto e i servizi relativi, nonché quelli geo-topo-cartografici e quelli relativi alle conservatorie dei registri immobiliari, sono gestiti dall'Agenzia delle entrate, che dal 1º dicembre 2012 ha incorporato l'Agenzia del territorio,[1] e dai comuni che hanno scelto di esercitare le funzioni catastali loro attribuite da apposite convenzioni.
+I programmi telematici dell'Agenzia delle entrate che i tecnici abilitati possono utilizzare per le variazioni catastali sono DOCFA e PREGEO.
+Note
+[modifica | modifica wikitesto]- ^ Come previsto dall'art. 23-quater del decreto-legge 6 luglio 2012 n. 95, convertito con modificazioni dalla legge. 7 agosto 2012, n. 135 (pubblicata nella Gazzetta Ufficiale della Repubblica Italiana del 14/8/201, n. 189 - Supplemento Ordinario n. 173)
+Voci correlate
+[modifica | modifica wikitesto]Collegamenti esterni
+[modifica | modifica wikitesto]- Regio Decreto 28 marzo 1929, n. 499 (Disposizioni relative ai libri fondiari dei territori delle Nuove Provincie)
+- Regio Decreto 8 ottobre 1931, n. 1572 (Approvazione del testo unico delle leggi sul nuovo catasto)
+- Regio Decreto 12 ottobre 1933, n. 1539 (Approvazione del regolamento per l'esecuzione delle disposizioni legislative sul riordinamento dell'imposta fondiaria)
+- Regio Decreto 8 dicembre 1938, n. 215 (Approvazione del regolamento per la conservazione del nuovo Catasto dei terreni)
+- Regio Decreto-legge 13 aprile 1939, n. 652 (Accertamento generale dei fabbricati urbani, rivalutazione del relativo reddito e formazione del nuovo catasto edilizio urbano)
+- Legge 11 agosto 1939, n. 1249 (Conversione in legge, con modificazioni, del R. decreto-legge 13 aprile 1939-XVII, n. 652, riguardante l'accertamento generale dei fabbricati urbani, la rivalutazione del relativo reddito e la formazione del nuovo catasto edilizio urbano)
+- DPR 1 dicembre 1949, n. 1142 (Approvazione del Regolamento per la formazione del nuovo catasto edilizio urbano)
+- Legge 17 agosto 1941, n. 1043 (Modificazioni al testo unico delle leggi sul nuovo catasto dei terreni e agevolazioni tributarie per i trasferimenti di piccole proprieta' rustiche e urbane)
+- Decreto legislativo 8 aprile 1948, n. 514 (Modificazioni alla legge sul nuovo catasto edilizio urbano e alla legge sulla costituzione, attribuzione e funzionamento delle Commissioni censuarie)
+- Legge 1 ottobre 1969, n. 679 (Semplificazione delle procedure catastali)
+- Decreto del 05/11/1969 - Min. Finanze (Approvazione dell'istruzione provvisoria per l'attuazione della legge 1 ottobre 1969 n. 679, concernente la semplificazione delle procedure catastali)
+- DPR 26 ottobre 1972, n. 650 (Perfezionamento e revisione del sistema catastale)
+- Decreto legislativo 31 ottobre 1990, n. 347 (Approvazione del testo unico delle disposizioni concernenti le imposte ipotecaria e catastale)
+- Decreto 19 aprile 1994, n. 701 (Regolamento recante norme per l'automazione delle procedure di aggiornamento degli archivi catastali e delle conservatorie dei registri immobiliari)
+- Decreto legislativo 17 dicembre 2014, n. 198 (Composizione, attribuzioni e funzionamento delle commissioni censuarie, a norma dell'articolo 2, comma 3, lettera a), della legge 11 marzo 2014, n. 23)

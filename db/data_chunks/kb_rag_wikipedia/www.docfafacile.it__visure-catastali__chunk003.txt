@@ -1,0 +1,19 @@
+e sotto il profilo burocratico.
+Cosa Contiene una Visura Catastale?
+Ogni visura catastale riporta informazioni dettagliate, tra cui:
+-
+Dati identificativi dell’immobile: foglio, particella, subalterno.
+-
+Indirizzo esatto: comune, sezione, via e numero civico dell’unità.
+-
+Dati anagrafici del proprietario: nome, codice fiscale e quota di possesso.
+-
+Categoria catastale: utile a definire la destinazione d’uso (abitazione, ufficio, garage, ecc.).
+-
+Classe, consistenza e superficie catastale: per immobili urbani, questi valori determinano parte della rendita catastale.
+-
+Rendita catastale: base per il calcolo di IMU, TASI e altre imposte.
+-
+Stato attuale dell’unità immobiliare: utile per verificare se l’immobile è ancora attivo, soppresso, unito ad altri, ecc.
+Chi Fa le Visure Catastali?
+Non tutti sanno che, a livello normativo, tutti possono fare le Visure Catastali. Le visure catastali pos

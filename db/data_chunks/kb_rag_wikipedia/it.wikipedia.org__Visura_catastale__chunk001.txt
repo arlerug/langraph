@@ -1,0 +1,14 @@
+---
+title: Visura catastale - Wikipedia
+url: https://it.wikipedia.org/wiki/Visura_catastale
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2007-03-25
+license: CC BY-SA 4.0
+---
+Visura catastale
+La visura catastale è un documento rilasciato dall'Agenzia delle entrate della Repubblica Italiana contenente le informazioni alfanumeriche e topografiche registrate presso il catasto relativamente ad un immobile, sia esso fabbricato o terreno, situato sul territorio nazionale italiano.
+Contenuto
+[modifica | modifica wikitesto]I dati della visura catastale variano a seconda che essi vengano richiesti per un terreno o un fabbricato. Inoltre i dati contenuti possono riguardare, a seconda della richiesta effettuata, tutti i beni immobili di proprietà di un soggetto fisico o giuridico, oppure un singolo bene.
+I dati della visura ordinaria di un immobile sono[1]:
+- dati identificativ

@@ -1,0 +1,8 @@
+à:
+- in caso di esito positivo, la lista dei soggetti reperiti, dalla quale selezionare quello di interesse ai fini della richiesta di visura
+- in caso di esito negativo, uno specifico messaggio con cui si informa che il soggetto non è stato trovato nella banca dati catastale.
+Visura per immobile
+Si può richiedere la visura di un immobile conoscendone gli identificativi catastali.
+Per attivare la ricerca si deve indicare il tipo di Catasto (Fabbricati o Terreni), il comune catastale e l’eventuale sezione, il foglio, la particella e l’eventuale subalterno.
+In caso di omissione dei dati di sezione e/o subalterno, la ricerca produrrà l’elenco dei beni che risponde ai dati parziali forniti, dal quale si può selezionare l’immobile di specifico interesse ai fini della richiesta di visura.
+È evidenziata anche l’eventuale presenza di unità immobiliari urbane graffate o di particelle terreni sudd

@@ -1,0 +1,12 @@
+---
+title: Sistema catastale tavolare - Wikipedia
+url: https://it.wikipedia.org/wiki/Sistema_catastale_tavolare
+hostname: wikipedia.org
+sitename: Wikimedia Foundation, Inc.
+date: 2006-02-07
+license: CC BY-SA 4.0
+---
+Sistema catastale tavolare
+Il sistema tavolare (o sistema del libro fondiario; in tedesco Grundbuch) è un tipo di ordinamento catastale, nato nell'Impero austro-ungarico, e attualmente utilizzato in Italia limitatamente ai territori annessi al termine della prima guerra mondiale.
+Si differenzia dal catasto ordinario, oltre che per le origini storiche, per la modalità di conservazione e per il diverso rilievo giuridico delle sue risultanze, che hanno efficacia costitutiva, oltre che probatoria, per i trasferimenti immobiliari.
+Oggi il catasto tavolare relativo al territorio della provincia di Bolzano (Südtiroler Grundbuch und Kataster) viene autonomamente gestito dalla Provinc

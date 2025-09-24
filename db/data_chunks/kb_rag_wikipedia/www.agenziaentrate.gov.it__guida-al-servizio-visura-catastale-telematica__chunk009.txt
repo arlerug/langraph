@@ -1,0 +1,5 @@
+glia determinata, occorre effettuare il pagamento dei tributi dovuti per le visure già richieste.
+Il rapporto tra ricerche effettuate e visure effettivamente richieste nella giornata non deve essere superiore a cinque. In caso di superamento della soglia l’accesso sarà bloccato fino alle ore 24.00 per utilizzo non coerente con le finalità del servizio.
+Acquisto e pagamento della visura
+Si potrà procedere all’acquisto delle visure richieste tramite l’apposita voce di menu “Acquista visure”. In presenza di visure pronte per l’acquisto, richieste dall’utente nelle 24 ore precedenti, sarà mostrata la relativa lista dalla quale è possibile selezionare le visure di interesse.
+Il sistema calcolerà l’importo totale dei tributi dovuti e attiverà la fase di pagamento secondo le modalità previste dal sistema pagoPA. Oltre ai tributi catastali, saranno addebitate anche le commissioni applicate varia

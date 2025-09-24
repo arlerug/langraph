@@ -1,0 +1,7 @@
+ili di proprietà di un soggetto fisico o giuridico, oppure un singolo bene.
+I dati della visura ordinaria di un immobile sono[1]:
+- dati identificativi: sezione urbana, foglio, particella, subalterno, Comune.
+- dati di classamento: zona censuaria ed eventuale microzona, categoria catastale, classe e superficie catastale, consistenza, rendita.
+altre informazioni: dati anagrafici e codice fiscale delle ditte catastali o dei possessori.
+La visura catastale storica riporta invece le informazioni (in ordine cronologico) sulla storia dell’immobile, tra cui i precedenti proprietari o titolari di diritti estinti (come un eventuale diritto di usufrutto o di abitazione), fusioni con altri immobili, ampliamenti o cambi di destinazione d'uso.
+Nelle visure per immobile al catasto fabbricati è di conseguenza possibile verificare anche eventuali variazioni di consistenza (espressa in vani ed in metri q

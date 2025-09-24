@@ -1,0 +1,4 @@
+, il codice fiscale o l’anagrafica completa: cognome e nome per la persona fisica,(sesso, luogo e data di nascita sono facoltativi); denominazione per la persona giuridica (la sede è facoltativa).
+E’ necessario definire l’ambito della consultazione, specificando sia il tipo di catasto (Fabbricati, Terreni o entrambi), sia il territorio di interesse (singolo comune o intera provincia). Una volta indicato il comune e il tipo di catasto, si può limitare ulteriormente l’ambito territoriale inserendo il numero del foglio (fino a un massimo di tre, separati da una virgola) e, se richieste, le sezioni censuarie terreni o fabbricati e l’eventuale sezione urbana.Indipendentemente dai parametri utilizzati per attivare la ricerca, il sistema restituirà:
+- in caso di esito positivo, la lista dei soggetti reperiti, dalla quale selezionare quello di interesse ai fini della richiesta di visura
+- in cas
