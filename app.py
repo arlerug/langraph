@@ -87,7 +87,6 @@ if st.sidebar.button("Pulisci conversazione"):
 st.title("WeSafe – Chat notarile & visure")
 
 with st.container():
-    print("CHE è STA ROBA")
     for m in st.session_state.messages:
         with st.chat_message(m["role"]):
             st.markdown(m["content"])
@@ -129,7 +128,7 @@ if prompt:
 
 # ---------------- Documenti recuperati ----------------
 if show_docs:
-    print("SHOW DOCS")
+    
     st.divider()
     with st.expander("📄 Documenti recuperati (top K)", expanded=True):
         docs = st.session_state.get("last_docs", [])
