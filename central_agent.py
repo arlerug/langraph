@@ -110,11 +110,11 @@ async def chat(body: ChatIn):
         print("VALORE DI KLASS E AGENTE INIZIALE")
         print(s["klass"])
         print(SPECIAL_AGENT_URL)
-        if s["klass"] == "2" :
+        if s["klass"] == "2" and SPECIAL_AGENT_URL:
             s["current_agent"] = "special"
         else:
             s["current_agent"] = "base"
-    print( f"[SESSION {body.session_id}] HOP 0: klass={s['klass']}, current_agent={s['current_agent']}")
+    print("NON HO CAPITO CHE SUCCEDE QUI" + f"[SESSION {body.session_id}] HOP 0: klass={s['klass']}, current_agent={s['current_agent']}")
 
     # 4) Orchestrazione a hop limitati (handoff tra agenti)
     last_reply = ""
@@ -124,7 +124,6 @@ async def chat(body: ChatIn):
         hops += 1
         agent_key = s["current_agent"]
         url = SPECIAL_AGENT_URL if agent_key == "special" else BASE_AGENT_URL
-        print(url + "URL SETTATA")
         payload = {"session_id": body.session_id, "message": msg}
 
         try:
