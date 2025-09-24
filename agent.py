@@ -17,7 +17,7 @@ from langchain_qdrant import Qdrant
 
 # ---------------- Config (env) ----------------
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://ollama:11434")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.2:3b")  # modello base, non -instruct
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1:8b")  # modello base, non -instruct
 LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.2"))
 NUM_CTX = int(os.getenv("LLM_NUM_CTX", "8192"))
 
