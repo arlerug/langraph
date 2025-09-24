@@ -202,15 +202,18 @@ def debugz():
 
 @app.post("/chat", response_model=ChatResponse)
 def chat(req: ChatRequest):
+    print("APP.POST \chat")
     print(f"[CHAT] session_id={req.session_id} message={req.message!r}")
 
     comps = _init_components()
     if not comps:
+        print("COMPONENTI NON INIZIALIZZATE")
         print(f"[INIT] componenti non inizializzati: status={_status}")
         raise HTTPException(status_code=503, detail=f"Agent non inizializzato: {_status}")
 
     # Recupero passaggi rilevanti
     try:
+        print("RECUPERO DOCUMENTI")
         docs = comps["retriever"].get_relevant_documents(req.message)
         print(f"[RETRIEVER] trovati {len(docs)} documenti")
         for i, d in enumerate(docs[:3]):
@@ -241,6 +244,7 @@ def chat(req: ChatRequest):
 
 @app.get("/qdrantz")
 def qdrantz():
+    print("QDRANTZ")
     comps = _init_components()
     qc = comps.get("qdrant_client")
     cname = comps.get("collection_name")
@@ -277,6 +281,7 @@ def qpeek(n: int = 3):
     comps = _init_components()
     qc = comps.get("qdrant_client")
     cname = comps.get("collection_name")
+    print("QPEEK")
     if not qc or not cname:
         return {"ok": False, "error": "qdrant non inizializzato"}
     try:
