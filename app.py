@@ -59,6 +59,7 @@ print(f"Session ID: {st.session_state.session_id}")
 show_docs = st.sidebar.checkbox("Mostra documenti recuperati", value=True)
 print(f"Show docs: {show_docs}")
 
+
 def health_status():
     try:
         r = requests.get(HEALTH_EP, timeout=10)

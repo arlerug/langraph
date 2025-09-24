@@ -99,7 +99,7 @@ async def chat(body: ChatIn):
         try:
             s["klass"] = await _triage_classify(msg)  # "1" | "2"
         except Exception:
-            s["klass"] = "1"  # fallback prudente
+            print("classe non trovata")  # fallback prudente
 
     # Prefix di debug (mostrato solo una volta alla prima risposta utile)
     prefix = f"(debug: klass={s['klass']})\n\n" if DEBUG_TRIAGE else ""
