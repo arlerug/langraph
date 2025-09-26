@@ -64,8 +64,7 @@ def health_status():
     try:
         r = requests.get(HEALTH_EP, timeout=10)
         j = r.json()
-        return j.get("status", "unknown")
-        print("CHECK HEALTH")   
+        return j.get("status", "unknown")  
     except Exception as e:
         return f"offline ({e.__class__.__name__})"
 
@@ -81,7 +80,7 @@ else:
 if st.sidebar.button("Pulisci conversazione"):
     st.session_state.messages.clear()
     st.session_state.last_docs = []
-    st.experimental_rerun()
+    st.experimental_rerun() #TODO
 
 # ---------------- Corpo ----------------
 st.title("WeSafe – Chat notarile & visure")
@@ -97,7 +96,7 @@ if prompt:
     st.session_state.messages.append({"role": "user", "content": prompt})
     print("PROMPT INSERITO")
     with st.chat_message("user"):
-        st.markdown(prompt)
+        st.markdown(prompt) #appende per tenere traccia
 
     # /chat
     try:
@@ -105,7 +104,6 @@ if prompt:
         r = requests.post(CHAT_EP, json=payload, timeout=120)
         r.raise_for_status()
         data = r.json() or {}
-        # FIX: fallback se 'reply' manca
         reply = data.get("reply") or data.get("error") or str(data)
     except Exception as e:
         reply = f"⚠️ Errore chiamando l'API: `{e}`"

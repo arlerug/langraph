@@ -104,25 +104,10 @@ def _init_components():
         # 2) Qdrant client
         qdrant_client = QdrantClient(url=QDRANT_URL)
 
-        # Auto-detect chiave testo nel payload
-        candidate_keys = ["page_content", "text", "content", "chunk", "body", "document", "raw_text"]
-        detected_key = None
-        try:
-            points, _ = qdrant_client.scroll(
-                collection_name=QDRANT_COLLECTION,
-                limit=1,
-                with_payload=True,
-                with_vectors=False,
-            )
-            if points:
-                pay = points[0].payload or {}
-                for k in candidate_keys:
-                    v = pay.get(k)
-                    if isinstance(v, str) and v.strip():
-                        detected_key = k
-                        break
-        except Exception:
-            detected_key = None
+       
+       
+        detected_key = "text"
+        
 
         # 3) Embeddings via Ollama (mxbai-embed-large)
         emb = OllamaEmbeddings(model=EMBED_MODEL, base_url=OLLAMA_BASE_URL)

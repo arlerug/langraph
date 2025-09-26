@@ -46,6 +46,7 @@ def _classify_raw(text: str) -> int:
         return int(m.group(1))
     # fallback euristico minimale
     t = text.lower()
+    print(f"FALLBACK CLASSIFY RAW")
     return 2 if any(k in t for k in [
         "visura","catastale","relazione preliminare","certificazione notarile","art. 567",
         "trascrizione","iscrizione","atto notarile","provenienza","ipoteca","mutuo","gravami"
@@ -73,7 +74,7 @@ def chat_preface(body: ChatIn):
         }
     # Se qualcuno manda testo a /chat, rispondi minimo e ricorda che il router userà /classify
     k = _classify_raw(msg)
-   
+    print(f"CLASSIFIED VIA CHAT")
     return {"reply": f"(triage) Classe stimata: <K>{k}</K>. Il router userà /classify per instradarti."}
 
 @app.post("/classify", response_model=ClassifyOut)
@@ -85,7 +86,7 @@ def classify(payload: ClassifyIn):
     else:
         k = _classify_raw(text)
 
-    print(f"[TRIAGE] CLASSE DECISA = {k} (input='{text[:80]}...')")
+    print(f"[TRIAGE] CLASSE DECISA via classify = {k} (input='{text[:80]}...')")
 
     return ClassifyOut(klass=k)
 

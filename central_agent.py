@@ -11,7 +11,7 @@ TRIAGE_URL = os.getenv("TRIAGE_URL", "http://triage:8000")          # senza /cha
 BASE_AGENT_URL = os.getenv("BASE_AGENT_URL", "http://agent_base:8000")
 SPECIAL_AGENT_URL = os.getenv("SPECIAL_AGENT_URL", "")               # opzionale
 REQUEST_TIMEOUT_S = float(os.getenv("REQUEST_TIMEOUT_S", "300"))
-MAX_HOPS = int(os.getenv("MAX_HOPS", "4"))
+MAX_HOPS = int(os.getenv("MAX_HOPS", "10"))
 
 app = FastAPI(title="WeSafe Central Router", version="1.0")
 
@@ -91,6 +91,7 @@ async def chat(body: ChatIn):
                 j = r.json()
                 return ChatOut(reply=str(j.get("reply") or "Ciao! 👋"))
         except Exception:
+            print("errore preface triage")
             return ChatOut(reply="Ciao! 👋 Sai già quali documenti ti servono o hai bisogno di aiuto?")
 
     # 2) Classificazione al primo messaggio non-vuoto
