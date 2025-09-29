@@ -27,9 +27,15 @@ SESSIONS: Dict[str, Dict[str, Any]] = {}  # sid -> {klass, current_agent, meta}
 
 def _get_sess(sid: str) -> Dict[str, Any]:
     if sid not in SESSIONS:
-        SESSIONS[sid] = {"klass": None, "current_agent": None, "meta": {}}
+        SESSIONS[sid] = {
+            "klass": None,
+            "current_agent": None,
+            "meta": {},
+            "history": []   #cronologia
+        }
         print(f"NEW SESSION: {sid}")
     return SESSIONS[sid]
+
 
 async def _triage_classify(text: str) -> str:
     async with httpx.AsyncClient(timeout=REQUEST_TIMEOUT_S) as client:
@@ -61,17 +67,6 @@ def reset_session(session_id: str = Query(...)):
     SESSIONS.pop(session_id, None)
     return {"ok": True}
 
-# proxy per la UI: /test_retriever va all'agente base
-@app.get("/test_retriever")
-async def proxy_retriever(q: str = ""):
-    print("TEST RETRIEVER")
-    try:
-        async with httpx.AsyncClient(timeout=REQUEST_TIMEOUT_S) as client:
-            r = await client.get(f"{BASE_AGENT_URL.rstrip('/')}/test_retriever", params={"q": q})
-            r.raise_for_status()
-            return r.json()
-    except Exception as e:
-        return {"ok": False, "error": f"proxy_error: {e}"}
 
 @app.post("/chat", response_model=ChatOut)
 async def chat(body: ChatIn):
@@ -125,10 +120,27 @@ async def chat(body: ChatIn):
         hops += 1
         agent_key = s["current_agent"]
         url = SPECIAL_AGENT_URL if agent_key == "special" else BASE_AGENT_URL
-        payload = {"session_id": body.session_id, "message": msg}
+
+    # --- costruzione prompt con history ---
+        past_msgs = []
+        for m in s.get("history", [])[-5:]:
+            role = "Utente" if m["role"] == "user" else "Assistente"
+            past_msgs.append(f"{role}: {m['content']}")
+        history_text = "\n".join(past_msgs)
+
+        full_message = (
+            f"Conversazione finora:\n{history_text}\n\n"
+            f"Nuovo messaggio utente: {msg}\n"
+            f"Rispondi come Assistente:"
+        )
+        payload = {"session_id": body.session_id, "message": full_message}
+        print("PAYLOAD", payload)
+
+    
 
         try:
             out = await _post_agent(url, payload)
+            print("PAYLOAD", payload)
         except httpx.HTTPStatusError as e:
             raise HTTPException(502, f"errore chiamando {agent_key}: HTTP {e.response.status_code}")
         except Exception as e:
@@ -146,6 +158,11 @@ async def chat(body: ChatIn):
             prefix_applied = True
 
         last_reply = reply or last_reply
+        if msg:
+            s["history"].append({"role": "user", "content": msg})
+        if reply:
+            s["history"].append({"role": "assistant", "content": reply})
+        print("HISTORY" , get_history(body.session_id))
 
         # Aggiorna stato sessione
         if isinstance(ctxu.get("klass"), str):
@@ -177,3 +194,7 @@ async def chat(body: ChatIn):
         last_reply = prefix + last_reply
     return ChatOut(reply=last_reply or "(nessuna risposta)")
 
+@app.get("/session/{sid}/history")
+def get_history(sid: str):
+    s = _get_sess(sid)
+    return {"history": s.get("history", [])}

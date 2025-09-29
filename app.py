@@ -22,7 +22,8 @@ if "preface_shown" not in st.session_state:
 API_BASE = os.getenv("WESAFE_API_BASE", "http://localhost:8000")
 CHAT_EP = f"{API_BASE}/chat"
 HEALTH_EP = f"{API_BASE}/healthz"
-RETRIEVE_EP = f"{API_BASE}/test_retriever"
+CLEAR_CHAT= f"{API_BASE}/reset_session"
+
 
 # Preface di benvenuto (dopo che session_id esiste)  ----------------
 TRIAGE_MODE = True
@@ -51,13 +52,12 @@ if api_base_in != API_BASE:
     API_BASE = api_base_in
     CHAT_EP = f"{API_BASE}/chat"
     HEALTH_EP = f"{API_BASE}/healthz"
-    RETRIEVE_EP = f"{API_BASE}/test_retriever"
+    
 
 sid = st.sidebar.text_input("Session ID", st.session_state.session_id)
 st.session_state.session_id = sid.strip() or "streamlit"
 print(f"Session ID: {st.session_state.session_id}")
-show_docs = st.sidebar.checkbox("Mostra documenti recuperati", value=True)
-print(f"Show docs: {show_docs}")
+
 
 
 def health_status():
@@ -78,12 +78,21 @@ else:
     st.sidebar.success(status)
 
 if st.sidebar.button("Pulisci conversazione"):
+    # reset lato UI
     st.session_state.messages.clear()
     st.session_state.last_docs = []
-    st.experimental_rerun() #TODO
+
+    # reset lato central agent
+    try:
+        requests.post(CLEAR_CHAT, params={"session_id": st.session_state.session_id}, timeout=10)
+    except Exception as e:
+        st.sidebar.warning(f"⚠️ Errore nel reset central agent: {e}")
+
+    
+
 
 # ---------------- Corpo ----------------
-st.title("WeSafe – Chat notarile & visure")
+st.title("WeSafe Assistant")
 
 with st.container():
     for m in st.session_state.messages:
@@ -108,34 +117,10 @@ if prompt:
     except Exception as e:
         reply = f"⚠️ Errore chiamando l'API: `{e}`"
 
-    # /test_retriever (non blocca)
-    docs = []
-    try:
-        rr = requests.get(RETRIEVE_EP, params={"q": prompt}, timeout=120)
-        if rr.ok:
-            jr = rr.json() or {}
-            docs = jr.get("docs", []) or []
-    except Exception:
-        pass
-    st.session_state.last_docs = docs
+
 
     # assistant
     st.session_state.messages.append({"role": "assistant", "content": reply})
     with st.chat_message("assistant"):
         st.markdown(reply)
 
-# ---------------- Documenti recuperati ----------------
-if show_docs:
-    
-    st.divider()
-    with st.expander("📄 Documenti recuperati (top K)", expanded=True):
-        docs = st.session_state.get("last_docs", [])
-        if not docs:
-            st.caption("Nessun documento disponibile per l’ultimo prompt.")
-        else:
-            for i, d in enumerate(docs, 1):
-                preview = (d or "").strip()
-                if len(preview) > 800:
-                    preview = preview[:800] + "…"
-                st.markdown(f"**Doc {i}**")
-                st.code(preview)

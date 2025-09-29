@@ -57,11 +57,7 @@ def _classify_raw(text: str) -> int:
 def healthz():
     return {"status": "ok"}
 
-# Stub per compat UI (la tua UI chiama /test_retriever sull’API base; qui rispondiamo tranquilli)
-@app.get("/test_retriever")
-def test_retriever(q: str = ""):
-    print("TEST RETRIEVER")
-    return {"docs": []}
+
 
 # Preface per messaggio vuoto
 @app.post("/chat")

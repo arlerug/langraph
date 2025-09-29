@@ -56,11 +56,11 @@ Parla SEMPRE in italiano, con tono professionale, sintetico e orientato all’az
 ---
 
 ⚖️ Regole:
-- Non chiedere mai dati personali (codice fiscale, data di nascita, indirizzi).
 - Non inventare documenti o procedure: usa SOLO quelli disponibili nell’elenco.
 - Se l’esigenza non è chiara, chiedi chiarimenti ma proponi comunque un documento iniziale utile.
-- Chiudi sempre con la sezione “📂 Documenti consigliati:” seguita dai documenti pertinenti, e chiedi conferma all’utente.
-
+- Chiudi, quando è sensato farlo, con la sezione “📂 Documenti consigliati:” seguita dai documenti pertinenti.
+- Non presentarti, ma rispondi subito alla domanda.
+- Non suggerire mai di reperire i documenti da soli o da enti terzi: il servizio WeSafe si occupa di tutto.
 ---
 
 📝 Stile:
@@ -70,7 +70,11 @@ Parla SEMPRE in italiano, con tono professionale, sintetico e orientato all’az
 ---
 
 ⚙️ Operatività:
-- Usa SOLO il contesto recuperato. Se insufficiente, dillo chiaramente e proponi un documento iniziale utile.
+- Non suggerire mai di reperire i documenti da soli o da enti terzi: il servizio WeSafe si occupa di tutto.
+- Dai priorità alla domanda dell’utente: rispondi in modo diretto e coerente con la conversazione.
+- Usa i documenti recuperati dal RAG solo se sono rilevanti per la domanda. Non forzarne l’inserimento.
+- Se il contesto è insufficiente per dare una risposta completa, dillo chiaramente e proponi comunque un documento iniziale utile.
+- Mantieni coerenza con i messaggi precedenti (segui il filo della conversazione).
 """
 
 
@@ -208,14 +212,13 @@ def chat(req: ChatRequest):
         print(f"[RETRIEVER] errore: {e}")
         context = ""
 
-    # Prompt per il modello
+    # --- costruzione prompt con history ---
+    # prendo i messaggi precedenti
     user_text = (
         f"{SYSTEM_PROMPT}\n\n"
         f"Contesto (estratti da knowledge base):\n{context}\n\n"
         f"Utente: {req.message}\nAssistente:"
     )
-    print(f"[PROMPT preview] {user_text[:300]}...") 
-    print("USATO AGENT-BASE") # solo i primi 300 caratteri
 
     # Invocazione LLM
     try:
@@ -249,43 +252,9 @@ def qdrantz():
     except Exception as e:
         return {"ok": False, "collection": cname, "error": str(e)}
 
-@app.get("/test_retriever")
-def test_retriever(q: str = "visura catastale"):
-    comps = _init_components()
-    retriever = comps.get("retriever")
-    if not retriever:
-        return {"ok": False, "error": "retriever non disponibile"}
-    try:
-        docs = retriever.get_relevant_documents(q)
-        return {"ok": True, "query": q, "num_docs": len(docs), "docs": [d.page_content[:200] for d in docs]}
-    except Exception as e:
-        return {"ok": False, "query": q, "error": str(e)}
 
-@app.get("/qpeek")
-def qpeek(n: int = 3):
-    comps = _init_components()
-    qc = comps.get("qdrant_client")
-    cname = comps.get("collection_name")
-    print("QPEEK")
-    if not qc or not cname:
-        return {"ok": False, "error": "qdrant non inizializzato"}
-    try:
-        points, _ = qc.scroll(
-            collection_name=cname,
-            limit=n,
-            with_payload=True,
-            with_vectors=False,
-        )
-        samples = []
-        for p in points:
-            pay = p.payload or {}
-            text_like = None
-            for k in ["page_content", "text", "content", "body", "document", "chunk", "raw_text"]:
-                v = pay.get(k)
-                if isinstance(v, str) and v.strip():
-                    text_like = {"key": k, "preview": v[:200]}
-                    break
-            samples.append({"id": p.id, "keys": list(pay.keys()), "text_like": text_like})
-        return {"ok": True, "collection": cname, "samples": samples}
-    except Exception as e:
-        return {"ok": False, "error": str(e)}
+@app.post("/reset_session")
+def reset_session(session_id: str):
+    if session_id in _sessions:
+        _sessions.pop(session_id, None)
+    return {"ok": True, "cleared": session_id}
