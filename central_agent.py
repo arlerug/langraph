@@ -89,28 +89,24 @@ async def chat(body: ChatIn):
             print("errore preface triage")
             return ChatOut(reply="Ciao! 👋 Sai già quali documenti ti servono o hai bisogno di aiuto?")
 
-    # 2) Classificazione al primo messaggio non-vuoto
-    if not s.get("klass"):
-        print("FIRST NON-EMPTY MESSAGE: CLASSIFY VIA TRIAGE")
-        try:
-            s["klass"] = await _triage_classify(msg)  # "1" | "2"
-        except Exception:
-            print("classe non trovata")  # fallback prudente
+    # 2) Classificazione messaggio
+    #if not s.get("klass"):
+    print("FIRST NON-EMPTY MESSAGE: CLASSIFY VIA TRIAGE")
+    try:
+        s["klass"] = await _triage_classify(msg)  # "1" | "2"
+    except Exception:
+        print("classe non trovata")  # fallback prudente
 
-    # Prefix di debug (mostrato solo una volta alla prima risposta utile)
-    prefix = f"(debug: klass={s['klass']})\n\n" if DEBUG_TRIAGE else ""
-    prefix_applied = False
+  
 
-    # 3) Scegli agente iniziale se non impostato
-    if not s.get("current_agent"):
-        print("VALORE DI KLASS E AGENTE INIZIALE")
-        print(s["klass"])
-        print(SPECIAL_AGENT_URL)
-        if s["klass"] == "2" and SPECIAL_AGENT_URL:
-            s["current_agent"] = "special"
-        else:
-            s["current_agent"] = "base"
-    print("NON HO CAPITO CHE SUCCEDE QUI" + f"[SESSION {body.session_id}] HOP 0: klass={s['klass']}, current_agent={s['current_agent']}")
+    # 3) Scegli agente 
+    
+    if s["klass"] == "2":
+        s["current_agent"] = "special"
+        return ChatOut(reply="⚠️ Questo agente non è stato ancora sviluppato.")
+    else:
+        s["current_agent"] = "base"
+
 
     # 4) Orchestrazione a hop limitati (handoff tra agenti)
     last_reply = ""
@@ -119,7 +115,9 @@ async def chat(body: ChatIn):
         print("RIMBALZO")
         hops += 1
         agent_key = s["current_agent"]
+        print(f"USO AGENTE {agent_key} (klass={s.get('klass')})")
         url = SPECIAL_AGENT_URL if agent_key == "special" else BASE_AGENT_URL
+
 
     # --- costruzione prompt con history ---
         past_msgs = []
@@ -152,10 +150,12 @@ async def chat(body: ChatIn):
         handoff = out.get("handoff")             # "base" | "special" | None
         ctxu   = out.get("context_updates") or {}
 
-        # Applica il prefix di debug alla PRIMA risposta non vuota
-        if DEBUG_TRIAGE and not prefix_applied and reply:
-            reply = prefix + reply
-            prefix_applied = True
+        # Applica il prefix di debug ogni volta che la klass cambia
+        if DEBUG_TRIAGE and reply:
+            last_debug_klass = s.get("last_debug_klass")
+            if s["klass"] != last_debug_klass:
+                reply = f"(debug: klass={s['klass']})\n\n" + reply
+                s["last_debug_klass"] = s["klass"]
 
         last_reply = reply or last_reply
         if msg:
@@ -172,6 +172,7 @@ async def chat(body: ChatIn):
 
         # Handoff esplicito
         if handoff in ("base", "special"):
+            print(f"HANDOFF esplicito a {handoff}")
             s["current_agent"] = handoff
             continue
 
@@ -179,6 +180,7 @@ async def chat(body: ChatIn):
         if handoff is None and s.get("klass") in ("1", "2"):
             desired = "special" if (s["klass"] == "2" and SPECIAL_AGENT_URL) else "base"
             if desired != s.get("current_agent"):
+                print(f"HANDOFF implicito a {desired} (klass cambiata)")
                 s["current_agent"] = desired
                 continue  # ripeti immediatamente con l'agente corretto
 
@@ -189,10 +191,7 @@ async def chat(body: ChatIn):
         # Nessun handoff e non done → esci per evitare loop
         break
 
-    # 5) Ritorno finale: se non è mai stato possibile applicare il prefix, prova ora
-    if DEBUG_TRIAGE and not prefix_applied and last_reply:
-        last_reply = prefix + last_reply
-    return ChatOut(reply=last_reply or "(nessuna risposta)")
+  
 
 @app.get("/session/{sid}/history")
 def get_history(sid: str):
