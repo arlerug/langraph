@@ -38,15 +38,17 @@ SYSTEM_PROMPT = (
 )
 
 def _classify_raw(text: str) -> int:
+    """Esegue la classificazione con LLM, fallback euristico in caso di risposta non valida."""
     print("CLASSIFY RAW")
     out = llm.invoke([SystemMessage(content=SYSTEM_PROMPT), HumanMessage(content=text)])
     raw = (getattr(out, "content", "") or "").strip()
+    # Cerca <K>1</K> o <K>2</K> nel testo
     m = re.search(r"<K>\s*([12])\s*</K>", raw) or re.search(r"\b([12])\b", raw)
     if m:
         return int(m.group(1))
     # fallback euristico minimale
     t = text.lower()
-    print(f"FALLBACK CLASSIFY RAW")
+    print("FALLBACK CLASSIFY RAW")
     return 2 if any(k in t for k in [
         "visura","catastale","relazione preliminare","certificazione notarile","art. 567",
         "trascrizione","iscrizione","atto notarile","provenienza","ipoteca","mutuo","gravami"
@@ -55,13 +57,13 @@ def _classify_raw(text: str) -> int:
 # ---- Endpoints ----
 @app.get("/healthz")
 def healthz():
+    """Verifica stato di salute del servizio."""
     return {"status": "ok"}
-
-
 
 # Preface per messaggio vuoto
 @app.post("/chat")
 def chat_preface(body: ChatIn):
+    """Se il messaggio è vuoto → manda un saluto. Se c’è testo → mostra la classe stimata (debug)."""
     print("CHAT PREFACE")
     msg = (body.message or "").strip()
     if not msg:
@@ -70,11 +72,12 @@ def chat_preface(body: ChatIn):
         }
     # Se qualcuno manda testo a /chat, rispondi minimo e ricorda che il router userà /classify
     k = _classify_raw(msg)
-    print(f"CLASSIFIED VIA CHAT")
+    print("CLASSIFIED VIA CHAT")
     return {"reply": f"(triage) Classe stimata: <K>{k}</K>. Il router userà /classify per instradarti."}
 
 @app.post("/classify", response_model=ClassifyOut)
 def classify(payload: ClassifyIn):
+    """Endpoint ufficiale per classificare l’input utente."""
     text = (payload.text or "").strip()
 
     if not text:
@@ -85,4 +88,3 @@ def classify(payload: ClassifyIn):
     print(f"[TRIAGE] CLASSE DECISA via classify = {k} (input='{text[:80]}...')")
 
     return ClassifyOut(klass=k)
-

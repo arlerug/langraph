@@ -9,7 +9,6 @@ from pydantic import BaseModel
 
 # LLM base (non-chat) di Ollama
 from langchain_community.llms import Ollama
-from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_community.embeddings import OllamaEmbeddings
 
 from qdrant_client import QdrantClient
@@ -77,20 +76,13 @@ Parla SEMPRE in italiano, con tono professionale, sintetico e orientato all’az
 - Mantieni coerenza con i messaggi precedenti (segui il filo della conversazione).
 """
 
-
 # ---------------- App & stato ----------------
 app = FastAPI(title="Minimal Agent", version="0.1")
 _status = "initializing"
 _last_error_tb = None
 _components = None
-_sessions: Dict[str, ChatMessageHistory] = {}
 
 # ---------------- Utils ----------------
-def _history(session_id: str) -> ChatMessageHistory:
-    if session_id not in _sessions:
-        _sessions[session_id] = ChatMessageHistory()
-    return _sessions[session_id]
-
 def _init_components():
     """Inizializza LLM + retriever Qdrant (OllamaEmbeddings)."""
     global _components, _status, _last_error_tb
@@ -108,10 +100,7 @@ def _init_components():
         # 2) Qdrant client
         qdrant_client = QdrantClient(url=QDRANT_URL)
 
-       
-       
         detected_key = "text"
-        
 
         # 3) Embeddings via Ollama (mxbai-embed-large)
         emb = OllamaEmbeddings(model=EMBED_MODEL, base_url=OLLAMA_BASE_URL)
@@ -191,7 +180,7 @@ def debugz():
 
 @app.post("/chat", response_model=ChatResponse)
 def chat(req: ChatRequest):
-    print("APP.POST \chat")
+    print("APP.POST /chat")
     print(f"[CHAT] session_id={req.session_id} message={req.message!r}")
 
     comps = _init_components()
@@ -212,8 +201,7 @@ def chat(req: ChatRequest):
         print(f"[RETRIEVER] errore: {e}")
         context = ""
 
-    # --- costruzione prompt con history ---
-    # prendo i messaggi precedenti
+    # --- costruzione prompt ---
     user_text = (
         f"{SYSTEM_PROMPT}\n\n"
         f"Contesto (estratti da knowledge base):\n{context}\n\n"
@@ -251,10 +239,3 @@ def qdrantz():
         }
     except Exception as e:
         return {"ok": False, "collection": cname, "error": str(e)}
-
-
-@app.post("/reset_session")
-def reset_session(session_id: str):
-    if session_id in _sessions:
-        _sessions.pop(session_id, None)
-    return {"ok": True, "cleared": session_id}

@@ -1,18 +1,31 @@
-# central_agent.py – router/hub finale
+# central_agent.py – router/hub finale (LangGraph + VectorStoreRetrieverMemory)
+
 import os
 from typing import Dict, Any, Optional
 
 import httpx
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, Query
 from pydantic import BaseModel
 
+# LangChain / LangGraph
+from langchain.memory import VectorStoreRetrieverMemory
+from langchain_community.embeddings import OllamaEmbeddings
+from qdrant_client import QdrantClient
+from langchain_community.vectorstores import Qdrant
+from langgraph.graph import StateGraph, END
+
+# -------------------------
+# Config da env
+# -------------------------
 DEBUG_TRIAGE = os.getenv("DEBUG_TRIAGE", "0") == "1"
 TRIAGE_URL = os.getenv("TRIAGE_URL", "http://triage:8000")          # senza /chat
 BASE_AGENT_URL = os.getenv("BASE_AGENT_URL", "http://agent_base:8000")
 SPECIAL_AGENT_URL = os.getenv("SPECIAL_AGENT_URL", "")               # opzionale
 REQUEST_TIMEOUT_S = float(os.getenv("REQUEST_TIMEOUT_S", "300"))
-MAX_HOPS = int(os.getenv("MAX_HOPS", "10"))
 
+# -------------------------
+# FastAPI
+# -------------------------
 app = FastAPI(title="WeSafe Central Router", version="1.0")
 
 class ChatIn(BaseModel):
@@ -22,178 +35,136 @@ class ChatIn(BaseModel):
 class ChatOut(BaseModel):
     reply: str
 
-# Stato in-memory: per demo
-SESSIONS: Dict[str, Dict[str, Any]] = {}  # sid -> {klass, current_agent, meta}
+# -------------------------
+# Memoria: VectorStoreRetrieverMemory su Qdrant
+# -------------------------
+# In questa versione base, la memoria NON separa per sessione: salviamo
+# i messaggi prefissando il SID nel testo, così il retriever potrà comunque
+# sfruttare il contenuto (opzione semplice senza metadata).
+emb = OllamaEmbeddings(model="mxbai-embed-large", base_url="http://ollama:11434")
+qdrant_client = QdrantClient(url="http://qdrant:6333")
+vectordb = Qdrant(client=qdrant_client, collection_name="chat_memory", embeddings=emb)
+memory = VectorStoreRetrieverMemory(retriever=vectordb.as_retriever())
 
-def _get_sess(sid: str) -> Dict[str, Any]:
-    if sid not in SESSIONS:
-        SESSIONS[sid] = {
-            "klass": None,
-            "current_agent": None,
-            "meta": {},
-            "history": []   #cronologia
-        }
-        print(f"NEW SESSION: {sid}")
-    return SESSIONS[sid]
-
-
+# -------------------------
+# Helpers HTTP
+# -------------------------
 async def _triage_classify(text: str) -> str:
+    """Chiama il Triage Agent per ottenere 'klass' = '1' | '2'."""
     async with httpx.AsyncClient(timeout=REQUEST_TIMEOUT_S) as client:
-        print("CALL TRIAGE CLASSIFY")
         r = await client.post(f"{TRIAGE_URL.rstrip('/')}/classify", json={"text": text})
         r.raise_for_status()
         k = str((r.json() or {}).get("klass") or "1")
         return "1" if k not in ("1", "2") else k
 
-async def _post_agent(url_base: str, payload: Dict[str, Any]) -> Dict[str, Any]:
+async def _call_base_agent(session_id: str, message: str) -> str:
+    """Chiama l'agente base (RAG) e ritorna la reply come stringa."""
+    payload = {"session_id": session_id, "message": message}
     async with httpx.AsyncClient(timeout=REQUEST_TIMEOUT_S) as client:
-        print(f"CALL AGENT: {url_base} with payload keys {list(payload.keys())}")
-        r = await client.post(f"{url_base.rstrip('/')}/chat", json=payload)
+        r = await client.post(f"{BASE_AGENT_URL.rstrip('/')}/chat", json=payload)
         r.raise_for_status()
-        # se non è JSON valido, solleva e verrà gestito dal caller
-        return r.json() if "application/json" in (r.headers.get("content-type") or "") else {"reply": r.text}
+        out = r.json() if "application/json" in (r.headers.get("content-type") or "") else {"reply": r.text}
+    return str(out.get("reply") or out.get("error") or "")
 
+# -------------------------
+# Nodi del grafo (LangGraph)
+# -------------------------
+async def triage_node(state: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Decide la classe della richiesta:
+      '1' → informativa / discovery → agente base
+      '2' → richiesta documento specifico → agente special (placeholder)
+    """
+    text = state.get("input", "")
+    klass = await _triage_classify(text)
+    return {"klass": klass}
+
+def memory_node(state: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Salva input/output nella memoria vettoriale.
+    NOTA: qui non distinguiamo per sessione con metadati;
+    prefissiamo il SID nel testo d'input per dare un minimo di separazione logica.
+    """
+    sid = state["session_id"]
+    # Salviamo sempre l'ultimo input; l'output viene salvato se presente.
+    memory.save_context(
+        {"input": f"[{sid}] {state['input']}"},
+        {"output": state.get("reply", "")}
+    )
+    return state
+
+async def base_agent_node(state: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Nodo che chiama l'agente RAG 'base' e ritorna la risposta.
+    """
+    sid = state["session_id"]
+    user_msg = state["input"]
+    reply = await _call_base_agent(sid, user_msg)
+    return {"reply": reply}
+
+def special_agent_node(_: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Placeholder per l'agente 'special' (non ancora implementato).
+    """
+    return {"reply": "⚠️ Questo agente (special) non è stato ancora sviluppato."}
+
+# -------------------------
+# Costruzione del grafo
+# -------------------------
+workflow = StateGraph()
+workflow.add_node("triage", triage_node)
+workflow.add_node("memory", memory_node)
+workflow.add_node("base", base_agent_node)
+workflow.add_node("special", special_agent_node)
+
+# triage → memory (sempre), poi rotta condizionale in base alla klass
+workflow.add_edge("triage", "memory")
+workflow.add_conditional_edges(
+    "memory",
+    lambda state: "special" if state.get("klass") == "2" and SPECIAL_AGENT_URL else "base"
+)
+workflow.add_edge("base", END)
+workflow.add_edge("special", END)
+
+app_graph = workflow.compile()
+
+# -------------------------
+# Endpoint HTTP
+# -------------------------
 @app.get("/healthz")
 def healthz():
-    return {"status": "ok", "sessions": len(SESSIONS)}
-
-@app.get("/session/{sid}")
-def session_state(sid: str):
-    return _get_sess(sid)
-
-@app.post("/reset_session")
-def reset_session(session_id: str = Query(...)):
-    print(f"RESET SESSION: {session_id}")
-    SESSIONS.pop(session_id, None)
-    return {"ok": True}
-
+    return {"status": "ok"}
 
 @app.post("/chat", response_model=ChatOut)
 async def chat(body: ChatIn):
-    s = _get_sess(body.session_id)
+    """
+    Entry-point: passa l'input al grafo LangGraph.
+    """
     msg = (body.message or "").strip()
-
-    # 1) Messaggio vuoto → preface dal triage (senza innescare loop)
     if not msg:
-        print("EMPTY MESSAGE: PREFACE FROM TRIAGE")
-        try:
-            async with httpx.AsyncClient(timeout=REQUEST_TIMEOUT_S) as client:
-                r = await client.post(
-                    f"{TRIAGE_URL.rstrip('/')}/chat",
-                    json={"session_id": body.session_id, "message": ""}
-                )
-                r.raise_for_status()
-                j = r.json()
-                return ChatOut(reply=str(j.get("reply") or "Ciao! 👋"))
-        except Exception:
-            print("errore preface triage")
-            return ChatOut(reply="Ciao! 👋 Sai già quali documenti ti servono o hai bisogno di aiuto?")
+        # Preface "neutro" se vuoi mantenere il comportamento di triage/chat a messaggio vuoto.
+        return ChatOut(reply="Ciao! 👋 Sai già quali documenti ti servono o hai bisogno di aiuto?")
 
-    # 2) Classificazione messaggio
-    #if not s.get("klass"):
-    print("FIRST NON-EMPTY MESSAGE: CLASSIFY VIA TRIAGE")
-    try:
-        s["klass"] = await _triage_classify(msg)  # "1" | "2"
-    except Exception:
-        print("classe non trovata")  # fallback prudente
+    result = await app_graph.ainvoke({
+        "session_id": body.session_id,
+        "input": msg
+    })
+    return ChatOut(reply=str(result.get("reply") or "(nessuna risposta)"))
 
-  
-
-    # 3) Scegli agente 
-    
-    if s["klass"] == "2":
-        s["current_agent"] = "special"
-        return ChatOut(reply="⚠️ Questo agente non è stato ancora sviluppato.")
-    else:
-        s["current_agent"] = "base"
-
-
-    # 4) Orchestrazione a hop limitati (handoff tra agenti)
-    last_reply = ""
-    hops = 0
-    while hops < MAX_HOPS:
-        print("RIMBALZO")
-        hops += 1
-        agent_key = s["current_agent"]
-        print(f"USO AGENTE {agent_key} (klass={s.get('klass')})")
-        url = SPECIAL_AGENT_URL if agent_key == "special" else BASE_AGENT_URL
-
-
-    # --- costruzione prompt con history ---
-        past_msgs = []
-        for m in s.get("history", [])[-5:]:
-            role = "Utente" if m["role"] == "user" else "Assistente"
-            past_msgs.append(f"{role}: {m['content']}")
-        history_text = "\n".join(past_msgs)
-
-        full_message = (
-            f"Conversazione finora:\n{history_text}\n\n"
-            f"Nuovo messaggio utente: {msg}\n"
-            f"Rispondi come Assistente:"
-        )
-        payload = {"session_id": body.session_id, "message": full_message}
-        print("PAYLOAD", payload)
-
-    
-
-        try:
-            out = await _post_agent(url, payload)
-            print("PAYLOAD", payload)
-        except httpx.HTTPStatusError as e:
-            raise HTTPException(502, f"errore chiamando {agent_key}: HTTP {e.response.status_code}")
-        except Exception as e:
-            raise HTTPException(502, f"errore chiamando {agent_key}: {e}")
-
-        # Normalizzazione output
-        reply  = str(out.get("reply") or out.get("error") or "")
-        done   = bool(out.get("done", True))     # default True per evitare loop
-        handoff = out.get("handoff")             # "base" | "special" | None
-        ctxu   = out.get("context_updates") or {}
-
-        # Applica il prefix di debug ogni volta che la klass cambia
-        if DEBUG_TRIAGE and reply:
-            last_debug_klass = s.get("last_debug_klass")
-            if s["klass"] != last_debug_klass:
-                reply = f"(debug: klass={s['klass']})\n\n" + reply
-                s["last_debug_klass"] = s["klass"]
-
-        last_reply = reply or last_reply
-        if msg:
-            s["history"].append({"role": "user", "content": msg})
-        if reply:
-            s["history"].append({"role": "assistant", "content": reply})
-        print("HISTORY" , get_history(body.session_id))
-
-        # Aggiorna stato sessione
-        if isinstance(ctxu.get("klass"), str):
-            s["klass"] = ctxu["klass"]
-        if isinstance(ctxu.get("meta"), dict):
-            s["meta"].update(ctxu["meta"])
-
-        # Handoff esplicito
-        if handoff in ("base", "special"):
-            print(f"HANDOFF esplicito a {handoff}")
-            s["current_agent"] = handoff
-            continue
-
-        # (Opzionale) riallinea l'agente se la klass è cambiata senza handoff
-        if handoff is None and s.get("klass") in ("1", "2"):
-            desired = "special" if (s["klass"] == "2" and SPECIAL_AGENT_URL) else "base"
-            if desired != s.get("current_agent"):
-                print(f"HANDOFF implicito a {desired} (klass cambiata)")
-                s["current_agent"] = desired
-                continue  # ripeti immediatamente con l'agente corretto
-
-        # Se l'agente ha finito (o default), chiudi
-        if done:
-            return ChatOut(reply=last_reply or "(nessuna risposta)")
-
-        # Nessun handoff e non done → esci per evitare loop
-        break
-
-  
+@app.post("/reset_session")
+def reset_session(session_id: str = Query(...)):
+    """
+    Con VectorStoreRetrieverMemory non c'è una sessione in RAM da svuotare.
+    Se vuoi davvero "pulire", dovresti salvare i messaggi con metadati (sid)
+    e poi cancellare i punti relativi a quel sid da Qdrant.
+    """
+    return {"ok": True, "note": "reset_session non implementa la cancellazione su Qdrant in questa versione."}
 
 @app.get("/session/{sid}/history")
 def get_history(sid: str):
-    s = _get_sess(sid)
-    return {"history": s.get("history", [])}
+    """
+    Non implementato: VectorStoreRetrieverMemory non espone una history lineare per sessione.
+    Per avere una cronologia per SID, salva i messaggi in Qdrant con metadata={'sid': ...}
+    e fai query/filtri su quel campo.
+    """
+    return {"history": "non implementato con VectorStoreRetrieverMemory (vedi nota in codice)"}
