@@ -8,11 +8,10 @@ from fastapi import FastAPI, Query
 from pydantic import BaseModel
 
 # LangChain / LangGraph
-from langchain.memory import VectorStoreRetrieverMemory
-from langchain_community.embeddings import OllamaEmbeddings
-from qdrant_client import QdrantClient
-from langchain_community.vectorstores import Qdrant
-from langgraph.graph import StateGraph, END
+from langchain_community.chat_message_histories import ChatMessageHistory
+from langgraph.graph import StateGraph, END, START
+from typing import TypedDict, Optional
+
 
 # -------------------------
 # Config da env
@@ -36,15 +35,14 @@ class ChatOut(BaseModel):
     reply: str
 
 # -------------------------
-# Memoria: VectorStoreRetrieverMemory su Qdrant
+# Memoria: short-term in RAM per sessione
 # -------------------------
-# In questa versione base, la memoria NON separa per sessione: salviamo
-# i messaggi prefissando il SID nel testo, così il retriever potrà comunque
-# sfruttare il contenuto (opzione semplice senza metadata).
-emb = OllamaEmbeddings(model="mxbai-embed-large", base_url="http://ollama:11434")
-qdrant_client = QdrantClient(url="http://qdrant:6333")
-vectordb = Qdrant(client=qdrant_client, collection_name="chat_memory", embeddings=emb)
-memory = VectorStoreRetrieverMemory(retriever=vectordb.as_retriever())
+_sessions: dict[str, ChatMessageHistory] = {}
+
+def _get_history(sid: str) -> ChatMessageHistory:
+    if sid not in _sessions:
+        _sessions[sid] = ChatMessageHistory()
+    return _sessions[sid]
 
 # -------------------------
 # Helpers HTTP
@@ -79,30 +77,49 @@ async def triage_node(state: Dict[str, Any]) -> Dict[str, Any]:
     klass = await _triage_classify(text)
     return {"klass": klass}
 
-def memory_node(state: Dict[str, Any]) -> Dict[str, Any]:
-    """
-    Salva input/output nella memoria vettoriale.
-    NOTA: qui non distinguiamo per sessione con metadati;
-    prefissiamo il SID nel testo d'input per dare un minimo di separazione logica.
-    """
+async def memory_node(state: Dict[str, Any]) -> Dict[str, Any]:
     sid = state["session_id"]
-    # Salviamo sempre l'ultimo input; l'output viene salvato se presente.
-    memory.save_context(
-        {"input": f"[{sid}] {state['input']}"},
-        {"output": state.get("reply", "")}
-    )
-    return state
+    history = _get_history(sid)
+    history.add_user_message(state["input"])
+    if "reply" in state:
+        history.add_ai_message(state["reply"])
+    print(f"[MEMORY] updated short-term memory for session {sid}")
+    return {}
+
 
 async def base_agent_node(state: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Nodo che chiama l'agente RAG 'base' e ritorna la risposta.
+    Nodo che chiama l'agente RAG 'base' e ritorna la risposta,
+    passando anche la memoria condivisa (short-term centralizzata).
     """
     sid = state["session_id"]
     user_msg = state["input"]
-    reply = await _call_base_agent(sid, user_msg)
+
+    # recupera la history da central
+    history = _get_history(sid)
+    past_msgs = [f"{m.type.capitalize()}: {m.content}" for m in history.messages[-5:]]  
+    history_text = "\n".join(past_msgs)
+    print(f"[CENTRAL] past_msgs for session def base_agent:", history_text)
+
+    # payload completo
+    payload = {
+        "session_id": sid,
+        "message": user_msg,
+        "history": history_text  # nuovo campo
+    }
+    print(f"[CENTRAL] payload for base_agent:", payload)
+
+    # invoca l’agente
+    async with httpx.AsyncClient(timeout=REQUEST_TIMEOUT_S) as client:
+        r = await client.post(f"{BASE_AGENT_URL.rstrip('/')}/chat", json=payload)
+        r.raise_for_status()
+        out = r.json() if "application/json" in (r.headers.get("content-type") or "") else {"reply": r.text}
+
+    reply = str(out.get("reply") or out.get("error") or "")
     return {"reply": reply}
 
-def special_agent_node(_: Dict[str, Any]) -> Dict[str, Any]:
+
+async def special_agent_node(_: Dict[str, Any]) -> Dict[str, Any]:
     """
     Placeholder per l'agente 'special' (non ancora implementato).
     """
@@ -111,20 +128,34 @@ def special_agent_node(_: Dict[str, Any]) -> Dict[str, Any]:
 # -------------------------
 # Costruzione del grafo
 # -------------------------
-workflow = StateGraph()
+class State(TypedDict, total=False):
+    session_id: str
+    input: str
+    reply: Optional[str]
+    klass: Optional[str]
+
+workflow = StateGraph(State)
 workflow.add_node("triage", triage_node)
 workflow.add_node("memory", memory_node)
 workflow.add_node("base", base_agent_node)
 workflow.add_node("special", special_agent_node)
 
-# triage → memory (sempre), poi rotta condizionale in base alla klass
-workflow.add_edge("triage", "memory")
+# triage decide il percorso
 workflow.add_conditional_edges(
-    "memory",
+    "triage",
     lambda state: "special" if state.get("klass") == "2" and SPECIAL_AGENT_URL else "base"
 )
-workflow.add_edge("base", END)
-workflow.add_edge("special", END)
+
+# dopo che gli agenti producono reply → salva in memoria
+workflow.add_edge("base", "memory")
+workflow.add_edge("special", "memory")
+
+# memory → fine
+workflow.add_edge("memory", END)
+
+# entrypoint
+workflow.add_edge(START, "triage")
+
 
 app_graph = workflow.compile()
 
@@ -149,22 +180,16 @@ async def chat(body: ChatIn):
         "session_id": body.session_id,
         "input": msg
     })
+    print(f"[CENTRAL] RESULT: {result} ")
     return ChatOut(reply=str(result.get("reply") or "(nessuna risposta)"))
 
 @app.post("/reset_session")
 def reset_session(session_id: str = Query(...)):
-    """
-    Con VectorStoreRetrieverMemory non c'è una sessione in RAM da svuotare.
-    Se vuoi davvero "pulire", dovresti salvare i messaggi con metadati (sid)
-    e poi cancellare i punti relativi a quel sid da Qdrant.
-    """
-    return {"ok": True, "note": "reset_session non implementa la cancellazione su Qdrant in questa versione."}
+    _sessions.pop(session_id, None)
+    return {"ok": True, "cleared": session_id}
 
 @app.get("/session/{sid}/history")
 def get_history(sid: str):
-    """
-    Non implementato: VectorStoreRetrieverMemory non espone una history lineare per sessione.
-    Per avere una cronologia per SID, salva i messaggi in Qdrant con metadata={'sid': ...}
-    e fai query/filtri su quel campo.
-    """
-    return {"history": "non implementato con VectorStoreRetrieverMemory (vedi nota in codice)"}
+    history = _get_history(sid)
+    msgs = [f"{m.type}: {m.content}" for m in history.messages]
+    return {"history": msgs}

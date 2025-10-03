@@ -7,9 +7,9 @@ from tqdm import tqdm
 from langchain_community.embeddings import OllamaEmbeddings
 
 # === PERCORSI ===
-CHUNKS_DIR = Path(r"C:\Users\Ale\Desktop\langchain\db\data_chunks")
+CHUNKS_DIR = Path(r"C:\Users\Ale\Desktop\Tirocinio\Prove_progetto\langraph\db\data_chunks")
 # usa una cartella nuova per distinguere dagli embedding Jina v4
-EMB_DIR    = Path(r"C:\Users\Ale\Desktop\langchain\db\data_embeddings_mxbai")
+EMB_DIR    = Path(r"C:\Users\Ale\Desktop\Tirocinio\Prove_progetto\langraph\db\data_embeddings_mxbai")
 
 # === MODELLO OLLAMA ===
 MODEL_NAME = "mxbai-embed-large"

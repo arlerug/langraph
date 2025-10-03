@@ -58,6 +58,22 @@ services:
     # opzionale per debug:
     ports:
       - "8010:8000"
+    
+    # --- Evaluator (classifica messaggi se usare RAG o no) ---
+  evaluator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: uvicorn --app-dir /app evaluator:app --host 0.0.0.0 --port 8000
+    environment:
+      OLLAMA_BASE_URL: http://ollama:11434
+      OLLAMA_MODEL: llama3.1:8b
+    depends_on:
+      - ollama
+    restart: unless-stopped
+    # opzionale per debug:
+    ports:
+      - "8030:8000"
 
   # --- Agente base (RAG) ---
   agent_base:

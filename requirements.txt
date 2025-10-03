@@ -9,3 +9,6 @@ langchain-community
 langchain-qdrant
 sentence-transformers
 httpx
+python-dotenv
+typing-extensions
+langgraph

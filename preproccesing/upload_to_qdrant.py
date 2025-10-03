@@ -9,10 +9,10 @@ from qdrant_client.http.exceptions import UnexpectedResponse
 
 # === Percorsi e settaggi ===
 # cartella con i .txt già chunkati
-CHUNKS_DIR = Path(r"C:\Users\Ale\Desktop\langchain\db\data_chunks")
+CHUNKS_DIR = Path(r"C:\Users\Ale\Desktop\Tirocinio\Prove_progetto\langraph\db\data_chunks")
 
 # cartella dove salvare gli embedding
-EMB_DIR = Path(r"C:\Users\Ale\Desktop\langchain\db\data_embeddings_mxbai")
+EMB_DIR = Path(r"C:\Users\Ale\Desktop\Tirocinio\Prove_progetto\langraph\db\data_embeddings_mxbai")
 
 # file manifest con metadati sugli embedding
 MANIFEST = EMB_DIR / "manifest_embeddings.jsonl"

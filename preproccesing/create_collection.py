@@ -5,7 +5,7 @@ from qdrant_client.http.models import Distance, VectorParams
 client = QdrantClient(url="http://localhost:6333")
 
 client.recreate_collection(
-    collection_name="kb_legale_it",
+    collection_name="chat_memory",
     vectors_config=VectorParams(size=1024, distance=Distance.COSINE),
 )
 

@@ -24,7 +24,7 @@ class ClassifyIn(BaseModel):
     text: str
 
 class ClassifyOut(BaseModel):
-    klass: int  # 1 | 2
+    eval_class: int  # 1 | 2
 
 # ---- Prompt di classificazione (rigido) ----
 SYSTEM_PROMPT = (
@@ -87,4 +87,4 @@ def classify(payload: ClassifyIn):
 
     print(f"[TRIAGE] CLASSE DECISA via classify = {k} (input='{text[:80]}...')")
 
-    return ClassifyOut(klass=k)
+    return ClassifyOut(eval_class=k)

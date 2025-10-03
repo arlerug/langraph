@@ -2,6 +2,7 @@
 import os
 import threading
 import traceback
+import httpx
 from typing import Dict
 
 from fastapi import FastAPI, HTTPException
@@ -14,6 +15,9 @@ from langchain_community.embeddings import OllamaEmbeddings
 from qdrant_client import QdrantClient
 from langchain_qdrant import Qdrant
 
+from langchain.memory import ConversationBufferMemory
+
+
 # ---------------- Config (env) ----------------
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://ollama:11434")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1:8b")  # modello base, non -instruct
@@ -22,6 +26,9 @@ NUM_CTX = int(os.getenv("LLM_NUM_CTX", "8192"))
 
 QDRANT_URL = os.getenv("QDRANT_URL", "http://qdrant:6333")
 QDRANT_COLLECTION = os.getenv("QDRANT_COLLECTION", "kb_legale_it")
+
+EVAL_URL = os.getenv("EVAL_URL", "http://evaluator:8000/evaluate")  
+
 
 EMBED_MODEL = os.getenv("EMBED_MODEL", "mxbai-embed-large")
 
@@ -81,6 +88,7 @@ app = FastAPI(title="Minimal Agent", version="0.1")
 _status = "initializing"
 _last_error_tb = None
 _components = None
+_sessions_memory: Dict[str, ConversationBufferMemory] = {}
 
 # ---------------- Utils ----------------
 def _init_components():
@@ -151,6 +159,11 @@ def _init_components():
         _last_error_tb = traceback.format_exc()
         return None
 
+def _get_memory(session_id: str) -> ConversationBufferMemory:
+    if session_id not in _sessions_memory:
+        _sessions_memory[session_id] = ConversationBufferMemory(return_messages=True)
+    return _sessions_memory[session_id]
+
 def _warmup_bg():
     _init_components()
 
@@ -158,6 +171,7 @@ def _warmup_bg():
 class ChatRequest(BaseModel):
     session_id: str = "default"
     message: str
+    history: str | None = None  # history passata dal central
 
 class ChatResponse(BaseModel):
     reply: str
@@ -179,44 +193,91 @@ def debugz():
     return {"status": _status, "traceback": _last_error_tb}
 
 @app.post("/chat", response_model=ChatResponse)
-def chat(req: ChatRequest):
-    print("APP.POST /chat")
+async def chat(req: ChatRequest):
+    print("[BASE CHAT] REQ", req)
     print(f"[CHAT] session_id={req.session_id} message={req.message!r}")
 
     comps = _init_components()
     if not comps:
-        print("COMPONENTI NON INIZIALIZZATE")
-        print(f"[INIT] componenti non inizializzati: status={_status}")
         raise HTTPException(status_code=503, detail=f"Agent non inizializzato: {_status}")
 
-    # Recupero passaggi rilevanti
+    history_text = getattr(req, "history", "") or ""
+
+  
+    # --- chiama evaluator ---
     try:
-        print("RECUPERO DOCUMENTI")
-        docs = comps["retriever"].get_relevant_documents(req.message)
-        print(f"[RETRIEVER] trovati {len(docs)} documenti")
-        for i, d in enumerate(docs[:3]):
-            print(f"[DOC {i}] {d.page_content[:200]}...")
-        context = "\n\n".join([d.page_content[:1300] for d in docs])
+        print(f"[EVAL] chiamata a {EVAL_URL}")
+        async with httpx.AsyncClient(timeout=30) as client:
+            r = await client.post(EVAL_URL, json={
+                "session_id": req.session_id,
+                "message": req.message,
+                "history": history_text,   # passa la history ricevuta dal central
+                "reply": None              # qui puoi passare l’ultima reply se disponibile
+            })
+            r.raise_for_status()
+            eval_res = r.json()
+
+            print(f"[AGENT EVAL] risposta: {eval_res}")
+            eval_class = eval_res.get("eval_class", "not found")
+            print(f"[EVAL] classe decisa = {eval_class}")
+
     except Exception as e:
-        print(f"[RETRIEVER] errore: {e}")
-        context = ""
+        print(f"[EVAL] errore: {e}")
 
-    # --- costruzione prompt ---
-    user_text = (
-        f"{SYSTEM_PROMPT}\n\n"
-        f"Contesto (estratti da knowledge base):\n{context}\n\n"
-        f"Utente: {req.message}\nAssistente:"
-    )
+        
 
-    # Invocazione LLM
-    try:
-        reply = comps["llm"].invoke(user_text)
-        print(f"[LLM] reply ricevuta, tipo={type(reply)}, len={len(str(reply))}")
-    except Exception as e:
-        print(f"[LLM] errore durante l'invocazione: {e}")
-        raise HTTPException(status_code=500, detail=f"Errore LLM: {e}")
+    # --- caso 2: valutazione decide di NON usare RAG ---
+    if eval_class == 2:
+        try:
+            prompt = (
+                f"{SYSTEM_PROMPT}\n\n"
+                f"Conversazione finora:\n{history_text}\n\n"
+                f"Nuovo messaggio utente: {req.message}\n"
+                f"Rispondi come Assistente facendo riferimento alla conversazione fino ad ora. Dai maggiore importanza ai messaggi più recenti:"
+            )
+            print(f"[LLM] prompt (no RAG, con memoria)" + prompt) 
 
-    return ChatResponse(reply=str(reply))
+            reply = comps["llm"].invoke(prompt)
+            reply_str = str(reply).strip()
+
+            print(f"[LLM] reply (no RAG, con memoria), len={len(reply_str)}")
+            return ChatResponse(reply=reply_str)
+
+        except Exception as e:
+            print(f"[LLM] errore durante l'invocazione: {e}")
+            raise HTTPException(status_code=500, detail=f"Errore LLM: {e}")
+
+
+    else:
+        # --- caso 1: recupera documenti e fa RAG ---
+        try:
+            print("RECUPERO DOCUMENTI")
+            docs = comps["retriever"].get_relevant_documents(req.message)
+            print(f"[RETRIEVER] trovati {len(docs)} documenti")
+            for i, d in enumerate(docs[:3]):
+                print(f"[DOC {i}] {d.page_content[:200]}...")
+            context = "\n\n".join([d.page_content[:1300] for d in docs])
+        except Exception as e:
+            print(f"[RETRIEVER] errore: {e}")
+            context = ""
+
+        user_text = (
+            f"{SYSTEM_PROMPT}\n\n"
+            f"Conversazione finora:\n{history_text}\n\n"
+            f"Contesto (estratti da knowledge base):\n{context}\n\n"
+            f"Utente: {req.message}\nAssistente:"
+        )
+
+        try:
+            reply = comps["llm"].invoke(user_text)
+            reply_str = str(reply).strip()
+            print(f"[LLM] reply (con RAG), len={len(reply_str)}")
+        except Exception as e:
+            print(f"[LLM] errore durante invocazione (con RAG): {e}")
+            raise HTTPException(status_code=500, detail=f"Errore LLM: {e}")
+
+        return ChatResponse(reply=reply_str)
+
 
 @app.get("/qdrantz")
 def qdrantz():

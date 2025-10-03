@@ -15,8 +15,11 @@ import json
 
 # ====== CONFIG ======
 INPUT_DIRS = [
-    "C:\\Users\\Ale\\Desktop\\langchain\\db\\kb_rag_wikipedia"
+    "C:\\Users\\Ale\\Desktop\\Tirocinio\\Prove_progetto\\langraph\\db\\kb_rag_wikipedia"
 ]
+
+
+
 
 
 OUTPUT_DIR = Path("data_chunks")
